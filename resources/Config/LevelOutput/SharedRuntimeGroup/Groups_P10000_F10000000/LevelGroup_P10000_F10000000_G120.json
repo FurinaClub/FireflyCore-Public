@@ -1,0 +1,134 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P10000_F10000000_G120",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1011503_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 1011503
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        4
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310030900,
+      "DefaultIdleStateName": "Sit01",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialogueMain_F10000000_G40_N400002.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialoguePack_Common_F10000000_G40_N400002.json",
+            "Name": "Common"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        101150223,
+        200020101,
+        100050406
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1003,
+      "Name": "NPC1",
+      "OverrideBehaviorParameter": {
+        "$type": "RPG.GameCore.LevelNPCTrainPassengerParam, RPG.GameCore.Config",
+        "PassengerID": 1003001
+      },
+      "OverrideBehaviorType": "TrainPassenger",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 3.589,
+      "PosZ": 3.007,
+      "RotY": 240.1102,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "BoardShowList": [
+        4
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310040900,
+      "DefaultIdleStateName": "Sit01",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialogueMain_F10000000_G40_N400003.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialoguePack_Common_F10000000_G40_N400003.json",
+            "Name": "Common"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        100050108,
+        100050407,
+        100050408,
+        201150107,
+        201150111
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1004,
+      "Name": "NPC2",
+      "OverrideBehaviorParameter": {
+        "$type": "RPG.GameCore.LevelNPCTrainPassengerParam, RPG.GameCore.Config",
+        "PassengerID": 1004001
+      },
+      "OverrideBehaviorType": "TrainPassenger",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -4.42,
+      "PosY": 0.021,
+      "PosZ": -1.101,
+      "RotY": 69.62791,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 1011503,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 1011503,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
+}

@@ -1,0 +1,79 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20221_F20221001_G48",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1021001_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 102100111,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 312080221,
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 102100111,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20221/F20221001_G48/DialogueMain_F20221001_G48_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [
+        102100111
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1207,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 93.8,
+      "PosY": 16.40084,
+      "PosZ": -76.6,
+      "RotY": 61.77259,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 1021001,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 102100111,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
+}

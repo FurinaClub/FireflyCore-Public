@@ -1,0 +1,481 @@
+{
+  "AIConfig": {
+    "AIFile": "Config/ConfigAI/Adventure/SummonUnit/ST_SummonUnit_Topaz_Master.json",
+    "AIMemoryStrategy": "ClearOnSwitchMap",
+    "AdvAIConfig": {
+      "AfterFollowTeleport": [
+        {
+          "$type": "RPG.GameCore.TriggerEffect, RPG.GameCore.Config",
+          "AttachPoint": "Spine",
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_BE_Common_Appear.prefab",
+          "IsClientOnly": true,
+          "MaxMutexCount": 1,
+          "ParamEntityUsage": "LookAt",
+          "Scale": {
+            "magnitude": 1.73205078,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1.00000012,
+                "sqrMagnitude": 1.00000024,
+                "x": -0.5773503,
+                "y": -0.5773503,
+                "z": -0.5773503
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": -0.577350259,
+              "y": -0.577350259,
+              "z": -0.577350259
+            },
+            "sqrMagnitude": 3,
+            "x": -1,
+            "y": -1,
+            "z": -1
+          },
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+            "Alias": "Caster"
+          },
+          "TaskEnabled": true,
+          "TowardMaxPitchAngle": 90
+        }
+      ],
+      "AlertnessIncreaseRatio": 1,
+      "AttackAngle": 60,
+      "AttackCD": 3,
+      "AttackRange": 3,
+      "BeforeFollowTeleport": [
+        {
+          "$type": "RPG.GameCore.TriggerEffect, RPG.GameCore.Config",
+          "AttachPoint": "Chest_M",
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_BE_Common_End.prefab",
+          "IsClientOnly": true,
+          "MaxMutexCount": 1,
+          "ParamEntityUsage": "LookAt",
+          "Scale": {
+            "magnitude": 1.73205078,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1.00000012,
+                "sqrMagnitude": 1.00000024,
+                "x": -0.5773503,
+                "y": -0.5773503,
+                "z": -0.5773503
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": -0.577350259,
+              "y": -0.577350259,
+              "z": -0.577350259
+            },
+            "sqrMagnitude": 3,
+            "x": -1,
+            "y": -1,
+            "z": -1
+          },
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+            "Alias": "Caster"
+          },
+          "TaskEnabled": true,
+          "TowardMaxPitchAngle": 90
+        }
+      ],
+      "ChaseAngleTolerance": 60,
+      "ChaseTolerance": 2,
+      "LOSLoseTargetDelay": 0.2,
+      "MaxChaseDistance": 30,
+      "MaxFastRunScale": 1.5,
+      "MaxRunScale": 5,
+      "MaxWalkScale": 2,
+      "MinFastRunScale": 0.5,
+      "MinRunScale": 0.5,
+      "MinWalkScale": 0.5
+    }
+  },
+  "AnimConfig": {
+    "AnimEventConfigList": [
+      "Config/ConfigAnimEvents/SummonUnit/Designer/SummonUnit_Topaz_Designer_AnimEvent.json",
+      "Config/ConfigAnimEvents/SummonUnit/Audio/SummonUnit_Topaz_Audio_AnimEvent.json",
+      "Config/ConfigAnimEvents/SummonUnit/Effect/SummonUnit_Topaz_Effect_AnimEvent.json"
+    ],
+    "CommonAnimZoneConfigPath": "Config/ConfigAnimZone/SummonUnit/SummonUnit_Topaz_AnimZone.json",
+    "DisableAnimEventLayers": [
+      "Riboon Layer"
+    ],
+    "EnableIdleShow": true,
+    "FootScale": {
+      "magnitude": 1.73205078,
+      "normalized": {
+        "magnitude": 0.99999994,
+        "normalized": {
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000024,
+          "x": 0.5773503,
+          "y": 0.5773503,
+          "z": 0.5773503
+        },
+        "sqrMagnitude": 0.99999994,
+        "x": 0.577350259,
+        "y": 0.577350259,
+        "z": 0.577350259
+      },
+      "sqrMagnitude": 3,
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "MaxRunAnimSpeedRatio": 5,
+    "MaxWalkAnimSpeedRatio": 2,
+    "OverrideMovementStepToGroundCurveName": "StepToGroundCurve_SummonUnit_GroundSmall",
+    "ReferenceFastRunSpeed": -1,
+    "ReferenceRunSpeed": 3,
+    "ReferenceWalkSpeed": 0.915,
+    "RootMotionScale": 2,
+    "RunSpeedRatio": 1,
+    "SummonerAnimEventConfigList": [
+      "Config/ConfigAnimEvents/SummonUnit/Designer/SummonUnit_Topaz_Summoner_Designer_AnimEvent.json"
+    ],
+    "WalkSpeedRatio": 1
+  },
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Zhangzhang_00_Entity.json",
+  "Duration": {
+    "fixedValue": {
+      "Value": -1
+    }
+  },
+  "GroupConfigName": "FollowUnit",
+  "MoveConfig": {
+    "AdvAIControllerConfig": {
+      "HasRunStop": true,
+      "HasWalkStop": true,
+      "RunStopTurnThreshold": 40,
+      "TriggerTurnThresholdOnFacing": 30,
+      "TriggerTurnThresholdOnMove": 30,
+      "WalkStopTurnThreshold": 40
+    },
+    "EnablePlatformMove": true,
+    "NavMovingSteerTurnBackTurnSpeed": 75,
+    "NavMovingSteerTurnSpeed": 75,
+    "NavTurnBackTurnSpeed": 540,
+    "NavTurnSpeed": 270
+  },
+  "OnCreate": [],
+  "OnDestroy": [
+    {
+      "$type": "RPG.GameCore.HideWaypoint, RPG.GameCore.Config",
+      "IsClientOnly": true,
+      "OnNameBoard": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.RemoveEffect, RPG.GameCore.Config",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_Zhangzhang_Happy.prefab",
+      "FadeOutRegionEnd": -1,
+      "FadeOutRegionStart": -1,
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.RemoveEffect, RPG.GameCore.Config",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_IdleShow_01_Appear.prefab",
+      "FadeOutRegionEnd": -1,
+      "FadeOutRegionStart": -1,
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.AdvFireStimulus, RPG.GameCore.Config",
+      "InstigatorType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "IsClientOnly": true,
+      "StimulusName": "STIM_SummonUnit_ZhangZhang_NPC_Left",
+      "TaskEnabled": true
+    }
+  ],
+  "OnGroundInvalid": [],
+  "OnHide": [
+    {
+      "$type": "RPG.GameCore.AdvAddAIHangUpInfo, RPG.GameCore.Config",
+      "AITickImmediately": true,
+      "HangUpKey": {
+        "Value": "HideSummonUnit"
+      },
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.TriggerEffect, RPG.GameCore.Config",
+      "AttachPoint": "Chest_M",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_BE_Common_End.prefab",
+      "IsClientOnly": true,
+      "MaxMutexCount": 1,
+      "ParamEntityUsage": "LookAt",
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": -0.5773503,
+            "y": -0.5773503,
+            "z": -0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": -0.577350259,
+          "y": -0.577350259,
+          "z": -0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true,
+      "TowardMaxPitchAngle": 90
+    },
+    {
+      "$type": "RPG.GameCore.RemoveEffect, RPG.GameCore.Config",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_Zhangzhang_Happy.prefab",
+      "FadeOutRegionEnd": -1,
+      "FadeOutRegionStart": -1,
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.RemoveEffect, RPG.GameCore.Config",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_IdleShow_01_Appear.prefab",
+      "FadeOutRegionEnd": -1,
+      "FadeOutRegionStart": -1,
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    }
+  ],
+  "OnShow": [
+    {
+      "$type": "RPG.GameCore.AdaptEntityPosition, RPG.GameCore.Config",
+      "IsClientOnly": true,
+      "PosTargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "CasterSummoner"
+      },
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.TriggerEffect, RPG.GameCore.Config",
+      "AttachPoint": "Spine",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_BE_Common_Appear.prefab",
+      "IsClientOnly": true,
+      "MaxMutexCount": 1,
+      "ParamEntityUsage": "LookAt",
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": -0.5773503,
+            "y": -0.5773503,
+            "z": -0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": -0.577350259,
+          "y": -0.577350259,
+          "z": -0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true,
+      "TowardMaxPitchAngle": 90
+    },
+    {
+      "$type": "RPG.GameCore.AdvRemoveAIHangUpInfo, RPG.GameCore.Config",
+      "HangUpKey": {
+        "Value": "HideSummonUnit"
+      },
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    }
+  ],
+  "OnSummonerGroundMove": [
+    {
+      "$type": "RPG.GameCore.PredicateTaskList, RPG.GameCore.Config",
+      "FailedTaskList": [
+        {
+          "$type": "RPG.GameCore.AdaptEntityPosition, RPG.GameCore.Config",
+          "IsClientOnly": true,
+          "PosTargetType": {
+            "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+            "Alias": "CasterSummoner"
+          },
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+            "Alias": "Caster"
+          },
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.TriggerEffect, RPG.GameCore.Config",
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz_00/Eff_Avatar_Topaz_00_BE_Common_Appear.prefab",
+          "IsClientOnly": true,
+          "MaxMutexCount": 1,
+          "ParamEntityUsage": "LookAt",
+          "Scale": {
+            "magnitude": 1.73205078,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1.00000012,
+                "sqrMagnitude": 1.00000024,
+                "x": -0.5773503,
+                "y": -0.5773503,
+                "z": -0.5773503
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": -0.577350259,
+              "y": -0.577350259,
+              "z": -0.577350259
+            },
+            "sqrMagnitude": 3,
+            "x": -1,
+            "y": -1,
+            "z": -1
+          },
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+            "Alias": "Caster"
+          },
+          "TaskEnabled": true,
+          "TowardMaxPitchAngle": 90
+        },
+        {
+          "$type": "RPG.GameCore.CharacterTriggerAnimState, RPG.GameCore.Config",
+          "AnimStateName": "Appear",
+          "ForceStart": true,
+          "IsClientOnly": true,
+          "NormalizedTransitionDuration": 0.05,
+          "TargetAlias": {
+            "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+            "Alias": "Caster"
+          },
+          "TaskEnabled": true
+        }
+      ],
+      "Predicate": {
+        "$type": "RPG.GameCore.ByIsInAnimZone, RPG.GameCore.Config",
+        "AnimZone": "AnimFollow",
+        "IsClientOnly": true,
+        "TargetType": {
+          "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+          "Alias": "Caster"
+        },
+        "TaskEnabled": true
+      },
+      "TaskEnabled": true
+    }
+  ],
+  "ResidentEffects": [],
+  "ShoesType": "boot",
+  "ShowShadow": true,
+  "SkillConfig": {
+    "AbilityList": [
+      "SummonUnit_Topaz_00_FindTrotterAction",
+      "SummonUnit_Topaz_00_FindTrotterStart",
+      "SummonUnit_Topaz_00_FindTrotterFinish",
+      "SummonUnit_Topaz_00_FindTreasureAction",
+      "SummonUnit_Topaz_00_FindTreasureFailAction",
+      "SummonUnit_Topaz_00_FindTreasureStart",
+      "SummonUnit_Topaz_00_FindTreasureFinish"
+    ],
+    "SkillAbilityList": [],
+    "SkillList": [
+      {
+        "AdventureSkillType": "CustomSkill",
+        "CanCastWithoutTarget": true,
+        "CoolDown": 1,
+        "CustomSkillAnimStates": [
+          "Happy"
+        ],
+        "EntryAbility": "SummonUnit_Topaz_00_FindTrotterAction",
+        "Name": "FindTrotterAction",
+        "TargetInfo": {
+          "TargetType": "Caster"
+        }
+      },
+      {
+        "AdventureSkillType": "CustomSkill",
+        "CanCastWithoutTarget": true,
+        "CoolDown": 1,
+        "CustomSkillAnimStates": [
+          "Happy"
+        ],
+        "EntryAbility": "SummonUnit_Topaz_00_FindTreasureAction",
+        "Name": "FindTreasureAction",
+        "TargetInfo": {
+          "TargetType": "Caster"
+        }
+      },
+      {
+        "AdventureSkillType": "CustomSkill",
+        "CanCastWithoutTarget": true,
+        "CoolDown": 1,
+        "CustomSkillAnimStates": [
+          "Doubt"
+        ],
+        "EntryAbility": "SummonUnit_Topaz_00_FindTreasureFailAction",
+        "Name": "FindTreasureFailAction",
+        "TargetInfo": {
+          "TargetType": "Caster"
+        }
+      }
+    ]
+  },
+  "TickLodTemplateName": "DefaultStaticEntity"
+}

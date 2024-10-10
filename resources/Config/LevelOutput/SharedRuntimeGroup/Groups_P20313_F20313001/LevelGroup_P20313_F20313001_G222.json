@@ -1,0 +1,93 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": 126.16,
+      "PosY": 176.209,
+      "PosZ": 749.512,
+      "Usage": "Actor"
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20313_F20313001_G222",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4340106_07",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupGraph/F20313001/Group_F20313001_G222.json",
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020336,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 434010603,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20313/F20313001_G222/DialogueMain_F20313001_G222_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "SecretMissionIcon",
+      "LoadOnInitial": true,
+      "NPCID": 13233,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": -1112699273
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 129.68,
+      "PosY": 176.209,
+      "PosZ": 745.37,
+      "RotY": 300.6228,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 1.5,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    }
+  ],
+  "OwnerMainMissionID": 4340106,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
+}

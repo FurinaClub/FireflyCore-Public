@@ -1,0 +1,100 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P10001_F10001001_G68",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "DailyMission",
+  "LittleGameList": [],
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 300070401,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 300070401,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G68/DialogueMain_F10001001_G68_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [
+        300070401
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10118,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 132898925
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 56.226,
+      "PosY": 4.923051,
+      "PosZ": -51.043,
+      "RotY": 273.9149,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 300070101,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 300070201,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 300070301,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 300070401,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ],
+    "DelayToLevelReload": true,
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

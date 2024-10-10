@@ -1,0 +1,1623 @@
+[
+  {
+    "AbilityName": "RaidAbility_TargetCheckDie",
+    "HintStep": [
+      0
+    ],
+    "ID": 1,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 1
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -26985360
+    },
+    "TargetNameSimple": {
+      "Hash": 371857150
+    },
+    "TargetParam1": 3,
+    "TargetType": "DeadAvatarCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      0
+    ],
+    "ID": 2,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 2
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -26985359
+    },
+    "TargetNameSimple": {
+      "Hash": 371857150
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      0
+    ],
+    "ID": 3,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 3
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -26985358
+    },
+    "TargetNameSimple": {
+      "Hash": 371857150
+    },
+    "TargetParam1": 5,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "RaidAbility_TargetCheckDie",
+    "HintStep": [
+      1
+    ],
+    "ID": 100000000,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 100000000
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1616851088
+    },
+    "TargetNameSimple": {
+      "Hash": 707977170
+    },
+    "TargetParam1": 2,
+    "TargetType": "DeadAvatarCount"
+  },
+  {
+    "AbilityName": "RaidAbility_TargetCheckDie",
+    "HintStep": [],
+    "ID": 100000001,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 100000001
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1616851089
+    },
+    "TargetNameSimple": {
+      "Hash": 707977169
+    },
+    "TargetParam1": 1,
+    "TargetType": "DeadAvatarCount"
+  },
+  {
+    "AbilityName": "RaidAbility_TargetCheckUltraTime",
+    "HintStep": [],
+    "ID": 101000000,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 101000000
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1616956785
+    },
+    "TargetNameSimple": {
+      "Hash": 708010993
+    },
+    "TargetParam1": 3,
+    "TargetType": "DeadAvatarCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 102000000,
+    "ParamList": [
+      {
+        "Value": 102000000
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1616779214
+    },
+    "TargetNameSimple": {
+      "Hash": 708049044
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      1,
+      3
+    ],
+    "ID": 400020211,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 400020211
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1113290063
+    },
+    "TargetNameSimple": {
+      "Hash": -861732183
+    },
+    "TargetParam1": 5,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      1,
+      3
+    ],
+    "ID": 400020212,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 400020212
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1113290064
+    },
+    "TargetNameSimple": {
+      "Hash": -861732182
+    },
+    "TargetParam1": 5,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "ID": 400020213,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 400020213
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1113290065
+    },
+    "TargetNameSimple": {
+      "Hash": -861732181
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      2,
+      3
+    ],
+    "ID": 400020230,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 400020230
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -2018877820
+    },
+    "TargetNameSimple": {
+      "Hash": -2024531598
+    },
+    "TargetParam1": 4,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ID": 400020231,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 400020231
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -2018877819
+    },
+    "TargetNameSimple": {
+      "Hash": -2024531597
+    },
+    "TargetParam1": 5,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      3,
+      5,
+      7
+    ],
+    "ID": 401320111,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401320111
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1584194260
+    },
+    "TargetNameSimple": {
+      "Hash": -1216565222
+    },
+    "TargetParam1": 8,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 401320131,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401320131
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1547973622
+    },
+    "TargetNameSimple": {
+      "Hash": -53765808
+    },
+    "TargetParam1": 7,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      4,
+      7,
+      10
+    ],
+    "ID": 401320112,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401320112
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1584194263
+    },
+    "TargetNameSimple": {
+      "Hash": -1216565225
+    },
+    "TargetParam1": 13,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 401320132,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401320132
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1547973619
+    },
+    "TargetNameSimple": {
+      "Hash": -53765811
+    },
+    "TargetParam1": 9,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      5,
+      10,
+      15
+    ],
+    "ID": 401320113,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401320113
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1584194262
+    },
+    "TargetNameSimple": {
+      "Hash": -1216565224
+    },
+    "TargetParam1": 20,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 401320123,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401320123
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -18110321
+    },
+    "TargetNameSimple": {
+      "Hash": -1619849751
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 401320133,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401320133
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1547973620
+    },
+    "TargetNameSimple": {
+      "Hash": -53765810
+    },
+    "TargetParam1": 2,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "ID": 401310111,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401310111
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1584195351
+    },
+    "TargetNameSimple": {
+      "Hash": -1216570537
+    },
+    "TargetParam1": 8,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidAbility_TargetCheckRaid_M301",
+    "HintStep": [
+      1,
+      2
+    ],
+    "ID": 401310131,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401310131
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1547972531
+    },
+    "TargetNameSimple": {
+      "Hash": -53771123
+    },
+    "TargetParam1": 3,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13
+    ],
+    "ID": 401310112,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401310112
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1584195348
+    },
+    "TargetNameSimple": {
+      "Hash": -1216570534
+    },
+    "TargetParam1": 14,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidAbility_TargetCheckRaid_M301",
+    "HintStep": [
+      1,
+      2,
+      3
+    ],
+    "ID": 401310132,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401310132
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1547972534
+    },
+    "TargetNameSimple": {
+      "Hash": -53771120
+    },
+    "TargetParam1": 4,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19
+    ],
+    "ID": 401310113,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401310113
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1584195349
+    },
+    "TargetNameSimple": {
+      "Hash": -1216570535
+    },
+    "TargetParam1": 20,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      2,
+      3
+    ],
+    "ID": 401310123,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401310123
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -18111408
+    },
+    "TargetNameSimple": {
+      "Hash": -1619855062
+    },
+    "TargetParam1": 4,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1
+    ],
+    "ID": 401310133,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 401310133
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1547972533
+    },
+    "TargetNameSimple": {
+      "Hash": -53771121
+    },
+    "TargetParam1": 1,
+    "TargetType": "KillMonster"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      2,
+      3
+    ],
+    "ID": 400021111,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 400021111
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1635796235
+    },
+    "TargetNameSimple": {
+      "Hash": -720569521
+    },
+    "TargetParam1": 3,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "ID": 400021121,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 400021121
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -2039080762
+    },
+    "TargetNameSimple": {
+      "Hash": 845514420
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "ID": 400021131,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 400021131
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -472996821
+    },
+    "TargetNameSimple": {
+      "Hash": -1883368935
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 412210101,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 412210101
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -382067641
+    },
+    "TargetNameSimple": {
+      "Hash": 1256685877
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      4,
+      7
+    ],
+    "ID": 412210111,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 412210111
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1184016300
+    },
+    "TargetNameSimple": {
+      "Hash": -1472197478
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      4,
+      7,
+      10
+    ],
+    "ID": 412210112,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 412210112
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1184016297
+    },
+    "TargetNameSimple": {
+      "Hash": -1472197481
+    },
+    "TargetParam1": 12,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      4,
+      7
+    ],
+    "ID": 412210113,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 412210113
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1184016298
+    },
+    "TargetNameSimple": {
+      "Hash": -1472197480
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "BattleEventAbility_CallRaidTimeCount",
+    "HintStep": [
+      4,
+      7,
+      10,
+      13
+    ],
+    "ID": 442010101,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442010101
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -891989398
+    },
+    "TargetNameSimple": {
+      "Hash": 1427951556
+    },
+    "TargetParam1": 15,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 442010102,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442010102
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -891989401
+    },
+    "TargetNameSimple": {
+      "Hash": 1427951553
+    },
+    "TargetParam1": 2,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "ID": 442010103,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442010103
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -891989400
+    },
+    "TargetNameSimple": {
+      "Hash": 1427951554
+    },
+    "TargetParam1": 8,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "RaidTarget_LessEqualTurnLimit",
+    "HintStep": [
+      4,
+      7
+    ],
+    "ID": 442020101,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020101
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994713
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950465
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidTarget_LessEqualTurnLimit",
+    "HintStep": [
+      4,
+      7
+    ],
+    "ID": 442020201,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020201
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994614
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950436
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidTarget_LessEqualTurnLimit",
+    "HintStep": [
+      4,
+      7
+    ],
+    "ID": 442020301,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020301
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994647
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950531
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidTarget_LessEqualTurnLimit",
+    "HintStep": [
+      4,
+      7
+    ],
+    "ID": 442020401,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020401
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994812
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950502
+    },
+    "TargetParam1": 10,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidTarget_EnemyActionEventCount",
+    "HintStep": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ID": 442020102,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020102
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994710
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950468
+    },
+    "TargetParam1": 4,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidTarget_EnemyActionEventCount",
+    "HintStep": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ID": 442020202,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020202
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994617
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950433
+    },
+    "TargetParam1": 4,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidTarget_EnemyActionEventCount",
+    "HintStep": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ID": 442020302,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020302
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994648
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950530
+    },
+    "TargetParam1": 4,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidTarget_EnemyActionEventCount",
+    "HintStep": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ID": 442020402,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020402
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994811
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950503
+    },
+    "TargetParam1": 4,
+    "TargetType": "BattleRoundCount"
+  },
+  {
+    "AbilityName": "RaidAbility_TargetCheckDie",
+    "HintStep": [],
+    "ID": 442020103,
+    "IsInBattle": true,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 442020103
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 100,
+    "TargetName": {
+      "Hash": -891994711
+    },
+    "TargetNameSimple": {
+      "Hash": 1427950467
+    },
+    "TargetType": "DeadAvatarCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ID": 440010101,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010101
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061272
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879682
+    },
+    "TargetParam1": 5,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ID": 440010102,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010102
+      }
+    ],
+    "ParamType": "Less",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061271
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879683
+    },
+    "TargetParam1": 5,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 440010103,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010103
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061270
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879684
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 440010104,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010104
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061277
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879685
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 440010105,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010105
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061276
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879686
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 440010106,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010106
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061275
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879687
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 440010107,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010107
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061274
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879688
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 440010108,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010108
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061265
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879673
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 440010109,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 440010109
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -892061264
+    },
+    "TargetNameSimple": {
+      "Hash": 1427879674
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      3,
+      5
+    ],
+    "ID": 443050031,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050031
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314185
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823955
+    },
+    "TargetParam1": 5,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "ID": 443050032,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050032
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314188
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823958
+    },
+    "TargetParam1": 7,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "ID": 443050033,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050033
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314187
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823957
+    },
+    "TargetParam1": 7,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      3,
+      5,
+      7,
+      10
+    ],
+    "ID": 443050034,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050034
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314182
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823960
+    },
+    "TargetParam1": 10,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      5,
+      9
+    ],
+    "ID": 443050035,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050035
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314181
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823959
+    },
+    "TargetParam1": 9,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [
+      1,
+      5,
+      10,
+      15,
+      20
+    ],
+    "ID": 443050036,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050036
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314184
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823962
+    },
+    "TargetParam1": 20,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 443050037,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050037
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314183
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823961
+    },
+    "TargetParam1": 5,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 443050038,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050038
+      }
+    ],
+    "ParamType": "LessEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314178
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823964
+    },
+    "TargetParam1": 1,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 443050039,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050039
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": -1295314177
+    },
+    "TargetNameSimple": {
+      "Hash": -1300823963
+    },
+    "TargetParam1": 2,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 443050040,
+    "IsShowProgress": 1,
+    "ParamList": [
+      {
+        "Value": 443050040
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1433569169
+    },
+    "TargetNameSimple": {
+      "Hash": -541309069
+    },
+    "TargetParam1": 4,
+    "TargetType": "ClientCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 443050041,
+    "ParamList": [
+      {
+        "Value": 443050041
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1433569170
+    },
+    "TargetNameSimple": {
+      "Hash": -541309068
+    },
+    "TargetParam1": 1,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 443050042,
+    "ParamList": [
+      {
+        "Value": 443050042
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1433569167
+    },
+    "TargetNameSimple": {
+      "Hash": -541309071
+    },
+    "TargetParam1": 1,
+    "TargetType": "ServerCount"
+  },
+  {
+    "AbilityName": "",
+    "HintStep": [],
+    "ID": 443050043,
+    "ParamList": [
+      {
+        "Value": 443050043
+      }
+    ],
+    "ParamType": "GreaterEqual",
+    "RewardID": 139001,
+    "TargetName": {
+      "Hash": 1433569168
+    },
+    "TargetNameSimple": {
+      "Hash": -541309070
+    },
+    "TargetParam1": 1,
+    "TargetType": "ClientCount"
+  }
+]

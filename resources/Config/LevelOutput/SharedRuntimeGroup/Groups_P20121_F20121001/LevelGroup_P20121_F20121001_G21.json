@@ -1,0 +1,171 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": 187.42,
+      "PosY": 28.49,
+      "PosZ": -132.974,
+      "RotY": 11.49068
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20121_F20121001_G21",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "FarmElement",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 4010127,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 101205,
+      "FarmElementID": 1105,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1013021,
+      "Name": "ElementBoss",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 188.38,
+      "PosY": 28.6,
+      "PosZ": -126.68,
+      "PurposeType": "FarmElement",
+      "RotY": 191.4907
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "AnchorGroupID": 21,
+      "AnchorID": 1,
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "PointList": [],
+          "Radius": 10.5,
+          "Server": true
+        }
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FarmElementID": 1105,
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_FarmElement_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 1105,
+      "Name": "Prop3",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": 75,
+      "OverrideMapStateIcons": [
+        {
+          "Color": "#4b4b4b",
+          "IconID": 75,
+          "State": "CheckPointDisable"
+        },
+        {
+          "IconID": 75,
+          "State": "CheckPointEnable"
+        }
+      ],
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 188.38,
+      "PosY": 29.4,
+      "PosZ": -126.68,
+      "PropID": 702,
+      "RotY": 101.4911,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "State": "CheckPointDisable",
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "InteractID",
+            "Value": "MappingInfo_Name_1105_0"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "AssistEffectPath",
+            "Value": "Effects/Eff_Prefab/Eff_Common/Eff_Common_BossDomain_Assistfield_01.prefab"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "InteractID",
+            "Value": "MappingInfo_Name_1105_0"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "AssistEffectPath",
+            "Value": "Effects/Eff_Prefab/Eff_Common/Eff_Common_BossDomain_Assistfield_01.prefab"
+          }
+        ]
+      }
+    }
+  ],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
+}

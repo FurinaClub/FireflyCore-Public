@@ -1,0 +1,118 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -25.61,
+      "PosY": 6.94,
+      "PosZ": 48.13,
+      "RotX": 356.0228,
+      "RotY": 102.4837,
+      "RotZ": 0.357355,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -11.3,
+      "PosY": 7.86,
+      "PosZ": 44.41,
+      "RotX": 9.682612,
+      "RotY": 337.4818,
+      "Usage": "Camera"
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10202_F10202004_G82",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission8003215_01",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 800321502,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        4,
+        64
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020335,
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G82/DialogueMain_F10202004_G82_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G29/DialoguePack_ShowUi_F10202004_G29_N400001.json",
+            "Name": "ShowUi"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G29/DialoguePack_Common_F10202004_G29_N400001.json",
+            "Name": "Common"
+          }
+        ]
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LoadOnInitial": true,
+      "MappingInfoID": 2266,
+      "MiniMapIconType": 125,
+      "NPCID": 12270,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -27.114,
+      "PosY": 4.553774,
+      "PosZ": 56.135,
+      "RotY": 180,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 8003215,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 800321502,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
+}

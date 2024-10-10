@@ -1,0 +1,104 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": 80.91901,
+      "PosY": 43.6491,
+      "PosZ": 141.961,
+      "RotY": 130
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20222_F20222001_G134",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [
+    2021901
+  ],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4015202_MainMission4015202_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 401520201,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 4015202,
+        "Phase": "Finish"
+      },
+      {
+        "ID": 401520201,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        8,
+        1,
+        64
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20222/F20222001_G134/DialogueMain_F20222001_G134_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 12118,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 82.51,
+      "PosY": 43.6491,
+      "PosZ": 142.88,
+      "RotY": 270,
+      "ServerInteractVerificationIDList": [],
+      "StaticNPC": true,
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 4015202,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 4015203
+      },
+      {
+        "ID": 4015203,
+        "Phase": "Finish"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

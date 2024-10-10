@@ -1,0 +1,533 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "FloorAnchor1",
+      "PosX": 75.14047,
+      "PosY": 2.66,
+      "PosZ": -64.98719
+    },
+    {
+      "ID": 2,
+      "Name": "FloorAnchor2",
+      "PosX": 75.14047,
+      "PosY": 26.62434,
+      "PosZ": -64.98719
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20223_F20223001_G49",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [
+    {
+      "DistrictType": "Level",
+      "ID": 1,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District1",
+      "PosX": 75,
+      "PosY": 1.42,
+      "PosZ": -65,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 30,
+        "DimZ": 1,
+        "PointList": [
+          {
+            "magnitude": 7.28501272,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.223609224,
+              "y": -0.9746789
+            },
+            "sqrMagnitude": 53.0714073,
+            "x": -1.628996,
+            "y": -7.100548
+          },
+          {
+            "magnitude": 5.747424,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.881790757,
+                "y": -0.471640885
+              },
+              "sqrMagnitude": 0.9999999,
+              "x": -0.8817907,
+              "y": -0.471640855
+            },
+            "sqrMagnitude": 33.0328827,
+            "x": -5.068025,
+            "y": -2.71072
+          },
+          {
+            "magnitude": 6.363039,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.8588263,
+              "y": 0.512267
+            },
+            "sqrMagnitude": 40.488266,
+            "x": -5.464745,
+            "y": 3.259575
+          },
+          {
+            "magnitude": 7.43807459,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.3031754,
+                "y": 0.9529348
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": -0.30317536,
+              "y": 0.952934742
+            },
+            "sqrMagnitude": 55.32495,
+            "x": -2.255041,
+            "y": 7.088
+          },
+          {
+            "magnitude": 7.91243744,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.282397836,
+              "y": 0.959297359
+            },
+            "sqrMagnitude": 62.6066628,
+            "x": 2.234455,
+            "y": 7.59038
+          },
+          {
+            "magnitude": 7.543518,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.8074102,
+                "y": 0.589990556
+              },
+              "sqrMagnitude": 0.9999999,
+              "x": 0.8074101,
+              "y": 0.5899905
+            },
+            "sqrMagnitude": 56.9046631,
+            "x": 6.090713,
+            "y": 4.450604
+          },
+          {
+            "magnitude": 6.96682167,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.853079,
+              "y": -0.5217818
+            },
+            "sqrMagnitude": 48.5366058,
+            "x": 5.943249,
+            "y": -3.635161
+          },
+          {
+            "magnitude": 7.89344645,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.46972388,
+                "y": -0.882813454
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": 0.46972385,
+              "y": -0.8828134
+            },
+            "sqrMagnitude": 62.3064957,
+            "x": 3.70774,
+            "y": -6.96844
+          }
+        ],
+        "Radius": 7,
+        "Shape": "Polygon"
+      },
+      "ValueSource": {}
+    }
+  ],
+  "GroupName": "SuiGardenElevator",
+  "GroupStateList": [
+    {
+      "Comment": "1st To 2nd",
+      "DstState": 1
+    },
+    {
+      "Comment": "2nd To 1st",
+      "SrcState": 1
+    },
+    {
+      "Comment": "Lock In 1stFloor",
+      "DstState": 2
+    },
+    {
+      "Comment": "Lock In 2ndtFloor",
+      "DstState": 3,
+      "SrcState": 1
+    },
+    {
+      "Comment": "UnLock In 1stFloor",
+      "SrcState": 2
+    },
+    {
+      "Comment": "UnLock In 2ndFloor",
+      "DstState": 1,
+      "SrcState": 3
+    }
+  ],
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupGraph/F20223001/Group_F20223001_G49.json",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_Console_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "1stConsole",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 71.588,
+      "PosY": 2.852334,
+      "PosZ": -59.773,
+      "PropID": 102188,
+      "RotY": 270,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "State": "Open",
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_Console_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "2ndConsole",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 80.5,
+      "PosY": 26.62434,
+      "PosZ": -60.86,
+      "PropID": 102188,
+      "RotY": 90,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_Elevator_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Elevator",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 75.14047,
+      "PosY": 2.66,
+      "PosZ": -64.98719,
+      "PropID": 102178,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "State": "Open",
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "MoveDuration",
+            "Value": 5
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "MoveDuration",
+            "Value": 5
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300004,
+      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_SuiGardenElevatorAirWall_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsClientOnly": true,
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "ElevatorAirWall",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 78.88,
+      "PosY": 26.19547,
+      "PosZ": -63.29,
+      "PropID": 102198,
+      "RotY": 351.4249,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Permanent",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "Floor1",
+        "Value": "LevelArea_P20223_F20223001_G49,FloorAnchor1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "Floor2",
+        "Value": "LevelArea_P20223_F20223001_G49,FloorAnchor2"
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "Floor1",
+        "Value": "LevelArea_P20223_F20223001_G49,FloorAnchor1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "Floor2",
+        "Value": "LevelArea_P20223_F20223001_G49,FloorAnchor2"
+      }
+    ]
+  },
+  "WaypointList": []
+}

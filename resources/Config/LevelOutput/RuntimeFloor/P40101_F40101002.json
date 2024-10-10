@@ -1,0 +1,274 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "CameraType": "Maze",
+      "ConstValues": [
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "AgentType": "Prop",
+          "GroupID": 10,
+          "ID": 2,
+          "InstanceID": 300001,
+          "Name": "RotateBridgeProp"
+        }
+      ],
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M302_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 2,
+      "StartGroupIndex": 3
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40101002,
+  "GroupInstanceCommonMap": {
+    "2": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "6": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "8": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "10": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "12": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "13": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "15": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "16": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "17": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407132003,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "21": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "26": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407132001,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "32": {
+      "Category": "Mission",
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407132004,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "34": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "36": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407132004,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "37": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "38": {
+      "SaveType": "Reset"
+    },
+    "40": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407132002,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G2.json",
+      "ID": 2,
+      "Name": "BattleArea"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G3.json",
+      "ID": 3,
+      "Name": "PropCommon"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G6.json",
+      "ID": 6,
+      "Name": "Airwall"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G8.json",
+      "ID": 8,
+      "Name": "Saves"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G10.json",
+      "ID": 10,
+      "Name": "MainMission_Prop"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G12.json",
+      "ID": 12,
+      "Name": "StoveFuel"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G13.json",
+      "ID": 13,
+      "Name": "Monsters"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G15.json",
+      "ID": 15,
+      "Name": "mission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G16.json",
+      "ID": 16,
+      "Name": "StoveFuel"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G17.json",
+      "ID": 17,
+      "Name": "Airwall"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G21.json",
+      "ID": 21,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G26.json",
+      "ID": 26,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G32.json",
+      "ID": 32,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G34.json",
+      "ID": 34,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G36.json",
+      "ID": 36,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G37.json",
+      "ID": 37,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G38.json",
+      "ID": 38,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G40.json",
+      "ID": 40,
+      "Name": "StoveFuel"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20132_F20132001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M302_MainLine_01_StageData/Chap01_MAZ_M302_MainLine_01_StageData.stage",
+  "StartAnchorID": 2,
+  "StartGroupIndex": 3,
+  "TempGroupUnloadByY": 10000000
+}

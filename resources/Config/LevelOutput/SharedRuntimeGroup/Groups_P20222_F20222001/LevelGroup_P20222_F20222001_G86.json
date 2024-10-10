@@ -1,0 +1,93 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20222_F20222001_G86",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4040229_MainMission4040229_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 404022903,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 404022904,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 404022905,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20222/F20222001_G86/DialogueMain_F20222001_G86_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 12147,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 1064512192
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -35.28,
+      "PosY": 53.17323,
+      "PosZ": 167.11,
+      "RotY": 286.201,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 4040229,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 404022903,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      },
+      {
+        "ID": 404022904,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      },
+      {
+        "ID": 404022905,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

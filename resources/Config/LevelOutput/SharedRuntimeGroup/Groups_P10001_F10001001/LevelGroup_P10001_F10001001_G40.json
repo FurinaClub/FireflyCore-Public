@@ -1,0 +1,86 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P10001_F10001001_G40",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "SubASD_FB",
+  "LittleGameList": [],
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 200020103,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010209,
+      "DefaultIdleStateName": "Akimbo02Loop",
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 200020104,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G40/DialogueMain_F10001001_G40_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [
+        200020104
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10120,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 1698982866
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": -2.212553,
+      "PosY": -0.342431,
+      "PosZ": -41.57404,
+      "RotY": 48.62536,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 2000201,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

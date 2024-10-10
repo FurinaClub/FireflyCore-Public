@@ -1,0 +1,126 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -2.430001,
+      "PosY": -0.000007,
+      "PosZ": 14.87,
+      "RotY": 114.8951
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": 2.62,
+      "PosY": -0.000012,
+      "PosZ": 26.87,
+      "RotY": 173.3734
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": 1.19,
+      "PosY": -0.000008,
+      "PosZ": 25.8,
+      "RotY": 56.11101
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10000_F10000000_G74",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "ForceUnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 4050015,
+        "Phase": "Cancel"
+      }
+    ]
+  },
+  "GroupName": "MainMission4050015_Pam",
+  "GroupRefreshID": 1,
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 4050015
+      }
+    ]
+  },
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 900010230,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialogueMain_F10000000_G56_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialoguePack_PamRanmdomMission_F10000000_G56_N400001.json",
+            "Name": "PamRanmdomMission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialoguePack_FakePamBase_F10000000_G56_N400001.json",
+            "Name": "FakePamBase"
+          }
+        ]
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LevelGraph": "Config/Level/Maze/Chapter00/Train/Train_PamAction.json",
+      "LoadOnInitial": true,
+      "NPCID": 3001,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -2.430001,
+      "PosY": -0.000007,
+      "PosZ": 14.87,
+      "RotY": 114.8951,
+      "ServerInteractVerificationIDList": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 4050015,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 4050015,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

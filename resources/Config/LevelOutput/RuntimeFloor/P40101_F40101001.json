@@ -1,0 +1,269 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "ConstValues": [
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "AgentType": "Prop",
+          "GroupID": 8,
+          "ID": 2,
+          "InstanceID": 300001,
+          "Name": "RotateBridgeProp"
+        }
+      ],
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M302_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40101001,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "4": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "6": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "7": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201130302,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "8": {
+      "GroupRefreshID": 1,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "9": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201130306,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "10": {
+      "LoadOnInitial": true
+    },
+    "11": {
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201130303,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "12": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201130305,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "13": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "14": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "15": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "16": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "18": {
+      "LoadOnInitial": true
+    },
+    "19": {
+      "LoadOnInitial": true
+    },
+    "20": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G2.json",
+      "ID": 2,
+      "Name": "Area_A_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G4.json",
+      "ID": 4,
+      "Name": "Area_B_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G3.json",
+      "ID": 3,
+      "Name": "Area_C_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G5.json",
+      "ID": 5,
+      "Name": "Area_D_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G6.json",
+      "ID": 6,
+      "Name": "BridgeController_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G7.json",
+      "ID": 7,
+      "Name": "Probe_A"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G8.json",
+      "ID": 8,
+      "Name": "Bridge_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G9.json",
+      "ID": 9,
+      "Name": "BridgeController_Fake_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G11.json",
+      "ID": 11,
+      "Name": "Probe_B"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G12.json",
+      "ID": 12,
+      "Name": "Probe_C"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G13.json",
+      "ID": 13,
+      "Name": "MissionGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G10.json",
+      "ID": 10,
+      "Name": "Empty Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G14.json",
+      "ID": 14,
+      "Name": "Area_A_Monster_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G15.json",
+      "ID": 15,
+      "Name": "Area_B_Monster_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G16.json",
+      "ID": 16,
+      "Name": "Area_C_Monster_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G18.json",
+      "ID": 18,
+      "Name": "Area_A_Message Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G19.json",
+      "ID": 19,
+      "Name": "Area_B_Message Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101001/LevelGroup_P40101_F40101001_G20.json",
+      "ID": 20,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20132_F20132001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M302_MainLine_01_StageData/Chap01_MAZ_M302_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

@@ -1,0 +1,102 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20211_F20211001_G195",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC2",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 1021702,
+        "Phase": "Finish"
+      },
+      {
+        "ID": 1021702
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        4,
+        8,
+        64
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G195/DialogueMain_F20211001_G195_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20211/F20211001_G195/DialoguePack_Common_F20211001_G195_N400001.json",
+            "Name": "Common"
+          }
+        ]
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 12179,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -28.09,
+      "PosY": 2.170681,
+      "PosZ": 41.96,
+      "RotY": 357.3896,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 801510404,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 801510405,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 801510406,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

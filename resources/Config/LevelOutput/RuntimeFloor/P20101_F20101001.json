@@ -1,0 +1,1046 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_Snowfield_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [],
+          "ID": 4,
+          "MaxValue": 1,
+          "Name": "IceBear"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 5,
+          "MaxValue": 1,
+          "Name": "MusicRhythm"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 6,
+          "MaxValue": 1,
+          "Name": "SceneStateByMainMission"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 7,
+          "MaxValue": 1,
+          "Name": "WorldStateByMainMission"
+        }
+      ],
+      "StartAnchorID": 2
+    },
+    {
+      "BattleAreaList": [],
+      "Category": "ActivityEarlyAccess",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_Snowfield_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12,
+        30,
+        38,
+        41,
+        48,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "ID": 1002,
+      "IsExclusiveSaveMapSection": true,
+      "SavedValueConfigDict": {
+        "MusicRhythm": {
+          "IsExclusiveSaved": true,
+          "IsNeedMergeBack": true
+        },
+        "SceneStateByMainMission": {
+          "IsExclusiveSaved": true
+        },
+        "WorldStateByMainMission": {
+          "IsExclusiveSaved": true
+        }
+      },
+      "SavedValues": [
+        {
+          "AllowedValues": [],
+          "ID": 4,
+          "MaxValue": 1,
+          "Name": "IceBear"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 5,
+          "MaxValue": 1,
+          "Name": "MusicRhythm"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "DefaultValue": 1,
+          "ID": 6,
+          "MaxValue": 1,
+          "Name": "SceneStateByMainMission"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "DefaultValue": 1,
+          "ID": 7,
+          "MaxValue": 1,
+          "Name": "WorldStateByMainMission"
+        }
+      ],
+      "StartAnchorID": 2,
+      "UnlockAllMapSectionOnInitial": true
+    }
+  ],
+  "FloorID": 20101001,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "GroupRefreshID": 1001,
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "10": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201140109,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "11": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201140108,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "12": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201140112,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          },
+          {
+            "ID": 201140113,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ],
+        "DelayToLevelReload": true,
+        "Operation": "Or"
+      }
+    },
+    "13": {
+      "Category": "Mission",
+      "ForceUnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 301010202,
+            "Phase": "Cancel",
+            "Type": "SubMission"
+          }
+        ]
+      },
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 301010202,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "14": {
+      "GroupRefreshID": 1002,
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "15": {
+      "GroupRefreshID": 1001,
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "16": {
+      "GroupRefreshID": 1,
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "17": {
+      "GroupRefreshID": 1,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "18": {
+      "GroupRefreshID": 1,
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "19": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "20": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201140115,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "21": {
+      "Category": "Mission",
+      "ForceUnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 301010204,
+            "Phase": "Cancel",
+            "Type": "SubMission"
+          }
+        ]
+      },
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 301010204,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "22": {
+      "Category": "Mission",
+      "ForceUnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 301010205,
+            "Phase": "Cancel",
+            "Type": "SubMission"
+          }
+        ]
+      },
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 301010205,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "23": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 1010101,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "24": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 101010106,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "25": {
+      "Category": "Mission",
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 101010110,
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "26": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 101010113,
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "27": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 101010113,
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "29": {
+      "GroupRefreshID": 1001,
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "31": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201140116,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    },
+    "32": {
+      "GroupRefreshID": 1001,
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "34": {
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "35": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201140117,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "41": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201140112,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          },
+          {
+            "ID": 201140113,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ],
+        "Operation": "Or"
+      }
+    },
+    "55": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 101010120,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "56": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "61": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 101010120,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "67": {
+      "Category": "Mission",
+      "ForceUnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8000182,
+            "Phase": "Cancel"
+          }
+        ]
+      },
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8000182,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "69": {
+      "Category": "Mission",
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201020107,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "70": {
+      "SaveType": "Reset"
+    },
+    "71": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 800120102,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    },
+    "73": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 800121902,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "78": {
+      "Category": "Atmosphere",
+      "LoadSide": "Server",
+      "SaveType": "Reset"
+    },
+    "79": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201020107,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "80": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "SystemUnlockCondition": {
+        "Operation": "And"
+      },
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 201020332,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "81": {
+      "Category": "Mission",
+      "SaveType": "Reset"
+    },
+    "82": {
+      "Category": "Mission",
+      "SaveType": "Reset"
+    },
+    "83": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "84": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "85": {
+      "Category": "Atmosphere",
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "88": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "89": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "90": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "91": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "92": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "93": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "97": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "98": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "99": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "100": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "101": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "102": {
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "103": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "104": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G2.json",
+      "ID": 2,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G17.json",
+      "ID": 17,
+      "Name": "Checkpoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G17_D1001.json",
+      "ID": 17,
+      "Name": "Checkpoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G17_D1002.json",
+      "ID": 17,
+      "Name": "Checkpoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G14.json",
+      "ID": 14,
+      "Name": "DefaultProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G16.json",
+      "ID": 16,
+      "Name": "DefaultEndline"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G18.json",
+      "ID": 18,
+      "Name": "DefaultChest"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G27.json",
+      "ID": 27,
+      "Name": "MainMissionMonster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G61.json",
+      "ID": 61,
+      "Name": "MainMissionMonster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G15.json",
+      "ID": 15,
+      "Name": "ExploreMonster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G29.json",
+      "ID": 29,
+      "Name": "MonsterFlock_Before"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G4.json",
+      "ID": 4,
+      "Name": "ExploreMonster_After"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G32.json",
+      "ID": 32,
+      "Name": "MonsterFlock_After"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G19.json",
+      "ID": 19,
+      "Name": "DefaultCocoon01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G56.json",
+      "ID": 56,
+      "Name": "DefaultCocoon02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G7.json",
+      "ID": 7,
+      "Name": "DefaultChallenge"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G13.json",
+      "ID": 13,
+      "Name": "DailyCollect"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G21.json",
+      "ID": 21,
+      "Name": "DailyCollect"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G22.json",
+      "ID": 22,
+      "Name": "DailyCollect"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G23.json",
+      "ID": 23,
+      "Name": "MainMission_Trigger"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G24.json",
+      "ID": 24,
+      "Name": "MainMission_Prop"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G25.json",
+      "ID": 25,
+      "Name": "MainMission_Prop"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G26.json",
+      "ID": 26,
+      "Name": "MainMission1010101_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G10.json",
+      "ID": 10,
+      "Name": "MainMission2011401_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G11.json",
+      "ID": 11,
+      "Name": "MainMission2011401_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G12.json",
+      "ID": 12,
+      "Name": "MainMission2011401_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G20.json",
+      "ID": 20,
+      "Name": "MainMission2011401_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G31.json",
+      "ID": 31,
+      "Name": "MainMission2011401_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G1.json",
+      "ID": 1,
+      "Name": "SubMission_201140128"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G34.json",
+      "ID": 34,
+      "Name": "Monster_ChestMonster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G5.json",
+      "ID": 5,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G35.json",
+      "ID": 35,
+      "Name": "MainMission2011401_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G41.json",
+      "ID": 41,
+      "Name": "MainMission2011401_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G55.json",
+      "ID": 55,
+      "Name": "Main101010120"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G67.json",
+      "ID": 67,
+      "Name": "MainMission8000182_Mission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G69.json",
+      "ID": 69,
+      "Name": "MainMission2010201_07"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G70.json",
+      "ID": 70,
+      "Name": "NatashaBroTomb"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G70_D1001.json",
+      "ID": 70,
+      "Name": "NatashaBroTomb"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G70_D1002.json",
+      "ID": 70,
+      "Name": "NatashaBroTomb"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G71.json",
+      "ID": 71,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G73.json",
+      "ID": 73,
+      "Name": "MainMission8001219_PZ"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G78.json",
+      "ID": 78,
+      "Name": "NormalNPC_Linke"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G79.json",
+      "ID": 79,
+      "Name": "MainMission2010201_07"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G80.json",
+      "ID": 80,
+      "Name": "MainMission2010203_32"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G81.json",
+      "ID": 81,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G82.json",
+      "ID": 82,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G83.json",
+      "ID": 83,
+      "Name": "MainMission8014128_LinkBattle_Before"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G84.json",
+      "ID": 84,
+      "Name": "MainMission8014128_LinkBattle_After"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G85.json",
+      "ID": 85,
+      "Name": "IceBear"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G88.json",
+      "ID": 88,
+      "Name": "MainMission8024203_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G89.json",
+      "ID": 89,
+      "Name": "MainMission8024203_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G90.json",
+      "ID": 90,
+      "Name": "MainMission8024203_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G91.json",
+      "ID": 91,
+      "Name": "MainMission8024203_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G92.json",
+      "ID": 92,
+      "Name": "MainMission8024203_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G93.json",
+      "ID": 93,
+      "Name": "MainMission8024203_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G97.json",
+      "ID": 97,
+      "Name": "MainMission8026115_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G98.json",
+      "ID": 98,
+      "Name": "MainMission8026115_03"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G99.json",
+      "ID": 99,
+      "Name": "MainMission8026115_04"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G100.json",
+      "ID": 100,
+      "Name": "MainMission8026115_05"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G101.json",
+      "ID": 101,
+      "Name": "MainMission8026115_06"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G102.json",
+      "ID": 102,
+      "Name": "MainMission8026115_Puman"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G103.json",
+      "ID": 103,
+      "Name": "MainMission8026115_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20101_F20101001/LevelGroup_P20101_F20101001_G104.json",
+      "ID": 104,
+      "Name": "MusicRhythm_TrotterPhoto"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20101_F20101001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_ADV_Area_Snowfield_01_StageData/Chap01_ADV_Area_Snowfield_01_StageData.stage",
+  "StartAnchorID": 2,
+  "TempGroupUnloadByY": 10000000
+}

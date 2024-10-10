@@ -1,0 +1,93 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20002_F20002001_G18",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [
+    96737
+  ],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2000102_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 200010202,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 200010203,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        4,
+        64
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010293,
+      "DefaultIdleStateName": "Praying01Loop",
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 200010203,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20002/F20002001_G18/DialogueMain_F20002001_G18_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [
+        200010203
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10103,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -151.275,
+      "PosY": 3,
+      "PosZ": -117.974,
+      "RotY": 40,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 2000102,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 200010203,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

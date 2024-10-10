@@ -1,0 +1,2035 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20134_F20134001_G8",
+  "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [
+    {
+      "ID": 1,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District1",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_Maze_Belobog_M3_3",
+          "StateName": "State_EverWinterHill_Wide"
+        }
+      ],
+      "PosX": -31.8,
+      "PosY": 25.52,
+      "PosZ": -3.1,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 2,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District2",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_Maze_Belobog_M3_3",
+          "StateName": "State_EverWinterHill_Narrow"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 100,
+          "RTPCRangeMin": 80,
+          "RTPCValue": 80,
+          "RandomFrequncy": 5
+        },
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Strength",
+          "RTPCRangeMax": 100,
+          "RTPCRangeMin": 80,
+          "RTPCValue": 80,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -91.3,
+      "PosY": -2.1,
+      "PosZ": 15.7,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 200,
+        "DimY": 45,
+        "DimZ": 200,
+        "Radius": 100,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 3,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District3",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_common_snowland_building_creak",
+        "StopEventName": "Ev_sfx_common_snowland_building_creak_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 135.365738,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9987756,
+                "y": 0.0489045456,
+                "z": -0.00746126752
+              },
+              "sqrMagnitude": 18323.8828,
+              "x": -135.2,
+              "y": 6.62,
+              "z": -1.01
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 132.458313,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.9949545,
+                  "y": 0.07609942,
+                  "z": -0.06537907
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.994954467,
+                "y": 0.07609941,
+                "z": -0.06537906
+              },
+              "sqrMagnitude": 17545.2031,
+              "x": -131.79,
+              "y": 10.08,
+              "z": -8.66
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -123.3,
+      "PosY": 1.32,
+      "PosZ": -4.6,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 25,
+        "DimY": 10,
+        "DimZ": 25,
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 4,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District4",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_mech_arm",
+        "StopEventName": "Ev_sfx_amb_mech_arm_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 93.82526,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.803088665,
+                "y": 0.2997061,
+                "z": 0.5149999
+              },
+              "sqrMagnitude": 8803.179,
+              "x": -75.35,
+              "y": 28.12,
+              "z": 48.32
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 79.17247,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.70807445,
+                "y": 0.355173975,
+                "z": 0.6103132
+              },
+              "sqrMagnitude": 6268.28027,
+              "x": -56.06,
+              "y": 28.12,
+              "z": 48.32
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -66.5,
+      "PosY": 16.2,
+      "PosZ": 51.2,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 6,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District6",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wind_cliff",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wind_cliff_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 22.8829327,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.203208223,
+                "y": 0.9697184,
+                "z": -0.135472149
+              },
+              "sqrMagnitude": 523.6286,
+              "x": -4.65,
+              "y": 22.19,
+              "z": -3.1
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 55.22968,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.6858632,
+                  "y": 0.388378173,
+                  "z": -0.615430057
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.685863137,
+                "y": 0.388378143,
+                "z": -0.61543
+              },
+              "sqrMagnitude": 3050.31738,
+              "x": -37.88,
+              "y": 21.45,
+              "z": -33.99
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -31.8,
+      "PosY": 25.52,
+      "PosZ": -3.1,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 10,
+        "DimZ": 70,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 7,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District7",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wind_small_loop",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wind_small_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 108.068626,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.847331941,
+                "y": 0.03978953,
+                "z": 0.5295709
+              },
+              "sqrMagnitude": 11678.8281,
+              "x": -91.57,
+              "y": 4.3,
+              "z": 57.23
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -105.1,
+      "PosY": 4.3,
+      "PosZ": 38.2,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 8,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District8",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wind_cliff",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wind_cliff_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 139.72049,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9862548,
+                "y": 0.0115230056,
+                "z": -0.16482909
+              },
+              "sqrMagnitude": 19521.8145,
+              "x": -137.8,
+              "y": 1.61,
+              "z": -23.03
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -133,
+      "PosY": 4.3,
+      "PosZ": -20.1,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 9,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District9",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wind_small_loop",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wind_small_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 55.5634079,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.9000528,
+                  "y": 0.333132952,
+                  "z": 0.280940324
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.9000527,
+                "y": 0.333132923,
+                "z": 0.2809403
+              },
+              "sqrMagnitude": 3087.29224,
+              "x": -50.01,
+              "y": 18.51,
+              "z": 15.61
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 30.51938,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.5511252,
+                "y": 0.606499851,
+                "z": 0.573078454
+              },
+              "sqrMagnitude": 931.432556,
+              "x": -16.82,
+              "y": 18.51,
+              "z": 17.49
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -26.1,
+      "PosY": 4.3,
+      "PosZ": 34.7,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 10,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District10",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wood_click",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wood_click_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 155.612061,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9488339,
+                "y": 0.0276328214,
+                "z": -0.314564317
+              },
+              "sqrMagnitude": 24215.1133,
+              "x": -147.65,
+              "y": 4.3,
+              "z": -48.95
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -145.64,
+      "PosY": 4.3,
+      "PosZ": -51.87,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 11,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District11",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wood_click",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wood_click_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 134.8126,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.9915986,
+                "y": 0.03189613,
+                "z": -0.125359192
+              },
+              "sqrMagnitude": 18174.44,
+              "x": -133.68,
+              "y": 4.3,
+              "z": -16.9
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -131.67,
+      "PosY": 4.3,
+      "PosZ": -19.82,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 12,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District12",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wood_click",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wood_click_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 115.620155,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.993338943,
+                  "y": 0.0358934,
+                  "z": 0.109496489
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.9933389,
+                "y": 0.0358933955,
+                "z": 0.109496482
+              },
+              "sqrMagnitude": 13368.0205,
+              "x": -114.85,
+              "y": 4.15,
+              "z": 12.66
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -110.41,
+      "PosY": 4.3,
+      "PosZ": 20.4,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 13,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District13",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_hertaspacestation_n2_erosion",
+        "StopEventName": "Ev_sfx_hertaspacestation_n2_erosion_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 146.585129,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.942182958,
+                  "y": 0.00156905421,
+                  "z": -0.3350954
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.9421829,
+                "y": 0.00156905409,
+                "z": -0.335095376
+              },
+              "sqrMagnitude": 21487.2,
+              "x": -138.11,
+              "y": 0.23,
+              "z": -49.12
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -143.41,
+      "PosY": 4.3,
+      "PosZ": -51.87,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 15
+      }
+    },
+    {
+      "ID": 14,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District14",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_hertaspacestation_n2_erosion",
+        "StopEventName": "Ev_sfx_hertaspacestation_n2_erosion_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 122.461945,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.9186528,
+                  "y": 0.00187813467,
+                  "z": -0.395061553
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.9186527,
+                "y": 0.00187813456,
+                "z": -0.395061523
+              },
+              "sqrMagnitude": 14996.9277,
+              "x": -112.5,
+              "y": 0.23,
+              "z": -48.38
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -119.04,
+      "PosY": 4.3,
+      "PosZ": -51.87,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 15
+      }
+    },
+    {
+      "ID": 15,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District15",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_hertaspacestation_n2_erosion",
+        "StopEventName": "Ev_sfx_hertaspacestation_n2_erosion_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 128.343033,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9913277,
+                "y": 0.0316339731,
+                "z": -0.127548814
+              },
+              "sqrMagnitude": 16471.9336,
+              "x": -127.23,
+              "y": 4.06,
+              "z": -16.37
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -119.04,
+      "PosY": 4.3,
+      "PosZ": -16.64,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 15
+      }
+    },
+    {
+      "ID": 16,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District16",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_hertaspacestation_n2_erosion",
+        "StopEventName": "Ev_sfx_hertaspacestation_n2_erosion_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 122.47374,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.978332162,
+                "y": 0.03314996,
+                "z": 0.20437035
+              },
+              "sqrMagnitude": 14999.8164,
+              "x": -119.82,
+              "y": 4.06,
+              "z": 25.03
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -119.04,
+      "PosY": 4.3,
+      "PosZ": 24.76,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 15
+      }
+    },
+    {
+      "ID": 17,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District17",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wind_swish",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wind_swish_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 55.427494,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.492354959,
+                "y": 0.375625849,
+                "z": 0.7851699
+              },
+              "sqrMagnitude": 3072.207,
+              "x": -27.29,
+              "y": 20.82,
+              "z": 43.52
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -26.1,
+      "PosY": 4.3,
+      "PosZ": 34.7,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 18,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District18",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wind_swish",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wind_swish_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 110.204659,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.8581307,
+                "y": 0.06551447,
+                "z": 0.509234369
+              },
+              "sqrMagnitude": 12145.0664,
+              "x": -94.57,
+              "y": 7.22,
+              "z": 56.12
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -99.63,
+      "PosY": 4.3,
+      "PosZ": 34.7,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 19,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District19",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_dark_whoosh",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_dark_whoosh_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 102.194031,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.8813627,
+                  "y": 0.100299411,
+                  "z": 0.461670846
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.8813626,
+                "y": 0.1002994,
+                "z": 0.461670816
+              },
+              "sqrMagnitude": 10443.62,
+              "x": -90.07,
+              "y": 10.25,
+              "z": 47.18
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -99.63,
+      "PosY": 4.3,
+      "PosZ": 34.7,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 20,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District20",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_everwinterhill_wind_gust",
+        "StopEventName": "Ev_sfx_amb_everwinterhill_wind_gust_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 119.603592,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9394367,
+                "y": 0.06036608,
+                "z": 0.337364435
+              },
+              "sqrMagnitude": 14305.02,
+              "x": -112.36,
+              "y": 7.22,
+              "z": 40.35
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 96.49824,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9284107,
+                "y": 0.07482002,
+                "z": 0.363944471
+              },
+              "sqrMagnitude": 9311.91,
+              "x": -89.59,
+              "y": 7.22,
+              "z": 35.12
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -99.63,
+      "PosY": 4.3,
+      "PosZ": 34.7,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 21,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District21",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_snowland_gust",
+        "StopEventName": "Ev_sfx_amb_snowland_gust_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 62.1646461,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.942657948,
+                "y": 0.3040313,
+                "z": 0.137698859
+              },
+              "sqrMagnitude": 3864.44336,
+              "x": -58.6,
+              "y": 18.9,
+              "z": 8.56
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 61.6024,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9512616,
+                "y": 0.3068062,
+                "z": -0.0311676
+              },
+              "sqrMagnitude": 3794.856,
+              "x": -58.6,
+              "y": 18.9,
+              "z": -1.919999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 60.6854,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.8848916,
+                "y": 0.36104238,
+                "z": -0.294304758
+              },
+              "sqrMagnitude": 3682.71777,
+              "x": -53.7,
+              "y": 21.91,
+              "z": -17.86
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -58.6,
+      "PosY": 18.9,
+      "PosZ": 8.56,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 22,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District22",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_snowland_gust",
+        "StopEventName": "Ev_sfx_amb_snowland_gust_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 95.11998,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9883308,
+                "y": 0.122897416,
+                "z": 0.0899916142
+              },
+              "sqrMagnitude": 9047.811,
+              "x": -94.01,
+              "y": 11.69,
+              "z": 8.56
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 94.75349,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.9921535,
+                  "y": 0.123372771,
+                  "z": -0.0202630982
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.992153466,
+                "y": 0.123372763,
+                "z": -0.0202630963
+              },
+              "sqrMagnitude": 8978.224,
+              "x": -94.01,
+              "y": 11.69,
+              "z": -1.919999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 92.06336,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.9679204,
+                  "y": 0.159672648,
+                  "z": -0.193996847
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.967920363,
+                "y": 0.159672633,
+                "z": -0.193996832
+              },
+              "sqrMagnitude": 8475.662,
+              "x": -89.11,
+              "y": 14.7,
+              "z": -17.86
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -94.01,
+      "PosY": 11.69,
+      "PosZ": 8.56,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 23,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District23",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_snowland_gust",
+        "StopEventName": "Ev_sfx_amb_snowland_gust_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 120.112686,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.980745733,
+                "y": 0.01357059,
+                "z": -0.194817051
+              },
+              "sqrMagnitude": 14427.0576,
+              "x": -117.8,
+              "y": 1.63,
+              "z": -23.4
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 122.578011,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9610207,
+                "y": 0.00668961741,
+                "z": -0.2763954
+              },
+              "sqrMagnitude": 15025.3682,
+              "x": -117.8,
+              "y": 0.82,
+              "z": -33.88
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 123.4291,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.9146952,
+                  "y": 0.0203355625,
+                  "z": -0.403632551
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.914695144,
+                "y": 0.02033556,
+                "z": -0.403632522
+              },
+              "sqrMagnitude": 15234.7422,
+              "x": -112.9,
+              "y": 2.51,
+              "z": -49.82
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -117.8,
+      "PosY": -0.5,
+      "PosZ": -23.4,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 24,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District24",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_snowland_gust",
+        "StopEventName": "Ev_sfx_amb_snowland_gust_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 150.0243,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.92784965,
+                "y": -0.00333279325,
+                "z": -0.372939557
+              },
+              "sqrMagnitude": 22507.291,
+              "x": -139.2,
+              "y": -0.5,
+              "z": -55.95
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 159.915634,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.9473121,
+                  "y": -0.0342055373,
+                  "z": -0.318480462
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.947312057,
+                "y": -0.0342055336,
+                "z": -0.318480432
+              },
+              "sqrMagnitude": 25573.01,
+              "x": -151.49,
+              "y": -5.47,
+              "z": -50.93
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -139.2,
+      "PosY": -0.5,
+      "PosZ": -32.7,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 5,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District5",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 1,
+          "RandomFrequncy": 5
+        }
+      ],
+      "OnExitRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -31.8,
+      "PosY": 25.52,
+      "PosZ": -3.1,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 10,
+        "DimZ": 55,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 25,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District25",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -91.3,
+      "PosY": -2.1,
+      "PosZ": 15.7,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 200,
+        "DimY": 45,
+        "DimZ": 200,
+        "Radius": 100,
+        "Shape": "Box"
+      }
+    }
+  ],
+  "GroupName": "Sound",
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
+}

@@ -1,0 +1,103 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20001_F20001001_G49",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "NPC_Yblh",
+  "LittleGameList": [],
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 2000101,
+        "Phase": "Finish"
+      },
+      {
+        "ID": 2000103,
+        "Phase": "Finish"
+      }
+    ],
+    "DelayToLevelReload": true,
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010291,
+      "DefaultIdleStateName": "Distress01Loop",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G49/DialogueMain_F20001001_G49_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G49/DialoguePack_Transferred_F20001001_G49_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        500001002,
+        500001003
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "FirstDialogueGroupID": 500001001,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10103,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 6.38,
+      "PosY": 0.147002,
+      "PosZ": 107.27,
+      "RotY": 276.4105,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        500001000
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 2000102
+      },
+      {
+        "ID": 2000103
+      },
+      {
+        "ID": 200011602,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

@@ -1,0 +1,592 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "CheckPoint_1",
+      "PosX": -30.68,
+      "PosY": -0.9813,
+      "PosZ": -73.20101,
+      "RotY": 270.0073
+    },
+    {
+      "ID": 2,
+      "Name": "CheckPoint_2",
+      "PosX": -59.24,
+      "PosY": -1.369544,
+      "PosZ": -58.59,
+      "RotY": 241.1009
+    },
+    {
+      "ID": 3,
+      "Name": "CheckPoint_3",
+      "PosX": -78.17,
+      "PosY": -3.195002,
+      "PosZ": -87.87,
+      "RotY": 307.7621
+    },
+    {
+      "ID": 4,
+      "Name": "CheckPoint_4",
+      "PosX": -87.17,
+      "PosY": -3.195002,
+      "PosZ": -69.09,
+      "RotY": 22.0664
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P44001_F44001001_G38",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [
+    {
+      "DistrictType": "Level",
+      "ID": 1,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "CheckPoint_2_District",
+      "PosX": -63.34,
+      "PosY": -1.68,
+      "PosZ": -57.33,
+      "RotY": 227.9245,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 6.18,
+        "DimZ": 6.18,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "GeometryBox"
+      },
+      "ValueSource": {}
+    },
+    {
+      "DistrictType": "Level",
+      "ID": 2,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "CheckPoint_3_District",
+      "PosX": -79.69,
+      "PosY": -3.195002,
+      "PosZ": -85.94,
+      "RotY": 269.1451,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 6.18,
+        "DimZ": 6.18,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "GeometryBox"
+      },
+      "ValueSource": {}
+    },
+    {
+      "DistrictType": "Level",
+      "ID": 3,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "CheckPoint_4_District",
+      "PosX": -87.7,
+      "PosY": -3.195002,
+      "PosZ": -68.89,
+      "RotY": 2.003007,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 6.18,
+        "DimZ": 6.18,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "GeometryBox"
+      },
+      "ValueSource": {}
+    }
+  ],
+  "GroupName": "Tpl_PeiPeiChallenge01",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupTemplateGraph/PeiPeiChallenge.json",
+  "LoadOnInitial": true,
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/GamePlay/PeiPei/ST_NPCMonster_FindPeiPei_Master.json",
+        "PathwayList": [
+          {
+            "UseGroup": 38,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 8,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40002048,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8012030,
+      "Name": "Monster1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -71.42,
+      "PosY": -3.195002,
+      "PosZ": -60.81,
+      "RotY": 113.5358,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/GamePlay/PeiPei/ST_NPCMonster_FindPeiPei_Master.json",
+        "PathwayList": [
+          {
+            "UseGroup": 38,
+            "UseID": 2,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 8,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40002048,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8012030,
+      "Name": "Monster2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -72.42,
+      "PosY": -3.195002,
+      "PosZ": -73.02,
+      "RotY": 113.5358,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/GamePlay/PeiPei/ST_NPCMonster_FindPeiPei_Master.json",
+        "PathwayList": [
+          {
+            "UseGroup": 38,
+            "UseID": 3,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 8,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40002046,
+      "ID": 200003,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8012010,
+      "Name": "Monster3",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -80.63,
+      "PosY": -3.195002,
+      "PosZ": -86.137,
+      "RotY": 328.805,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/GamePlay/PeiPei/ST_NPCMonster_FindPeiPei_Master.json",
+        "PathwayList": [
+          {
+            "UseGroup": 38,
+            "UseID": 4,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 8,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40002046,
+      "ID": 200004,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8012010,
+      "Name": "Monster4",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -97.619,
+      "PosY": -1.427533,
+      "PosZ": -60.53,
+      "RotY": 328.805,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -14.71392,
+      "PosY": 1.039487,
+      "PosZ": -70.81121,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -14.71392,
+      "PosY": 1.039487,
+      "PosZ": -70.81121,
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    },
+    {
+      "ID": 3,
+      "Name": "Pathway3",
+      "PosX": -14.71392,
+      "PosY": 1.039487,
+      "PosZ": -70.81121,
+      "WaypointIDList": [
+        9,
+        10
+      ]
+    },
+    {
+      "ID": 4,
+      "Name": "Pathway4",
+      "PosX": -14.71392,
+      "PosY": 1.039487,
+      "PosZ": -70.81121,
+      "WaypointIDList": [
+        11,
+        12
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint01_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G38,CheckPoint_1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint02_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G38,CheckPoint_2"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint02_DistrictID",
+        "Value": "1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint03_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G38,CheckPoint_3"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint03_DistrictID",
+        "Value": "2"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint04_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G38,CheckPoint_4"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint04_DistrictID",
+        "Value": "3"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "RaidChanllenge",
+        "Value": "440010101"
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint01_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G38,CheckPoint_1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint02_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G38,CheckPoint_2"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint02_DistrictID",
+        "Value": "1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint03_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G38,CheckPoint_3"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint03_DistrictID",
+        "Value": "2"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint04_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G38,CheckPoint_4"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint04_DistrictID",
+        "Value": "3"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "RaidChanllenge",
+        "Value": "440010101"
+      }
+    ]
+  },
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -71.02,
+      "PosY": -3.195002,
+      "PosZ": -61
+    },
+    {
+      "ID": 2,
+      "PosX": -81.94,
+      "PosY": -3.195002,
+      "PosZ": -61
+    },
+    {
+      "ID": 3,
+      "PosX": -63,
+      "PosY": -3.195002,
+      "PosZ": -73.13
+    },
+    {
+      "ID": 4,
+      "PosX": -72.09,
+      "PosY": -3.195002,
+      "PosZ": -73.13
+    },
+    {
+      "ID": 5,
+      "PosX": -51.31,
+      "PosY": -1.458,
+      "PosZ": -91.66
+    },
+    {
+      "ID": 6,
+      "PosX": -61.09,
+      "PosY": -1.369501,
+      "PosZ": -87.78
+    },
+    {
+      "ID": 7,
+      "PosX": -131.02,
+      "PosY": 2.993045,
+      "PosZ": -41.09
+    },
+    {
+      "ID": 8,
+      "PosX": -128.358,
+      "PosY": 2.993045,
+      "PosZ": -52.388
+    },
+    {
+      "ID": 9,
+      "PosX": -80.72,
+      "PosY": -3.195002,
+      "PosZ": -86.237
+    },
+    {
+      "ID": 10,
+      "PosX": -90.08,
+      "PosY": -3.195002,
+      "PosZ": -79.42
+    },
+    {
+      "ID": 11,
+      "PosX": -97.68,
+      "PosY": -1.427545,
+      "PosZ": -60.73
+    },
+    {
+      "ID": 12,
+      "PosX": -94.73,
+      "PosY": -1.192327,
+      "PosZ": -50.23
+    },
+    {
+      "ID": 13,
+      "PosX": -134.147,
+      "PosY": -0.119881,
+      "PosZ": -76.665
+    },
+    {
+      "ID": 14,
+      "PosX": -134.147,
+      "PosY": -0.119881,
+      "PosZ": -69.71
+    }
+  ]
+}

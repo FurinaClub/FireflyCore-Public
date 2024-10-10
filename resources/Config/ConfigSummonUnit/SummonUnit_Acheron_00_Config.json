@@ -1,0 +1,79 @@
+{
+  "AttachPoint": "Origin",
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "Duration": {
+    "fixedValue": {
+      "Value": -1
+    }
+  },
+  "GroupConfigName": "Default",
+  "OnCreate": [],
+  "OnDestroy": [],
+  "ResidentEffects": [],
+  "ShoesType": "boot",
+  "TickLodTemplateName": "DefaultStaticEntity",
+  "TriggerConfig": {
+    "CustomTriggers": [
+      {
+        "ColliderRelativePath": "Trigger",
+        "DefaultEnable": true,
+        "ForceSyncTargetToSever": true,
+        "OnTriggerEnter": [
+          {
+            "$type": "RPG.GameCore.PredicateTaskList, RPG.GameCore.Config",
+            "Predicate": {
+              "$type": "RPG.GameCore.ByAllowInstantKill, RPG.GameCore.Config",
+              "IsClientOnly": true,
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+                "Alias": "TaskActionTarget"
+              },
+              "TaskEnabled": true
+            },
+            "SuccessTaskList": [
+              {
+                "$type": "RPG.GameCore.AddMazeBuff, RPG.GameCore.Config",
+                "ID": 130802,
+                "IsClientOnly": true,
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+                  "Alias": "TaskActionTarget"
+                },
+                "TaskEnabled": true
+              }
+            ],
+            "TaskEnabled": true
+          }
+        ],
+        "OnTriggerExit": [
+          {
+            "$type": "RPG.GameCore.RefreshMazeBuffTime, RPG.GameCore.Config",
+            "ID": 130802,
+            "IsClientOnly": true,
+            "LifeTime": {
+              "fixedValue": {
+                "Value": 0.5000000004656613
+              }
+            },
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "TaskEnabled": true
+          }
+        ],
+        "Radius": {
+          "fixedValue": {
+            "Value": 20
+          }
+        },
+        "RayStartOffsetY": 1,
+        "SkipFakeAvatar": true,
+        "TargetTypes": [
+          "NPCMonster"
+        ],
+        "TriggerName": "AcheronNpcMonsterTrigger"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P10101_F10101001_G169",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "NPC",
+  "LittleGameList": [],
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101001_G169/DialogueMain_F10101001_G169_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101001_G169/DialoguePack_Common_F10101001_G169_N400001.json",
+            "Name": "Common"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        100004002,
+        100004003
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "FirstDialogueGroupID": 501026901,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11207,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": -782933146
+      },
+      "OverrideNPCTitle": {
+        "Hash": 1130215676
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "OverrideSeriesID": 1120701,
+      "PosX": -11.22,
+      "PosY": 0.233852,
+      "PosZ": -81.57,
+      "RotY": 63.54863,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 2011301
+      },
+      {
+        "ID": 2011301,
+        "Phase": "Finish"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

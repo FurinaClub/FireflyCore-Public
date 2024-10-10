@@ -1,0 +1,79 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20122_F20122001_G60",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2010904_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 201090411,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 201090412,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 201090413,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        4,
+        64
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 200500214,
+      "DefaultIdleStateName": "Maze_StandBy_01",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 2109,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 1698982860
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideSeriesID": 210901,
+      "PosX": -1.685,
+      "PosY": -0.169,
+      "PosZ": 117.953,
+      "RotY": 38.4,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 2010904,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 201090413,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
+}

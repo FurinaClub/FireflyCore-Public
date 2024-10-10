@@ -1,0 +1,131 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter00/EnviroProfile/Chap00_CloseView_MAZ_N201_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 80409003,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 1000203,
+            "Phase": "Finish"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    },
+    "6": {
+      "Category": "Custom",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "7": {
+      "Category": "Custom",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "8": {
+      "Category": "Custom",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409003/LevelGroup_P80409_F80409003_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409003/LevelGroup_P80409_F80409003_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409003/LevelGroup_P80409_F80409003_G3.json",
+      "ID": 3,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409003/LevelGroup_P80409_F80409003_G4.json",
+      "ID": 4,
+      "Name": "MainMission_RoadBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409003/LevelGroup_P80409_F80409003_G5.json",
+      "ID": 5,
+      "Name": "MainMission_RoadBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409003/LevelGroup_P80409_F80409003_G6.json",
+      "ID": 6,
+      "Name": "RogueArea"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409003/LevelGroup_P80409_F80409003_G7.json",
+      "ID": 7,
+      "Name": "RogueBase_Common"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409003/LevelGroup_P80409_F80409003_G8.json",
+      "ID": 8,
+      "Name": "AdvDes"
+    }
+  ],
+  "IsRestartLevelGraph": true,
+  "LayerToAreaMask": [
+    8,
+    16,
+    32
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20002_F20002001.json",
+  "StageData": "Stages/Outputs/Chapter00/Stages/Chap00_MAZ_N201_MainLine_01_StageData/Chap00_MAZ_N201_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

@@ -1,0 +1,102 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20003_F20003001_G70",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC_ADL",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 1000401,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100040291,
+      "DefaultIdleStateName": "Distress01Loop",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G70/DialogueMain_F20003001_G70_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G70/DialoguePack_Mission_F20003001_G70_N400001.json",
+            "Name": "Mission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G70/DialoguePack_Transferred_F20003001_G70_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        500000102,
+        500000103
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FirstDialogueGroupID": 500000101,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10301,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 14.71,
+      "PosY": 76.67698,
+      "PosZ": 49.91,
+      "RotY": 137.625,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        500000100
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 2000116
+      },
+      {
+        "ID": 2000116,
+        "Phase": "Finish"
+      },
+      {
+        "ID": 3000801
+      },
+      {
+        "ID": 3000802
+      },
+      {
+        "ID": 3000803
+      },
+      {
+        "ID": 300080001,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "WaypointList": []
+}

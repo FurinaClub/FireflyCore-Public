@@ -1,0 +1,247 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -3.059997,
+      "PosY": -6.567902,
+      "PosZ": -36.95,
+      "RotY": 89.99974
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -0.092,
+      "PosY": 4.277715,
+      "PosZ": 68.083,
+      "RotY": 155.5665
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": 9.5,
+      "PosY": -3.485962,
+      "PosZ": -22.5
+    },
+    {
+      "ID": 4,
+      "Name": "Anchor4",
+      "PosX": -36.01,
+      "PosY": 0.535142,
+      "PosZ": 71.38,
+      "RotY": 180
+    },
+    {
+      "ID": 5,
+      "Name": "Anchor5",
+      "PosX": -37.662,
+      "PosY": -3.486227,
+      "PosZ": -7.44,
+      "RotY": 89.99995
+    },
+    {
+      "ID": 6,
+      "Name": "Anchor6",
+      "PosX": -44.76,
+      "PosY": 0.602115,
+      "PosZ": 60.137,
+      "RotY": 89.99995
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10202_F10202001_G1",
+  "AudienceList": [],
+  "BattleAreaList": [
+    {
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X02_Night.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea01",
+      "PrefetchMainMissionList": [],
+      "PrefetchSubMissionList": [
+        202031901,
+        102080114
+      ],
+      "PropsGroupID": 89,
+      "RotY": 0.00001,
+      "Tags": [
+        "BattleArea01"
+      ]
+    }
+  ],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "AnchorGroupID": 1,
+      "AnchorID": 2,
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "DimX": 10,
+          "DimY": 6,
+          "DimZ": 22,
+          "Offset": {
+            "magnitude": 5.83095169,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1.00000012,
+              "x": 0.5144958,
+              "z": -0.857493
+            },
+            "sqrMagnitude": 34,
+            "x": 3,
+            "z": -5
+          },
+          "PointList": [],
+          "Radius": 5,
+          "Server": true,
+          "Shape": "Box"
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 1020202,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -2.460003,
+      "PosY": 4.277716,
+      "PosZ": 64.96,
+      "PropID": 101,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "State": "CheckPointEnable",
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "AnchorGroupID": 1,
+      "AnchorID": 3,
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Offset": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "y": 1
+          },
+          "PointList": [],
+          "Radius": 5,
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 1020201,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 8.32,
+      "PosY": -3.485962,
+      "PosZ": -25.08,
+      "PropID": 101,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "State": "CheckPointEnable",
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
+}

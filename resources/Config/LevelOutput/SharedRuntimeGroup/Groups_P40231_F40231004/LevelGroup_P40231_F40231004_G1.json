@@ -1,0 +1,168 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "CheckPoint01",
+      "PosX": -696.11,
+      "PosY": 6.27,
+      "PosZ": 73.24,
+      "RotY": 270
+    },
+    {
+      "ID": 2,
+      "Name": "CheckPoint02",
+      "PosX": 70.22,
+      "PosY": 45.70215,
+      "PosZ": -61.84,
+      "RotY": 74.99989
+    },
+    {
+      "ID": 3,
+      "Name": "CheckPoint03",
+      "PosX": 5.49,
+      "PosY": 13.88401,
+      "PosZ": 34.06,
+      "RotY": 225
+    },
+    {
+      "ID": 4,
+      "Name": "CheckPoint04",
+      "PosX": -34.006,
+      "PosY": 13.59498,
+      "PosZ": -14.67,
+      "RotY": 270
+    },
+    {
+      "ID": 5,
+      "Name": "Anchor5",
+      "PosX": -676.8664,
+      "PosY": 0.783356,
+      "PosZ": 72.91899,
+      "RotY": 270
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P40231_F40231004_G1",
+  "BattleAreaList": [
+    {
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Day.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea1",
+      "PrefetchMainMissionList": [],
+      "PrefetchSubMissionList": [],
+      "Tags": [
+        "BattleArea01"
+      ]
+    }
+  ],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "AnchorGroupID": 1,
+      "AnchorID": 5,
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Offset": {
+            "magnitude": 6,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            },
+            "sqrMagnitude": 36,
+            "y": 6
+          },
+          "PointList": [],
+          "Radius": 14,
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Raid/InitLevelGraph_Prop_Raid_CheckPoint_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2102,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -686.89,
+      "PosY": -0.46,
+      "PosZ": 77.69293,
+      "PropID": 3002,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "State": "CheckPointEnable",
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "Offset": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "y": 1
+        },
+        "PointList": [],
+        "Radius": 2
+      },
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
+}

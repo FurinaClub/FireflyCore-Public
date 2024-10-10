@@ -1,0 +1,199 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -84.36,
+      "PosY": 1.506435,
+      "PosZ": 33.23,
+      "RotY": 99.12195
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20232_F20232001_G86",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "SideMission2020204",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 202020401,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 202020308,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 202020402,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_202020401.json",
+        "PathwayList": [
+          {
+            "UseGroup": 86,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100040000,
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 202020402,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20232/F20232001_G86/DialogueMain_F20232001_G86_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "NPCID": 12312,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 1286062209
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -144.123,
+      "PosY": 11.09,
+      "PosZ": 32.938,
+      "RotY": 134.8378,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100040000,
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 202020402,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20232/F20232001_G86/DialogueMain_F20232001_G86_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "NPCID": 12312,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 1286062209
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -84.36,
+      "PosY": 1.506435,
+      "PosZ": 33.23,
+      "RotY": 92.21568,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -135.0541,
+      "PosY": 7.811164,
+      "PosZ": 33.51002,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 202020402,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      },
+      {
+        "ID": 202020403,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ],
+    "DelayToLevelReload": true
+  },
+  "ValueSource": {},
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -144.123,
+      "PosY": 11.09,
+      "PosZ": 32.938
+    },
+    {
+      "ID": 2,
+      "PosX": -127.5,
+      "PosY": 11.09,
+      "PosZ": 16.32
+    },
+    {
+      "ID": 3,
+      "PosX": -105.16,
+      "PosY": 5.939786,
+      "PosZ": 29.79
+    },
+    {
+      "ID": 4,
+      "PosX": -87.92,
+      "PosY": 2.165497,
+      "PosZ": 34
+    },
+    {
+      "ID": 5,
+      "PosX": -84.36,
+      "PosY": 1.506435,
+      "PosZ": 33.23
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam02.prefab",
+      "Name": "Anchor1",
+      "PosX": -85.78,
+      "PosY": 61.91,
+      "PosZ": 132.97,
+      "RotX": 14.61594,
+      "RotY": 155.6154,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 2,
+      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab",
+      "Name": "Anchor2",
+      "PosX": -77.89,
+      "PosY": 58.24,
+      "PosZ": 136.03,
+      "RotX": 354.7736,
+      "RotY": 128.5095,
+      "Usage": "Camera"
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20222_F20222001_G45",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1021101_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 102110129,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102110110,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "OwnerMainMissionID": 1021101,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_03": {
+          "DimX": 19,
+          "DimY": 5,
+          "DimZ": 12,
+          "Offset": {
+            "magnitude": 11.3137083,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.7071068,
+                "z": 0.7071068
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": 0.707106769,
+              "z": 0.707106769
+            },
+            "sqrMagnitude": 128,
+            "x": 8,
+            "z": 8
+          },
+          "PointList": [],
+          "Radius": 8,
+          "Shape": "Box"
+        }
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_DestroyrootPuzzle_03.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -71.72,
+      "PosY": 54.21,
+      "PosZ": 120.26,
+      "PropID": 102062,
+      "RotY": 180.973,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleBoard",
+            "Value": "Props/Outputs/Chap02/Chap02_Prop_DestroyRootPuzzle/Chap02_Prop_DestroyRootPuzzle_04.prefab"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Vcam",
+            "Value": "LevelArea_P20222_F20222001_G45,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "FinishVcam",
+            "Value": "LevelArea_P20222_F20222001_G45,Anchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Rootcontamination",
+            "Value": "45,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "LockedConsole",
+            "Value": "10,300013"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayingCamera",
+            "Value": "Chap02_MAZ_X202_LevelArea,RootPuzzle_MainMission_3_Playing"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleBoard",
+            "Value": "Props/Outputs/Chap02/Chap02_Prop_DestroyRootPuzzle/Chap02_Prop_DestroyRootPuzzle_04.prefab"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Vcam",
+            "Value": "LevelArea_P20222_F20222001_G45,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "FinishVcam",
+            "Value": "LevelArea_P20222_F20222001_G45,Anchor2"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Rootcontamination",
+            "Value": "45,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "LockedConsole",
+            "Value": "10,300013"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayingCamera",
+            "Value": "Chap02_MAZ_X202_LevelArea,RootPuzzle_MainMission_3_Playing"
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_DestroyrootPuzzle_Contamination.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -62.56,
+      "PosY": 53.25,
+      "PosZ": 110.42,
+      "PropID": 102059,
+      "RotY": 90,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
+}

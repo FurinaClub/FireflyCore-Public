@@ -1,0 +1,951 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P43217_F43217002_G5",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [
+    {
+      "ID": 1,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District1",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Sichengong_Inside"
+        }
+      ],
+      "PosX": 2.2,
+      "PosY": 11.75,
+      "PosZ": -5.8,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 60,
+        "DimY": 10,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 50,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 2,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District2",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Sichengong_Inside_Stairway"
+        }
+      ],
+      "PosX": -0.2,
+      "PosY": 5.7,
+      "PosZ": -35.23,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 50,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 3,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District3",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_tech",
+        "StopEventName": "Ev_sfx_amb_sichengong_tech_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 20.47542,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.218798935,
+                "y": 0.401456922,
+                "z": -0.889359
+              },
+              "sqrMagnitude": 419.242859,
+              "x": -4.48,
+              "y": 8.219999,
+              "z": -18.21
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -1.67,
+      "PosY": 5.7,
+      "PosZ": -14.66,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 4,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District4",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_tech",
+        "StopEventName": "Ev_sfx_amb_sichengong_tech_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 18.20046,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.341749579,
+                "y": 0.451636881,
+                "z": -0.824155
+              },
+              "sqrMagnitude": 331.256775,
+              "x": 6.22,
+              "y": 8.219999,
+              "z": -15
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -0.54,
+      "PosY": 5.7,
+      "PosZ": -14.66,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 5,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District5",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_map_glitch",
+        "StopEventName": "Ev_sfx_amb_sichengong_map_glitch_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 11.4001532,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.01631557,
+                "y": 0.7605161,
+                "z": -0.6491141
+              },
+              "sqrMagnitude": 129.9635,
+              "x": -0.186,
+              "y": 8.67,
+              "z": -7.4
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 0.64,
+      "PosY": 5.7,
+      "PosZ": -5.32,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 6,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District6",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_tech",
+        "StopEventName": "Ev_sfx_amb_sichengong_tech_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 11.6576071,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.0159552488,
+                  "y": 0.9240319,
+                  "z": 0.3819824
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.015955247,
+                "y": 0.924031854,
+                "z": 0.381982356
+              },
+              "sqrMagnitude": 135.8998,
+              "x": -0.186,
+              "y": 10.772,
+              "z": 4.453
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 0.64,
+      "PosY": 5.7,
+      "PosZ": 11.83,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 7,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District7",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_tech_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_tech_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 19.4202614,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.5182217,
+                "y": 0.8522027,
+                "z": -0.07208966
+              },
+              "sqrMagnitude": 377.146545,
+              "x": 10.064,
+              "y": 16.55,
+              "z": -1.4
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 5.75,
+      "PosY": 9.55,
+      "PosZ": -5.29,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 8,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District8",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_tech_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_tech_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 19.5057545,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.5243581,
+                "y": 0.8484675,
+                "z": -0.07177369
+              },
+              "sqrMagnitude": 380.474426,
+              "x": -10.228,
+              "y": 16.55,
+              "z": -1.4
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -6.17,
+      "PosY": 9.55,
+      "PosZ": -5.29,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 9,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District9",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_tech_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_tech_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 22.0592,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.470778674,
+                  "y": 0.750253856,
+                  "z": -0.4642054
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.470778644,
+                "y": 0.7502538,
+                "z": -0.464205384
+              },
+              "sqrMagnitude": 486.6083,
+              "x": -10.385,
+              "y": 16.55,
+              "z": -10.24
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -4.75,
+      "PosY": 9.55,
+      "PosZ": -9.26,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 10,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District10",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_tech_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_tech_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 21.9717846,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.464140743,
+                  "y": 0.7532388,
+                  "z": -0.4660523
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": 0.4641407,
+                "y": 0.753238738,
+                "z": -0.466052264
+              },
+              "sqrMagnitude": 482.759277,
+              "x": 10.198,
+              "y": 16.55,
+              "z": -10.24
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 4.8,
+      "PosY": 9.55,
+      "PosZ": -9.26,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 11,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District11",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Sichengong_Inside"
+        }
+      ],
+      "PosX": 2.2,
+      "PosY": 18.09,
+      "PosZ": -46.17,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 30,
+        "DimY": 20,
+        "DimZ": 30,
+        "PointList": [],
+        "Radius": 50,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 12,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District12",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_map_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_map_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 11.4001532,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.01631557,
+                "y": 0.7605161,
+                "z": -0.6491141
+              },
+              "sqrMagnitude": 129.9635,
+              "x": -0.186,
+              "y": 8.67,
+              "z": -7.4
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 0.64,
+      "PosY": 5.7,
+      "PosZ": -5.32,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 5,
+        "DimZ": 8,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 13,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District13",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_shimmer_distant",
+        "StopEventName": "Ev_sfx_amb_sichengong_shimmer_distant_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 25.10581,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.337372124,
+                "y": 0.8197306,
+                "z": 0.462841064
+              },
+              "sqrMagnitude": 630.3017,
+              "x": 8.47,
+              "y": 20.58,
+              "z": 11.62
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 28.00288,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.5363735,
+                  "y": 0.734924436,
+                  "z": 0.414957345
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.536373436,
+                "y": 0.7349244,
+                "z": 0.4149573
+              },
+              "sqrMagnitude": 784.161255,
+              "x": -15.02,
+              "y": 20.58,
+              "z": 11.62
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 2.2,
+      "PosY": 11.75,
+      "PosZ": -5.8,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 60,
+        "DimY": 30,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 50,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 14,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District14",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 4,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": 2.2,
+      "PosY": 11.75,
+      "PosZ": -5.8,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 60,
+        "DimY": 30,
+        "DimZ": 80,
+        "PointList": [],
+        "Radius": 50,
+        "Shape": "Box"
+      },
+      "ValueSource": {}
+    }
+  ],
+  "GroupName": "Sound",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
+}

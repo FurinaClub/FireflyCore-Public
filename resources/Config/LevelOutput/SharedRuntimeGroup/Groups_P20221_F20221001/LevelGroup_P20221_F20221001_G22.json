@@ -1,0 +1,106 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20221_F20221001_G22",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1020801_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 102080106,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102080107,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102080108,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102080109,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102080110,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102080110,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102080111,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102080112,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 102080126,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 312080215,
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20221/F20221001_G22/DialogueMain_F20221001_G22_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [
+        102080113,
+        102080120,
+        102080121
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1207,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 4.488,
+      "PosY": 7.659506,
+      "PosZ": 44.922,
+      "RotY": 38.34489,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 1020801,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 102080119,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
+}

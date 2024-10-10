@@ -1,0 +1,201 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P40101_F40101001_G14",
+  "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Area_A_Monster_Group",
+  "LevelGraph": "Config/Level/Maze/MazeGroup/Maze_Group_TriggerCustomString_WhenMonsterDie.json",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 201130302,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "StartAt": 2,
+            "UseGroup": 14,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40101002,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1022020,
+      "Name": "Monster2_A",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -5.060003,
+      "PosY": -0.05787,
+      "PosZ": 67.64,
+      "RotY": 273.3913
+    },
+    {
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "StartAt": 3,
+            "UseGroup": 14,
+            "UseID": 2
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40101001,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8001010,
+      "Name": "Monster1_A",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 8.748848,
+      "PosY": 1.941943,
+      "PosZ": 105.9988,
+      "RotY": 91.81035
+    },
+    {
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40101003,
+      "ID": 200003,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8002010,
+      "Name": "Monster3_A",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 32.83,
+      "PosY": 3.940464,
+      "PosZ": 124.41,
+      "RotY": 183.0591
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": 2.604958,
+      "PosY": 5.034168,
+      "PosZ": 73.69672,
+      "WaypointIDList": [
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_CurrentGroup",
+        "Value": 14
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_CurrentGroup",
+        "Value": 14
+      }
+    ]
+  },
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 13.08,
+      "PosY": -0.057869,
+      "PosZ": 75.27
+    },
+    {
+      "ID": 2,
+      "PosX": -5.390001,
+      "PosY": -0.05787,
+      "PosZ": 67.96
+    },
+    {
+      "ID": 3,
+      "PosX": 9.41,
+      "PosY": 1.941943,
+      "PosZ": 106.66
+    },
+    {
+      "ID": 4,
+      "PosX": 32.46,
+      "PosY": 3.940464,
+      "PosZ": 106.76
+    },
+    {
+      "ID": 5,
+      "PosX": 44.72,
+      "PosY": 1.939644,
+      "PosZ": 92
+    }
+  ]
+}

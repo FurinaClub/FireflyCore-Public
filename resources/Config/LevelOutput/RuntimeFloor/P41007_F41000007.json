@@ -1,0 +1,85 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M203_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1,
+      "StartGroupIndex": 1
+    }
+  ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 41000007,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "4": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41007_F41000007/LevelGroup_P41007_F41000007_G2.json",
+      "ID": 2,
+      "Name": "Monsters"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41007_F41000007/LevelGroup_P41007_F41000007_G3.json",
+      "ID": 3,
+      "Name": "PlayerStart"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41007_F41000007/LevelGroup_P41007_F41000007_G4.json",
+      "ID": 4,
+      "Name": "Logics"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41007_F41000007/LevelGroup_P41007_F41000007_G5.json",
+      "ID": 5,
+      "Name": "Saves"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41007_F41000007/LevelGroup_P41007_F41000007_G1.json",
+      "ID": 1,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    16,
+    8
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20123_F20123001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M203_MainLine_01_StageData/Chap01_MAZ_M203_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "StartGroupIndex": 1,
+  "TempGroupUnloadByY": 10000000
+}

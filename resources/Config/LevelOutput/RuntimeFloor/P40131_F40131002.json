@@ -1,0 +1,198 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "ConstValues": [
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "AgentType": "Prop",
+          "GroupID": 6,
+          "ID": 2,
+          "InstanceID": 300006,
+          "Name": "RotateBridgeProp"
+        }
+      ],
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M301_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1,
+      "StartGroupIndex": 1
+    }
+  ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40131002,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "4": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "6": {
+      "GroupRefreshID": 1,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "7": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407131210,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "10": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "11": {
+      "Category": "Mission",
+      "SaveType": "Reset"
+    },
+    "12": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "13": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "14": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407131211,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "16": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G1.json",
+      "ID": 1,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G2.json",
+      "ID": 2,
+      "Name": "MonsterArea01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G6.json",
+      "ID": 6,
+      "Name": "DefaultProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G7.json",
+      "ID": 7,
+      "Name": "Boss"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G3.json",
+      "ID": 3,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G4.json",
+      "ID": 4,
+      "Name": "BoxMan"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G5.json",
+      "ID": 5,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G10.json",
+      "ID": 10,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G11.json",
+      "ID": 11,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G12.json",
+      "ID": 12,
+      "Name": "RobotHunt"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G13.json",
+      "ID": 13,
+      "Name": "MissionMonster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G14.json",
+      "ID": 14,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131002/LevelGroup_P40131_F40131002_G16.json",
+      "ID": 16,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20131_F20131001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M301_MainLine_01_StageData/Chap01_MAZ_M301_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "StartGroupIndex": 1,
+  "TempGroupUnloadByY": 10000000
+}

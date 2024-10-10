@@ -1,0 +1,92 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20003_F20003001_G98",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC_ADL",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 2000116,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100040210,
+      "DefaultIdleStateName": "Akimbo01Loop",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G98/DialogueMain_F20003001_G98_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G98/DialoguePack_Transferred_F20003001_G98_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        500000105,
+        500000106,
+        300080000
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10301,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 15.161,
+      "PosY": 76.61608,
+      "PosZ": 51.846,
+      "RotY": 269.0835,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        500000104
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 300080001,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 3000801
+      },
+      {
+        "ID": 3000802
+      },
+      {
+        "ID": 3000803
+      }
+    ],
+    "DelayToLevelReload": true,
+    "Operation": "Or"
+  },
+  "WaypointList": []
+}

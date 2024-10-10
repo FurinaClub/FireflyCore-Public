@@ -1,0 +1,155 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "CameraType": "Maze",
+      "ConstValues": [
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "AgentType": "Prop",
+          "GroupID": 6,
+          "ID": 2,
+          "InstanceID": 300006,
+          "Name": "RotateBridgeProp"
+        }
+      ],
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M301_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40131001,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407131105,
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "6": {
+      "GroupRefreshID": 1,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "7": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "9": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "13": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "14": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "17": {
+      "Category": "Mission",
+      "SaveType": "Reset"
+    },
+    "18": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "20": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G1.json",
+      "ID": 1,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G2.json",
+      "ID": 2,
+      "Name": "MonsterArea01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G6.json",
+      "ID": 6,
+      "Name": "DefaultProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G7.json",
+      "ID": 7,
+      "Name": "Boss"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G9.json",
+      "ID": 9,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G13.json",
+      "ID": 13,
+      "Name": "BoxMan"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G14.json",
+      "ID": 14,
+      "Name": "BoxMan"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G17.json",
+      "ID": 17,
+      "Name": "NPCFinish"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G18.json",
+      "ID": 18,
+      "Name": "RobotHunt"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40131_F40131001/LevelGroup_P40131_F40131001_G20.json",
+      "ID": 20,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20131_F20131001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M301_MainLine_01_StageData/Chap01_MAZ_M301_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

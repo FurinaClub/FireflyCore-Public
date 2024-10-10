@@ -1,0 +1,151 @@
+{
+  "DimensionList": [
+    {
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_ADV_X01_Starskiff_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 43202002,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "3": {
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202100209,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "4": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202100208,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "5": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202100210,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "6": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202100249,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "7": {
+      "Category": "Mission",
+      "SaveType": "Reset"
+    },
+    "8": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202100209,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G2.json",
+      "ID": 2,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G4.json",
+      "ID": 4,
+      "Name": "MainMission2021002_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G3.json",
+      "ID": 3,
+      "Name": "Gameplay_CallPuppy_ForSpecialVision"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G5.json",
+      "ID": 5,
+      "Name": "MainMission2021002_03"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G6.json",
+      "ID": 6,
+      "Name": "MainMission2021002_04"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G7.json",
+      "ID": 7,
+      "Name": "MainMission2021002_05"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G8.json",
+      "ID": 8,
+      "Name": "MainMission2021002_05"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P10201_F10201001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_ADV_X01_Starskiff_StageData/Chap02_ADV_X01_Starskiff_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

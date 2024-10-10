@@ -1,0 +1,275 @@
+{
+  "AIConfig": {
+    "AIFile": "Config/ConfigAI/Adventure/SummonUnit/ST_SummonUnit_Tapir_Master.json",
+    "AdvAIConfig": {
+      "AlertnessIncreaseRatio": 1,
+      "AttackAngle": 60,
+      "AttackCD": 3,
+      "AttackRange": 3,
+      "ChaseAngleTolerance": 60,
+      "ChaseTolerance": 2,
+      "LOSLoseTargetDelay": 0.2,
+      "MaxChaseDistance": 30,
+      "MaxFastRunScale": 1.5,
+      "MaxRunScale": 5,
+      "MaxWalkScale": 2,
+      "MinFastRunScale": 0.5,
+      "MinRunScale": 0.2,
+      "MinWalkScale": 0.7
+    }
+  },
+  "AnimConfig": {
+    "AnimEventConfigList": [
+      "Config/ConfigAnimEvents/Pet/Audio/Pet_Tapir_00_Audio_AnimEvent.json",
+      "Config/ConfigAnimEvents/Pet/Designer/Pet_Tapir_00_Designer_AnimEvent.json",
+      "Config/ConfigAnimEvents/Pet/Effect/Pet_Tapir_00_Effect_AnimEvent.json"
+    ],
+    "AnimZoneConfigPath": "Config/ConfigAnimZone/Pet/Pet_Tapir_00_AnimZone.json",
+    "DisableAnimEventLayers": [
+      "Riboon Layer"
+    ],
+    "EnableIdleShow": true,
+    "FootScale": {
+      "magnitude": 1.73205078,
+      "normalized": {
+        "magnitude": 0.99999994,
+        "normalized": {
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000024,
+          "x": 0.5773503,
+          "y": 0.5773503,
+          "z": 0.5773503
+        },
+        "sqrMagnitude": 0.99999994,
+        "x": 0.577350259,
+        "y": 0.577350259,
+        "z": 0.577350259
+      },
+      "sqrMagnitude": 3,
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "FreeStyleCharacterConfigPath": "Config/ConfigCharacter/FreeStyle/Pet/Pet_Tapir_00_FreeStyle_Config.json",
+    "FreeStyleCharacterID": "Pet_Tapir_00",
+    "MaxRunAnimSpeedRatio": 5,
+    "MaxWalkAnimSpeedRatio": 2,
+    "OverrideMovementStepToGroundCurveName": "StepToGroundCurve_SummonUnit_GroundSmall",
+    "ReferenceFastRunSpeed": -1,
+    "ReferenceRunSpeed": 3,
+    "ReferenceWalkSpeed": 0.915,
+    "RootMotionScale": 1.5,
+    "RunSpeedRatio": 1,
+    "SummonerAnimEventConfigList": [],
+    "WalkSpeedRatio": 1
+  },
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Tapir_00_Entity.json",
+  "Duration": {
+    "fixedValue": {
+      "Value": -1
+    }
+  },
+  "GroupConfigName": "FollowUnit",
+  "MoveConfig": {
+    "AdvAIControllerConfig": {
+      "HasRunStop": true,
+      "HasWalkStop": true,
+      "RunStopTurnThreshold": 40,
+      "TriggerTurnThresholdOnFacing": 30,
+      "TriggerTurnThresholdOnMove": 30,
+      "WalkStopTurnThreshold": 40
+    },
+    "EnablePlatformMove": true,
+    "NavMovingSteerTurnBackTurnSpeed": 75,
+    "NavMovingSteerTurnSpeed": 75,
+    "NavTurnBackTurnSpeed": 540,
+    "NavTurnSpeed": 270
+  },
+  "OnCreate": [
+    {
+      "$type": "RPG.GameCore.AdaptEntityPosition, RPG.GameCore.Config",
+      "IsClientOnly": true,
+      "PosTargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "CasterSummoner"
+      },
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.AdvRemoveAIHangUpInfo, RPG.GameCore.Config",
+      "HangUpKey": {
+        "Value": "HideSummonUnit"
+      },
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.TriggerEffect, RPG.GameCore.Config",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_PetLoad.prefab",
+      "IsClientOnly": true,
+      "MaxMutexCount": 1,
+      "ParamEntityUsage": "LookAt",
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": -0.5773503,
+            "y": -0.5773503,
+            "z": -0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": -0.577350259,
+          "y": -0.577350259,
+          "z": -0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true,
+      "TowardMaxPitchAngle": 90
+    }
+  ],
+  "OnDestroy": [
+    {
+      "$type": "RPG.GameCore.HideWaypoint, RPG.GameCore.Config",
+      "IsClientOnly": true,
+      "OnNameBoard": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    }
+  ],
+  "OnHide": [
+    {
+      "$type": "RPG.GameCore.AdvAddAIHangUpInfo, RPG.GameCore.Config",
+      "AITickImmediately": true,
+      "HangUpKey": {
+        "Value": "HideSummonUnit"
+      },
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.TriggerEffect, RPG.GameCore.Config",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_PetLoad.prefab",
+      "IsClientOnly": true,
+      "MaxMutexCount": 1,
+      "ParamEntityUsage": "LookAt",
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": -0.5773503,
+            "y": -0.5773503,
+            "z": -0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": -0.577350259,
+          "y": -0.577350259,
+          "z": -0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true,
+      "TowardMaxPitchAngle": 90
+    }
+  ],
+  "OnShow": [
+    {
+      "$type": "RPG.GameCore.AdaptEntityPosition, RPG.GameCore.Config",
+      "IsClientOnly": true,
+      "PosTargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "CasterSummoner"
+      },
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.AdvRemoveAIHangUpInfo, RPG.GameCore.Config",
+      "HangUpKey": {
+        "Value": "HideSummonUnit"
+      },
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.TriggerEffect, RPG.GameCore.Config",
+      "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_PetLoad.prefab",
+      "IsClientOnly": true,
+      "MaxMutexCount": 1,
+      "ParamEntityUsage": "LookAt",
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": -0.5773503,
+            "y": -0.5773503,
+            "z": -0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": -0.577350259,
+          "y": -0.577350259,
+          "z": -0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true,
+      "TowardMaxPitchAngle": 90
+    }
+  ],
+  "ResidentEffects": [],
+  "ShoesType": "boot",
+  "ShowShadow": true,
+  "TickLodTemplateName": "DefaultStaticEntity"
+}

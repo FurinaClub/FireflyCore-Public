@@ -1,0 +1,114 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X303_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40233001,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 102160101,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          },
+          {
+            "ID": 102160105,
+            "Type": "SubMission"
+          }
+        ],
+        "DelayToLevelReload": true,
+        "Operation": "Or"
+      }
+    },
+    "3": {
+      "Category": "BattleProps",
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 1021601,
+            "Phase": "Finish"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40233_F40233001/LevelGroup_P40233_F40233001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40233_F40233001/LevelGroup_P40233_F40233001_G3.json",
+      "ID": 3,
+      "Name": "BATProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40233_F40233001/LevelGroup_P40233_F40233001_G2.json",
+      "ID": 2,
+      "Name": "HuanlongFlower"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40233_F40233001/LevelGroup_P40233_F40233001_G4.json",
+      "ID": 4,
+      "Name": "MainMission1021601_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40233_F40233001/LevelGroup_P40233_F40233001_G5.json",
+      "ID": 5,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40233_F40233001/LevelGroup_P40233_F40233001_G7.json",
+      "ID": 7,
+      "Name": "RecoverBuff"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X303_MainLine_01_StageData/Chap02_MAZ_X303_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

@@ -1,0 +1,94 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M101_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 2,
+      "StartGroupIndex": 3
+    }
+  ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 30502001,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "10": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "11": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "12": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "13": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "15": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30502_F30502001/LevelGroup_P30502_F30502001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30502_F30502001/LevelGroup_P30502_F30502001_G10.json",
+      "ID": 10,
+      "Name": "Public01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30502_F30502001/LevelGroup_P30502_F30502001_G11.json",
+      "ID": 11,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30502_F30502001/LevelGroup_P30502_F30502001_G12.json",
+      "ID": 12,
+      "Name": "Wave1_Monsters"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30502_F30502001/LevelGroup_P30502_F30502001_G13.json",
+      "ID": 13,
+      "Name": "Wave1_Destructable"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30502_F30502001/LevelGroup_P30502_F30502001_G15.json",
+      "ID": 15,
+      "Name": "Hint"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20111_F20111001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M101_MainLine_01_StageData/Chap01_MAZ_M101_MainLine_01_StageData.stage",
+  "StartAnchorID": 2,
+  "StartGroupIndex": 3,
+  "TempGroupUnloadByY": 10000000
+}

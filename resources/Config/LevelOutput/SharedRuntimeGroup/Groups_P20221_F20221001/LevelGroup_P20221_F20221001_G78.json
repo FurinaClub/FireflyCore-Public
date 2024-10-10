@@ -1,0 +1,120 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -43.87,
+      "PosY": 8.239971,
+      "PosZ": -116.67
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20221_F20221001_G78",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Sub_Kfk",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 602020112,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 602020153,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 78,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 5,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20221213,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2022010,
+      "Name": "Monster1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -30.39341,
+      "PosY": 8.293555,
+      "PosZ": -124.5159,
+      "RotY": 288.5955,
+      "TagList": []
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 602020113,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -30.98089,
+      "PosY": 8.239965,
+      "PosZ": -118.8027
+    },
+    {
+      "ID": 2,
+      "PosX": -51.8,
+      "PosY": 8.23997,
+      "PosZ": -120.85
+    },
+    {
+      "ID": 3,
+      "PosX": -51.81,
+      "PosY": 8.293547,
+      "PosZ": -107.5
+    }
+  ]
+}

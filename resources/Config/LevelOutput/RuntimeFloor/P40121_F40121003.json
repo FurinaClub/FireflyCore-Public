@@ -1,0 +1,50 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M201_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40121003,
+  "GroupInstanceCommonMap": {
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "20": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121003/LevelGroup_P40121_F40121003_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121003/LevelGroup_P40121_F40121003_G20.json",
+      "ID": 20,
+      "Name": "New Group"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20121_F20121001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M201_MainLine_01_StageData/Chap01_MAZ_M201_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

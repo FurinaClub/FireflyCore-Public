@@ -1,0 +1,231 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -3.215,
+      "PosY": 0.071116,
+      "PosZ": 0.602,
+      "RotY": 95.05855
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -0.768,
+      "PosY": 0.071056,
+      "PosZ": 1.163,
+      "RotY": 61.14167,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": 2.398521,
+      "PosY": 4.331817,
+      "PosZ": -5.452039,
+      "RotX": 9.453683,
+      "RotY": 57.37431,
+      "RotZ": 0.000451,
+      "Usage": "Camera"
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P80112_F80112001_G17",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2000702_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 200070201,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 200070201,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        4,
+        1,
+        64
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310070000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 200070203,
+              "Type": "SubMission"
+            },
+            {
+              "ID": 200070204,
+              "Type": "SubMission"
+            }
+          ],
+          "Operation": "Or"
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P80112/F80112001_G17/DialogueMain_F80112001_G17_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P80112/F80112001_G17/DialoguePack_Transferred_F80112001_G17_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        200070203,
+        200070204
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LoadOnInitial": true,
+      "MiniMapIconType": 14,
+      "NPCID": 1007,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideSeriesID": 4294967295,
+      "PosX": 0.45,
+      "PosY": 0.070991,
+      "PosZ": 1.76,
+      "RaidID": 4000301,
+      "RotY": 243.9263,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "OpenRaid",
+            "Value": "SilWolfStoryRaid_Enter"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "CloseRaid",
+            "Value": "SilWolfStoryRaid_Close"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "OpenRaid",
+            "Value": "SilWolfStoryRaid_Enter"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "CloseRaid",
+            "Value": "SilWolfStoryRaid_Close"
+          }
+        ]
+      }
+    },
+    {
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 200070205,
+              "Type": "SubMission"
+            },
+            {
+              "ID": 200070206,
+              "Type": "SubMission"
+            }
+          ],
+          "Operation": "Or"
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P80112/F80112001_G17/DialogueMain_F80112001_G17_N400002.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P80112/F80112001_G17/DialoguePack_Transferred_F80112001_G17_N400002.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        200070205,
+        200070206
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10122,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -5.900001,
+      "PosY": 0.000002,
+      "PosZ": -3.85,
+      "RotY": 19.04254,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1
+      }
+    }
+  ],
+  "OwnerMainMissionID": 2000702,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 2000702,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
+}

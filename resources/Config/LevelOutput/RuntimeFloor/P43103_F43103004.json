@@ -1,0 +1,300 @@
+{
+  "CameraType": "Maze",
+  "CustomValues": [
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig, RPG.GameCore.Config",
+      "ID": 10001,
+      "Name": "Robot_Win"
+    }
+  ],
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M201_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "FloorID": 43103004,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "2": {
+      "SaveType": "Reset"
+    },
+    "3": {
+      "SaveType": "Permanent"
+    },
+    "4": {
+      "GroupRefreshID": 1,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 801410517,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "6": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "7": {
+      "GroupRefreshID": 1001,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "8": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "9": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "10": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "11": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "13": {
+      "Category": "Mission",
+      "ForceUnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8014105,
+            "Phase": "Cancel"
+          }
+        ]
+      },
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8014105,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "14": {
+      "Category": "Mission",
+      "ForceUnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8014105,
+            "Phase": "Cancel"
+          }
+        ]
+      },
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 801410518,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "15": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "20": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "26": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "27": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "28": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 801410517,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "29": {
+      "SaveType": "Reset"
+    },
+    "32": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G2.json",
+      "ID": 2,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G3.json",
+      "ID": 3,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G4.json",
+      "ID": 4,
+      "Name": "DefaultProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G5.json",
+      "ID": 5,
+      "Name": "MainMission0_Monster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G6.json",
+      "ID": 6,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G7.json",
+      "ID": 7,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G8.json",
+      "ID": 8,
+      "Name": "MonsterGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G9.json",
+      "ID": 9,
+      "Name": "ChestGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G10.json",
+      "ID": 10,
+      "Name": "MainMission8014105_BoomRobot_1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G11.json",
+      "ID": 11,
+      "Name": "MainMission8014105_BoomRobot_2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G20.json",
+      "ID": 20,
+      "Name": "MainMission8014105_BoomRobot_3"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G15.json",
+      "ID": 15,
+      "Name": "MainMission8014105_BoomRobot_4"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G13.json",
+      "ID": 13,
+      "Name": "MainMission8014105_Mission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G14.json",
+      "ID": 14,
+      "Name": "MainMission8014105_NPCMonster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G26.json",
+      "ID": 26,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G27.json",
+      "ID": 27,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G28.json",
+      "ID": 28,
+      "Name": "StageGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G29.json",
+      "ID": 29,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103004/LevelGroup_P43103_F43103004_G32.json",
+      "ID": 32,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20121_F20121001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M201_MainLine_01_StageData/Chap01_MAZ_M201_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

@@ -1,0 +1,115 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X301_MainLine_02_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "FloorID": 43214001,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "5": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8015113,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "6": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8015123,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "7": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G3.json",
+      "ID": 3,
+      "Name": "Default_BoundaryCamera_Client"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G4.json",
+      "ID": 4,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G5.json",
+      "ID": 5,
+      "Name": "MainMission8015113_FirstTimeRaid"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G6.json",
+      "ID": 6,
+      "Name": "MainMission8015123_SecondTimeRaid"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43214_F43214001/LevelGroup_P43214_F43214001_G7.json",
+      "ID": 7,
+      "Name": "Checkpoint"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X301_MainLine_02_StageData/Chap02_MAZ_X301_MainLine_02_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

@@ -1,0 +1,167 @@
+{
+  "DimensionList": [
+    {
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_INT_Hotel_01_Lobby.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 43201002,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "3": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202050301,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "4": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202050307,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          },
+          {
+            "ID": 202050308,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          },
+          {
+            "ID": 202050309,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          },
+          {
+            "ID": 202050302,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "5": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202050304,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "6": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202050306,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "7": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "9": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "10": {
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G2.json",
+      "ID": 2,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G3.json",
+      "ID": 3,
+      "Name": "MainMission2020503_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G4.json",
+      "ID": 4,
+      "Name": "MainMission2020503_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G5.json",
+      "ID": 5,
+      "Name": "MainMission2020503_04"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G6.json",
+      "ID": 6,
+      "Name": "MainMission2020503_05"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G7.json",
+      "ID": 7,
+      "Name": "BattleArea"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G9.json",
+      "ID": 9,
+      "Name": "Checkpoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43201_F43201002/LevelGroup_P43201_F43201002_G10.json",
+      "ID": 10,
+      "Name": "Mission_2020503"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_Hotel_01_Lobby_StageData/Chap01_INT_Hotel_01_Lobby_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

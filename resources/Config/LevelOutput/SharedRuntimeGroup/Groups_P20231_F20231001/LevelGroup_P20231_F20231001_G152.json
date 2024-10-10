@@ -1,0 +1,129 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -24.63396,
+      "PosY": 27.01151,
+      "PosZ": -31.85432,
+      "RotY": 275.7765,
+      "Usage": "Actor"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -24.29762,
+      "PosY": 28.08828,
+      "PosZ": -34.56229,
+      "RotX": 3.941792,
+      "RotY": 342.1285,
+      "RotZ": 358.7745,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": -26.72,
+      "PosY": 28.015,
+      "PosZ": -31.53018
+    },
+    {
+      "ID": 4,
+      "Name": "Anchor4",
+      "PosX": -24.63396,
+      "PosY": 27.97,
+      "PosZ": -31.85432
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20231_F20231001_G152",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4040252_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 404025201,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100040293,
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20231/F20231001_G152/DialogueMain_F20231001_G152_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "SecretMissionIcon",
+      "LoadOnInitial": true,
+      "NPCID": 12311,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": -379701698
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -25.727,
+      "PosY": 27.0115,
+      "PosZ": -31.492,
+      "RotY": 260.8633,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 6
+      }
+    }
+  ],
+  "OwnerMainMissionID": 4040252,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 404025201,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

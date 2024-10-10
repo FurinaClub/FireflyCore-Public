@@ -1,0 +1,90 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P10102_F10102001_G16",
+  "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "SubMission",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 1010403,
+        "Phase": "Finish"
+      },
+      {
+        "ID": 201070101,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 201090401,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        4,
+        64
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100030000,
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialogueMain_F10102001_G16_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialoguePack_Mission_F10102001_G16_N400001.json",
+            "Name": "Mission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialoguePack_Common_F10102001_G16_N400001.json",
+            "Name": "Common"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        100004602,
+        201070101,
+        201070104,
+        201070804,
+        201090401,
+        201090409,
+        100004606,
+        100004605
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FirstDialogueGroupID": 501027801,
+      "ID": 400001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11408,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": -361500540
+      },
+      "OverrideNPCTitle": {
+        "Hash": 1533500204
+      },
+      "PosX": -87.83,
+      "PosY": 5.868217,
+      "PosZ": 52.01,
+      "RotY": 90.28779,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        1000046
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
+}

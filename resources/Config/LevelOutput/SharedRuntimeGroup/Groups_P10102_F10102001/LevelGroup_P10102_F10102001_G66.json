@@ -1,0 +1,94 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P10102_F10102001_G66",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "ForceUnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 2010904,
+        "Phase": "Cancel"
+      }
+    ]
+  },
+  "GroupName": "MainMission2010904_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 201090418,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 201090419,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        4
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020236,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 201090418,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G66/DialogueMain_F10102001_G66_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [
+        201090418
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11203,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": -1029900493
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -11.73143,
+      "PosY": -0.38499,
+      "PosZ": 71.48679,
+      "RotY": 270,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 2010904,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 2010904,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
+}

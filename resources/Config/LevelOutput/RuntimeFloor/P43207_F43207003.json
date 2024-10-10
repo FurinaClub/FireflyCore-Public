@@ -1,0 +1,216 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X202_MainLine_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 43207003,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "3": {
+      "Category": "BattleProps",
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "Category": "BattleProps",
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "5": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "6": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "8": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 1021101,
+            "Phase": "Finish"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    },
+    "9": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 1021101,
+            "Phase": "Finish"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    },
+    "10": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 1021101,
+            "Phase": "Finish"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    },
+    "11": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 800223402,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "12": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8002234,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "13": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8002234,
+            "Phase": "Finish"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G3.json",
+      "ID": 3,
+      "Name": "BATProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G4.json",
+      "ID": 4,
+      "Name": "BATBossProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G5.json",
+      "ID": 5,
+      "Name": "JianMu"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G6.json",
+      "ID": 6,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G7.json",
+      "ID": 7,
+      "Name": "MainMission_RoadBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G8.json",
+      "ID": 8,
+      "Name": "JianMu"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G9.json",
+      "ID": 9,
+      "Name": "MainMission_RoadBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G10.json",
+      "ID": 10,
+      "Name": "MainMission_RoadBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G11.json",
+      "ID": 11,
+      "Name": "MainMission8002234_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G12.json",
+      "ID": 12,
+      "Name": "MainMission8002234_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207003/LevelGroup_P43207_F43207003_G13.json",
+      "ID": 13,
+      "Name": "MainMission8002234_"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20222_F20222001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X202_MainLine_01_StageData/Chap02_MAZ_X202_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

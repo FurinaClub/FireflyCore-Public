@@ -1,0 +1,433 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -12.47,
+      "PosY": 5.72,
+      "PosZ": 64.35835
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -12.019,
+      "PosY": 5.72,
+      "PosZ": 67.58
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10202_F10202001_G119",
+  "AtmosphereCondition": {
+    "Conditions": [
+      {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition, RPG.GameCore.Config",
+        "Operation": "Equal",
+        "SavedValueName": "LoadBianZhong",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [
+    {
+      "CenterPos": {
+        "magnitude": 0.181508884,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "x": -0.344335765,
+          "z": -0.9388466
+        },
+        "sqrMagnitude": 0.0329454765,
+        "x": -0.0625,
+        "z": -0.170409
+      },
+      "ID": 1,
+      "MemberList": [
+        {
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040328,
+          "FeatureID": "XianZhou_Folk_XianZhouChildBoy",
+          "Identity": "XianZhou_Folk",
+          "LocalPosition": {
+            "magnitude": 2.5437355,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.821626246,
+              "z": -0.570026636
+            },
+            "sqrMagnitude": 6.47059059,
+            "x": 2.09,
+            "z": -1.449997
+          },
+          "LocalRotationY": 235.4046,
+          "LookAtPosition": {},
+          "UniqueName": "119_1_01"
+        },
+        {
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010231,
+          "FeatureID": "XianZhou_Folk_XianZhouMale",
+          "Identity": "XianZhou_Folk",
+          "LocalPosition": {
+            "magnitude": 1.96451008,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.9569816,
+              "z": -0.290148675
+            },
+            "sqrMagnitude": 3.8593,
+            "x": 1.88,
+            "z": -0.57
+          },
+          "LocalRotationY": 227.0911,
+          "LookAtPosition": {},
+          "UniqueName": "119_1_02"
+        },
+        {
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020222,
+          "FeatureID": "XianZhou_Folk_FoxianLady",
+          "Identity": "XianZhou_Folk",
+          "LocalPosition": {
+            "magnitude": 2.68128681,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.9771427,
+              "z": -0.2125845
+            },
+            "sqrMagnitude": 7.18929958,
+            "x": -2.62,
+            "z": -0.57
+          },
+          "LocalRotationY": 124.6641,
+          "LookAtPosition": {},
+          "UniqueName": "119_1_03"
+        },
+        {
+          "FeatureID": "XianZhou_Folk_FoxianMale",
+          "Identity": "XianZhou_Folk",
+          "LocalPosition": {
+            "magnitude": 2.4903512,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.642479658,
+              "z": 0.766302764
+            },
+            "sqrMagnitude": 6.20184946,
+            "x": -1.6,
+            "z": 1.908363
+          },
+          "LocalRotationY": 158.4759,
+          "LookAtPosition": {},
+          "UniqueName": "119_1_04"
+        }
+      ],
+      "Name": "Crowd1",
+      "PosX": -11.81,
+      "PosY": 5.188517,
+      "PosZ": 68.09
+    }
+  ],
+  "DistrictList": [],
+  "GroupName": "Bianzhong",
+  "IsHoyoGroup": true,
+  "IsPendedLoad": true,
+  "LevelGraph": "Config/Level/GroupGraph/F10202001/Group_F10202001_G119.json",
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        8,
+        64
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202001_G119/DialogueMain_F10202001_G119_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202001_G119/DialoguePack_Common_F10202001_G119_N400001.json",
+            "Name": "Common"
+          }
+        ]
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 12261,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -12.06,
+      "PosY": 5.188517,
+      "PosZ": 66.09,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_SerialBell.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -12.111,
+      "PosY": 5.791,
+      "PosZ": 65.338,
+      "PropID": 102111,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Reset",
+  "SmartObjectList": [
+    {
+      "CommonPointList": [
+        {
+          "PosZ": 0.5
+        },
+        {
+          "ID": 1,
+          "PosZ": -0.5
+        }
+      ],
+      "ID": 1,
+      "Name": "SO_StartPlay",
+      "PosX": -12.0527,
+      "PosY": 5.188517,
+      "PosZ": 66.101,
+      "SlotList": [
+        {
+          "PointList": [
+            {
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "DisableLookAt": true,
+                "IsClientOnly": true,
+                "TaskEnabled": true,
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo, RPG.GameCore.Config",
+                    "AnchorGroupId": 119,
+                    "AnchorPointId": 2,
+                    "IsClientOnly": true,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayInteractOnPoint, RPG.GameCore.Config",
+                    "IsClientOnly": true,
+                    "MotionID": 100020311,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayInteractOnPoint, RPG.GameCore.Config",
+                    "Duration": 0.2,
+                    "IsClientOnly": true,
+                    "MotionID": 100020000,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo, RPG.GameCore.Config",
+                    "AnchorGroupId": 119,
+                    "AnchorPointId": 1,
+                    "IsClientOnly": true,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_TriggerGroupEvent, RPG.GameCore.Config",
+                    "EventName": "EVT_PropStartPlay",
+                    "IsClientOnly": true,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayInteractOnPoint, RPG.GameCore.Config",
+                    "Duration": -1,
+                    "IsClientOnly": true,
+                    "MotionID": 100020348,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CommonPointList": [],
+      "ID": 2,
+      "Name": "SO_StopPlay",
+      "PosX": -12.1,
+      "PosY": 5.188517,
+      "PosZ": 66.059,
+      "SlotList": [
+        {
+          "PointList": [
+            {
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "DisableLookAt": true,
+                "IsClientOnly": true,
+                "TaskEnabled": true,
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_PlayInteractOnPoint, RPG.GameCore.Config",
+                    "Duration": 0.2,
+                    "IsClientOnly": true,
+                    "MotionID": 100020000,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo, RPG.GameCore.Config",
+                    "AnchorGroupId": 119,
+                    "AnchorPointId": 2,
+                    "IsClientOnly": true,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayInteractOnPoint, RPG.GameCore.Config",
+                    "IsClientOnly": true,
+                    "MotionID": 100020311,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayInteractOnPoint, RPG.GameCore.Config",
+                    "Duration": 0.2,
+                    "IsClientOnly": true,
+                    "MotionID": 100020000,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CommonPointList": [],
+      "ID": 3,
+      "IsDelete": true,
+      "Name": "InteractOnPointTest",
+      "PosX": -13.34092,
+      "PosY": 5.188517,
+      "PosZ": 66.10741,
+      "SlotList": [
+        {
+          "PointList": [
+            {
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_PlayInteractOnPoint, RPG.GameCore.Config",
+                    "Duration": 5,
+                    "IsClientOnly": true,
+                    "MotionID": 100020348,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayInteractOnPoint, RPG.GameCore.Config",
+                    "IsClientOnly": true,
+                    "MotionID": 100020311,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [],
+    "Values": []
+  },
+  "WaypointList": []
+}

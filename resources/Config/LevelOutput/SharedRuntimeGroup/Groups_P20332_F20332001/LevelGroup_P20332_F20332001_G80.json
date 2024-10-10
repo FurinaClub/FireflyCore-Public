@@ -1,0 +1,315 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20332_F20332001_G80",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "WolfMonster",
+  "GroupStateList": [
+    {
+      "DstState": 1
+    },
+    {
+      "SrcState": 1
+    }
+  ],
+  "IsHoyoGroup": true,
+  "IsPendedUnload": true,
+  "LevelGraph": "Config/Level/GroupGraph/F20332001/Group_F20332001_G80.json",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/WolfBro_NPCMonster/ST_Gameplay_WolfBro_NPCMonster_Master.json",
+        "PathwayList": [
+          {
+            "UseGroup": 80,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "BattleArea": {},
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 10301299,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_BossStun_01.json",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 3003013,
+      "Name": "Monster2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 128.8002,
+      "PosY": 14.35687,
+      "PosZ": 105.7314,
+      "RotY": 45,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25
+        },
+        "OverrideSpawn": true
+      },
+      "TagList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1
+      },
+      "ValueSource": {
+        "SharedValues": [],
+        "Values": []
+      }
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -154.6604,
+      "PosY": 16.087,
+      "PosZ": -158.2134,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": 155.3085,
+      "PosY": 14.2169,
+      "PosZ": 131.0266,
+      "WaypointIDList": [
+        5,
+        6
+      ]
+    },
+    {
+      "ID": 3,
+      "Name": "Pathway3",
+      "PosX": 144.9265,
+      "PosY": 14.21294,
+      "PosZ": 139.2584,
+      "WaypointIDList": [
+        7,
+        8
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_ShowGroupMonsterVision_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 128.8002,
+      "PosY": 14.35687,
+      "PosZ": 105.7314,
+      "PropID": 100,
+      "RotY": 45,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 132.83,
+      "PosY": 14.42581,
+      "PosZ": 131.24,
+      "PropID": 102,
+      "RotY": 315,
+      "Scale": {
+        "magnitude": 12.6740885,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "x": 0.9937551,
+          "y": 0.0789011344,
+          "z": 0.0789011344
+        },
+        "sqrMagnitude": 160.632523,
+        "x": 12.59494,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Permanent",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "Operation": "Equal",
+        "SavedValueName": "WolfBossPhase"
+      },
+      {
+        "Operation": "Equal",
+        "SavedValueName": "WolfBossPhase",
+        "Value": 1
+      }
+    ],
+    "Operation": "Or"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 128.4874,
+      "PosY": 14.26614,
+      "PosZ": 107.8831
+    },
+    {
+      "ID": 2,
+      "PosX": 154.6948,
+      "PosY": 14.26614,
+      "PosZ": 130.6819
+    },
+    {
+      "ID": 3,
+      "PosX": 136.384,
+      "PosY": 14.26614,
+      "PosZ": 129.8176
+    },
+    {
+      "ID": 4,
+      "PosX": 146.7606,
+      "PosY": 14.26614,
+      "PosZ": 114.4572
+    },
+    {
+      "ID": 5,
+      "PosX": 162.3053,
+      "PosY": 14.26615,
+      "PosZ": 129.6095
+    },
+    {
+      "ID": 6,
+      "PosX": 153.3222,
+      "PosY": 14.26614,
+      "PosZ": 137.6876
+    },
+    {
+      "ID": 7,
+      "PosX": 144.7446,
+      "PosY": 14.26614,
+      "PosZ": 138.8845
+    },
+    {
+      "ID": 8,
+      "PosX": 136.8513,
+      "PosY": 14.26614,
+      "PosZ": 131.402
+    }
+  ]
+}

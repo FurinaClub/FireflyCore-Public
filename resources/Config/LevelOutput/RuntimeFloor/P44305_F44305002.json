@@ -1,0 +1,627 @@
+{
+  "CameraType": "Maze",
+  "CustomValues": [
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig, RPG.GameCore.Config",
+      "ID": 10004,
+      "Name": "Movie_1"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig, RPG.GameCore.Config",
+      "ID": 10005,
+      "Name": "Movie_2"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig, RPG.GameCore.Config",
+      "ID": 10006,
+      "Name": "Movie_3"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomFloatConfig, RPG.GameCore.Config",
+      "ID": 10007,
+      "Name": "Clt_ScreenState"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomStringConfig, RPG.GameCore.Config",
+      "DefaultValue": "Cartoon",
+      "ID": 10009,
+      "Name": "ScreenContent"
+    }
+  ],
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P201_Night_01.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "DefaultValue": 3,
+          "ID": 1,
+          "MaxValue": 3,
+          "Name": "ScriptPhase"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 3,
+          "MaxValue": 1,
+          "Name": "Movie_1_1"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 4,
+          "MaxValue": 1,
+          "Name": "Movie_2_1"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 5,
+          "MaxValue": 1,
+          "Name": "Movie_2_2"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 6,
+          "MaxValue": 1,
+          "Name": "Movie_3_1"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 7,
+          "MaxValue": 1,
+          "Name": "Movie_3_2"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 8,
+          "MaxValue": 1,
+          "Name": "BirdFound"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 9,
+          "MaxValue": 1,
+          "Name": "Ending"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 10,
+          "MaxValue": 1,
+          "Name": "SceneStateByMainMission"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ID": 11,
+          "MaxValue": 4,
+          "Name": "ScreenState"
+        }
+      ],
+      "StartAnchorID": 1,
+      "StartGroupIndex": 1
+    }
+  ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 44305002,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "18": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "19": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "20": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "21": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "22": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "23": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "24": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "25": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "26": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "27": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "30": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "31": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "32": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "33": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "34": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "35": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "36": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "37": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "38": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "39": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "40": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "41": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "42": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "43": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "44": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "45": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "46": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "47": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "48": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "49": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "50": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "51": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "52": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "53": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "54": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "55": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "56": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "61": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "62": {
+      "Category": "BattleProps",
+      "LoadOnInitial": true,
+      "SaveType": "Reset",
+      "SystemUnlockCondition": {
+        "Operation": "And"
+      }
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G18.json",
+      "ID": 18,
+      "Name": "TakePhotos"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G19.json",
+      "ID": 19,
+      "Name": "EnvProps"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G48.json",
+      "ID": 48,
+      "Name": "CheckPoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G20.json",
+      "ID": 20,
+      "Name": "1-0"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G21.json",
+      "ID": 21,
+      "Name": "1-1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G22.json",
+      "ID": 22,
+      "Name": "2-0"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G23.json",
+      "ID": 23,
+      "Name": "2-1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G38.json",
+      "ID": 38,
+      "Name": "MainMission8022125_2-2Monster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G24.json",
+      "ID": 24,
+      "Name": "2-2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G25.json",
+      "ID": 25,
+      "Name": "3-0"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G47.json",
+      "ID": 47,
+      "Name": "MainMission8022125_Monster3-1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G26.json",
+      "ID": 26,
+      "Name": "3-1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G37.json",
+      "ID": 37,
+      "Name": "Tpl_MainMission8022125_OrigamiBird_Normal"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G44.json",
+      "ID": 44,
+      "Name": "MainMission8022125_OrigamiBird_Normal"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G27.json",
+      "ID": 27,
+      "Name": "3-2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G30.json",
+      "ID": 30,
+      "Name": "MainMission8022125_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G31.json",
+      "ID": 31,
+      "Name": "MainMission8022125_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G35.json",
+      "ID": 35,
+      "Name": "MainMission8022125_02_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G32.json",
+      "ID": 32,
+      "Name": "MainMission8022125_03"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G33.json",
+      "ID": 33,
+      "Name": "MainMission8022125_04"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G34.json",
+      "ID": 34,
+      "Name": "MainMission8022125_05"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G36.json",
+      "ID": 36,
+      "Name": "Position"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G39.json",
+      "ID": 39,
+      "Name": "MainMission8022125_Camera1-1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G40.json",
+      "ID": 40,
+      "Name": "MainMission8022125_Camera2-1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G41.json",
+      "ID": 41,
+      "Name": "MainMission8022125_Camera2-2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G45.json",
+      "ID": 45,
+      "Name": "MainMission8022125_12"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G42.json",
+      "ID": 42,
+      "Name": "MainMission8022125_Camera3-1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G46.json",
+      "ID": 46,
+      "Name": "MainMission8022125_11"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G43.json",
+      "ID": 43,
+      "Name": "MainMission8022125_Camera3-2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G49.json",
+      "ID": 49,
+      "Name": "MainMission8022125_07"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G50.json",
+      "ID": 50,
+      "Name": "MainMission8022125_08"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G51.json",
+      "ID": 51,
+      "Name": "MainMission8022125_09"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G52.json",
+      "ID": 52,
+      "Name": "MainMission8022125_10"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G53.json",
+      "ID": 53,
+      "Name": "Anchor"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G54.json",
+      "ID": 54,
+      "Name": "Sound-Reverb"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G55.json",
+      "ID": 55,
+      "Name": "BGM"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G56.json",
+      "ID": 56,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G61.json",
+      "ID": 61,
+      "Name": "Screen"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44305_F44305002/LevelGroup_P44305_F44305002_G62.json",
+      "ID": 62,
+      "Name": "BAT_Prop"
+    }
+  ],
+  "IsRestartLevelGraph": true,
+  "LayerToAreaMask": [
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20321_F20321001.json",
+  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P201_StageData/Chap03_MAZ_P201_StageData.stage",
+  "StartAnchorID": 1,
+  "StartGroupIndex": 1,
+  "TempGroupUnloadByY": 10000000
+}

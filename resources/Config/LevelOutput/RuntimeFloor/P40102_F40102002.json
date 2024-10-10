@@ -1,0 +1,134 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M305_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [],
+          "ID": 1,
+          "MaxValue": 2,
+          "Name": "EnvSound"
+        }
+      ],
+      "StartAnchorID": 1,
+      "StartGroupIndex": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40102002,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "3": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "6": {
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "8": {
+      "Category": "BattleProps",
+      "LoadOnInitial": true,
+      "SaveType": "Reset",
+      "SystemUnlockCondition": {
+        "Conditions": [],
+        "Operation": "And"
+      }
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40102_F40102002/LevelGroup_P40102_F40102002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40102_F40102002/LevelGroup_P40102_F40102002_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40102_F40102002/LevelGroup_P40102_F40102002_G3.json",
+      "ID": 3,
+      "Name": "Sound_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40102_F40102002/LevelGroup_P40102_F40102002_G4.json",
+      "ID": 4,
+      "Name": "MainMission8025106_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40102_F40102002/LevelGroup_P40102_F40102002_G5.json",
+      "ID": 5,
+      "Name": "MainMission8025106_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40102_F40102002/LevelGroup_P40102_F40102002_G6.json",
+      "ID": 6,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40102_F40102002/LevelGroup_P40102_F40102002_G7.json",
+      "ID": 7,
+      "Name": "MainMission8025106_00"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40102_F40102002/LevelGroup_P40102_F40102002_G8.json",
+      "ID": 8,
+      "Name": "BattleProp"
+    }
+  ],
+  "IsRestartLevelGraph": true,
+  "LayerToAreaMask": [
+    16,
+    8
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20136_F20136001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M305_MainLine_01_StageData/Chap01_MAZ_M305_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "StartGroupIndex": 1,
+  "TempGroupUnloadByY": 10000000
+}

@@ -1,0 +1,128 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "IsDelete": true,
+      "Name": "Anchor1",
+      "PosX": 5.86061,
+      "PosY": 1.087976,
+      "PosZ": 34.4718,
+      "RotX": 5.191641,
+      "RotY": 328.1804,
+      "RotZ": 359.9276,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 2,
+      "IsDelete": true,
+      "Name": "Anchor2",
+      "PosX": 4.023,
+      "PosY": -0.258115,
+      "PosZ": 36.745
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10001_F10001001_G105",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission8003102_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 8003102
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        4,
+        8,
+        64
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020222,
+      "DefaultIdleStateName": "Think01Loop",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G105/DialogueMain_F10001001_G105_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [
+        500000202,
+        500000203
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FirstDialogueGroupID": 500000201,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsDelete": true,
+      "LoadOnInitial": true,
+      "NPCID": 10201,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 4.335,
+      "PosY": -0.258115,
+      "PosZ": 38.698,
+      "RotY": 294.9208,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        500000200
+      ]
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 380010000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsDelete": true,
+      "NPCID": 1991,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 4.023,
+      "PosY": -0.258115,
+      "PosZ": 36.745,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 8003102,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 8003102,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
+}

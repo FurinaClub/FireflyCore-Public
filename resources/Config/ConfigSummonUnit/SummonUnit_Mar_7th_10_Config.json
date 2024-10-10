@@ -1,0 +1,26 @@
+{
+  "AttachPoint": "Origin",
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "Duration": {
+    "fixedValue": {
+      "Value": -1
+    }
+  },
+  "GroupConfigName": "FollowField",
+  "OnCreate": [
+    {
+      "$type": "RPG.GameCore.AddMazeBuff, RPG.GameCore.Config",
+      "ID": 122403,
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "CasterSummoner"
+      },
+      "TaskEnabled": true
+    }
+  ],
+  "OnDestroy": [],
+  "ResidentEffects": [],
+  "ShoesType": "boot",
+  "TickLodTemplateName": "DefaultStaticEntity"
+}

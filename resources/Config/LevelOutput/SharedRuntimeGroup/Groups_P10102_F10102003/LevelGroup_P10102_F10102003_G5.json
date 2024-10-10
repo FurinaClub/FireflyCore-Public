@@ -1,0 +1,137 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": 1.83,
+      "PosZ": -0.34,
+      "RotY": 90
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10102_F10102003_G5",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPCs",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 1010501,
+        "Phase": "Finish"
+      },
+      {
+        "ID": 201090404,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 201090414,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 201090415,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 201140101,
+        "Type": "SubMission"
+      }
+    ],
+    "DelayToLevelReload": true,
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        4
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 311050000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102003_G5/DialogueMain_F10102003_G5_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102003_G5/DialoguePack_405003709_F10102003_G5_N400001.json",
+            "Name": "405003709"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102003_G5/DialoguePack_Mission_F10102003_G5_N400001.json",
+            "Name": "Mission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102003_G5/DialoguePack_caidan_F10102003_G5_N400001.json",
+            "Name": "caidan"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102003_G5/DialoguePack_Common_F10102003_G5_N400001.json",
+            "Name": "Common"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102003_G5/DialoguePack_800125201_F10102003_G5_N400001.json",
+            "Name": "800125201"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        201090104,
+        201090208,
+        201090213,
+        201070301,
+        201070305,
+        201090414,
+        201140190,
+        201070307,
+        201070327,
+        201070311,
+        201090122,
+        201070315,
+        201140501,
+        301150203
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FirstDialogueGroupID": 501029301,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1105,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 4.24,
+      "PosZ": -1.43,
+      "RotY": 295.5373,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [
+        1000057,
+        501029303
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
+}

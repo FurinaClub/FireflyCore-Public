@@ -1,0 +1,153 @@
+{
+  "CameraType": "Room",
+  "DimensionList": [
+    {
+      "CameraType": "Room",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_INT_Orphanage_01_Room_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 10102002,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "8": {
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 1010602,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "9": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 101060104,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "11": {
+      "Category": "Mission",
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 101100103,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "14": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 404012101,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "15": {
+      "Category": "Mission",
+      "SaveType": "Reset"
+    },
+    "16": {
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G2.json",
+      "ID": 2,
+      "Name": "Default"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G4.json",
+      "ID": 4,
+      "Name": "Books"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G9.json",
+      "ID": 9,
+      "Name": "MainMission_1010601_03"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G11.json",
+      "ID": 11,
+      "Name": "MainMission_Prop"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G8.json",
+      "ID": 8,
+      "Name": "MainMission_101060103"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G1.json",
+      "ID": 1,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G14.json",
+      "ID": 14,
+      "Name": "MainMission4040121_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G15.json",
+      "ID": 15,
+      "Name": "MainMission2011901_18"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10102_F10102002/LevelGroup_P10102_F10102002_G16.json",
+      "ID": 16,
+      "Name": "DreamTest"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_Orphanage_01_Room_StageData/Chap01_INT_Orphanage_01_Room_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

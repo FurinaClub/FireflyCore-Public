@@ -1,0 +1,147 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P40101_F40101001_G16",
+  "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Area_C_Monster_Group",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 201130305,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40101008,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8002010,
+      "Name": "Monster1_C",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 80.72,
+      "PosY": -5.025843,
+      "PosZ": 288.34,
+      "RotY": 175.6132
+    },
+    {
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40101006,
+      "ID": 200003,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1022020,
+      "Name": "Monster3_C",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 97.64,
+      "PosY": -5.025845,
+      "PosZ": 265.99,
+      "RotY": 308.6388
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": 44.03604,
+      "PosY": 5.392218,
+      "PosZ": 265.7414,
+      "WaypointIDList": [
+        4,
+        5
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 97.57,
+      "PosY": -5.025844,
+      "PosZ": 266
+    },
+    {
+      "ID": 2,
+      "PosX": 80.51,
+      "PosY": -5.025843,
+      "PosZ": 282.66
+    },
+    {
+      "ID": 3,
+      "PosX": 70.86,
+      "PosY": -5.025842,
+      "PosZ": 284.65
+    },
+    {
+      "ID": 4,
+      "PosX": 51.19,
+      "PosY": 0.942155,
+      "PosZ": 258
+    },
+    {
+      "ID": 5,
+      "PosX": 33.22,
+      "PosY": 0.942155,
+      "PosZ": 258.57
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "CameraType": "Maze",
+  "CustomValues": [
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig, RPG.GameCore.Config",
+      "DefaultValue": true,
+      "ID": 10001,
+      "Name": "BailuChase_EasyMode"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig, RPG.GameCore.Config",
+      "ID": 10002,
+      "Name": "BailuChase_EasyModeHint"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig, RPG.GameCore.Config",
+      "DefaultValue": true,
+      "ID": 10003,
+      "Name": "BailuChase_GameClear"
+    },
+    {
+      "$type": "RPG.GameCore.FloorCustomBoolConfig, RPG.GameCore.Config",
+      "DefaultValue": true,
+      "ID": 10004,
+      "Name": "BailuChase_ContactCD"
+    }
+  ],
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_ADV_X02_Sanctum_SuiGarden_Room_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 1,
+          "MaxValue": 1,
+          "Name": "DoorState_Chase"
+        }
+      ],
+      "StartAnchorID": 1
+    }
+  ],
+  "FloorID": 43212001,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "2": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8015111,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "3": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "6": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "9": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "10": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "11": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "13": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "14": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "16": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G2.json",
+      "ID": 2,
+      "Name": "MainMission8015111_Mission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G3.json",
+      "ID": 3,
+      "Name": "MainMission8015111_BailuChasePhase2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G5.json",
+      "ID": 5,
+      "Name": "MainMission8015111_BailuChasePhase1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G6.json",
+      "ID": 6,
+      "Name": "MainMission8015111_BeforeBattle"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G7.json",
+      "ID": 7,
+      "Name": "MainMission8015111_Zhenfa"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G9.json",
+      "ID": 9,
+      "Name": "MainMission8015111_BailuChaseNew2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G10.json",
+      "ID": 10,
+      "Name": "MainMission8015111_Hint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G11.json",
+      "ID": 11,
+      "Name": "MPProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G13.json",
+      "ID": 13,
+      "Name": "MainMission8015111_BailuChasePhase1_New"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G14.json",
+      "ID": 14,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43212_F43212001/LevelGroup_P43212_F43212001_G16.json",
+      "ID": 16,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P43212_F43212001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_SuiGarden_Ghost02_StageData/Chap02_MAZ_SuiGarden_Ghost02_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

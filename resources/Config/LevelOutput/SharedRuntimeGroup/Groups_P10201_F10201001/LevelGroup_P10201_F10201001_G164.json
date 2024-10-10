@@ -1,0 +1,113 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P10201_F10201001_G164",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [
+    231,
+    232
+  ],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC_Taode",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 1020301,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        8,
+        4,
+        64
+      ],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100030298,
+      "DefaultIdleStateName": "Sit01",
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10201/F10201001_G20/DialogueMain_F10201001_G20_N400007.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10201/F10201001_G20/DialoguePack_Mission_F10201001_G20_N400007.json",
+            "Name": "Mission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10201/F10201001_G20/DialoguePack_Transferred_F10201001_G20_N400007.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        502011402,
+        502011403
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FirstDialogueGroupID": 502011401,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 12106,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 26.588,
+      "PosY": 0.084,
+      "PosZ": -1.352,
+      "RotY": 175.9888,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        502011404
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 2020202,
+        "Phase": "Finish"
+      },
+      {
+        "ID": 202020221,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 202020222,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 202020223,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 202020224,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

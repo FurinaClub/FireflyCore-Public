@@ -1,0 +1,100 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -75.72,
+      "PosY": 4.672036,
+      "PosZ": 36.21,
+      "RotY": 206.1
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -77.46,
+      "PosY": 6.14,
+      "PosZ": 33.1
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10102_F10102001_G44",
+  "BattleAreaList": [],
+  "ConfigPrefabPath": "Level/Mission/1010601/1010602_Temp.prefab",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainmMission_1010602_04",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 101060210,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101070101,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 311050231,
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 101070101,
+              "Type": "SubMission"
+            }
+          ]
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G44/DialogueMain_F10102001_G44_N400002.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1105,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -77.46,
+      "PosY": 4.573902,
+      "PosZ": 33.08,
+      "RotY": 38.74,
+      "ServerInteractVerificationIDList": [],
+      "TalkChosenType": "loop",
+      "TalkDialogGroupIDList": [
+        101060205
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 101070101,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
+}

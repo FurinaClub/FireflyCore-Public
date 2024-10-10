@@ -1,0 +1,222 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "PlayerStart",
+      "PosX": 35.36114,
+      "PosY": 21.01484,
+      "PosZ": 83.33411
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P81132_F81132001_G1",
+  "BattleAreaList": [
+    {
+      "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_BAT_Area_M302_01_Foggy.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea1",
+      "PosX": 297.01,
+      "PosZ": 519.5,
+      "PrefetchMainMissionList": [],
+      "PrefetchSubMissionList": [],
+      "Tags": [
+        "BattleArea01"
+      ]
+    }
+  ],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [
+        180,
+        270,
+        0,
+        90
+      ],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 81.034,
+      "PosY": -4.8,
+      "PosZ": 324.8,
+      "PropID": 301011,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": {
+        "BlockAlias": "Chap01_CloseView_MAZ_M301_MazePart07",
+        "PrefabAlias": "Chap01_Grd_WheelGear_01_part01",
+        "UseOverridePos": true
+      },
+      "State": "BridgeState2",
+      "StateConfigs": [
+        {
+          "Rotation": 180,
+          "State": "BridgeState1"
+        },
+        {
+          "Rotation": 270,
+          "State": "BridgeState2"
+        },
+        {
+          "State": "BridgeState3"
+        },
+        {
+          "Rotation": 90,
+          "State": "BridgeState4"
+        }
+      ],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 28
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bridge_Rotate_North",
+            "Value": "LevelArea_P20132_F20132001_G3,North"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bridge_Rotate_East",
+            "Value": "LevelArea_P20132_F20132001_G3,East"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bridge_Rotate_South",
+            "Value": "LevelArea_P20132_F20132001_G3,South"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bridge_Rotate_West",
+            "Value": "LevelArea_P20132_F20132001_G3,West"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_RotateBridge_CamAnchor",
+            "Value": "Chap01_MAZ_M302_LevelArea,RotateBridge_Cam_02"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BridgeController_01",
+            "Value": "3,300002"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BridgeController_02",
+            "Value": "3,300003"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BridgeController_03",
+            "Value": "3,300002"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BridgeController_04",
+            "Value": "3,300003"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bridge_Rotate_North",
+            "Value": "LevelArea_P20132_F20132001_G3,North"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bridge_Rotate_East",
+            "Value": "LevelArea_P20132_F20132001_G3,East"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bridge_Rotate_South",
+            "Value": "LevelArea_P20132_F20132001_G3,South"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bridge_Rotate_West",
+            "Value": "LevelArea_P20132_F20132001_G3,West"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_RotateBridge_CamAnchor",
+            "Value": "Chap01_MAZ_M302_LevelArea,RotateBridge_Cam_02"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BridgeController_01",
+            "Value": "3,300002"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BridgeController_02",
+            "Value": "3,300003"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BridgeController_03",
+            "Value": "3,300002"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BridgeController_04",
+            "Value": "3,300003"
+          }
+        ]
+      }
+    }
+  ],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
+}

@@ -1,0 +1,260 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Startpoint",
+      "PosX": -12.42789,
+      "PosY": 1.11351,
+      "PosZ": 156.2783,
+      "RotY": 342.15
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -9.48,
+      "PosY": -2.590106,
+      "PosZ": 148,
+      "RotY": 342.15
+    },
+    {
+      "ID": 3,
+      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam03.prefab",
+      "Name": "Anchor3",
+      "PosX": -35.80632,
+      "PosY": 9.074661,
+      "PosZ": 165.9959,
+      "Usage": "LookAtCamera"
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P40122_F40122001_G10",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC",
+  "GroupStateList": [],
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 201180102,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPC_Track/ST_NPC_Track.json",
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CampID": 1,
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 311110000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LoadOnInitial": true,
+      "MiniMapIconType": 130,
+      "NPCID": 1111,
+      "Name": "Luka_02",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideSeriesID": 4294967295,
+      "PosX": -12.42789,
+      "PosY": 1.11351,
+      "PosZ": 156.2783,
+      "RotY": 342.15,
+      "SOConfig": {
+        "InstanceID": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [
+    {
+      "CommonPointList": [],
+      "ID": 1,
+      "Name": "SmartObject1",
+      "PosX": -14.37826,
+      "PosY": 0.952117,
+      "PosZ": 163.43,
+      "SlotList": [
+        {
+          "PointList": [
+            {
+              "PosX": -2.420745,
+              "PosY": 0.013384,
+              "PosZ": 5.200531,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "FinishAfterStop": true,
+                    "IsClientOnly": true,
+                    "MoveStance": "Walk",
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo, RPG.GameCore.Config",
+                    "AnchorGroupId": 10,
+                    "AnchorPointId": 3,
+                    "IsClientOnly": true,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait, RPG.GameCore.Config",
+                    "IsClientOnly": true,
+                    "TaskEnabled": true,
+                    "Time": 1
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_TriggerCustomString, RPG.GameCore.Config",
+                    "CustomString": {
+                      "Value": "triggerlookback"
+                    },
+                    "IsClientOnly": true,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": []
+              }
+            },
+            {
+              "PosX": -21.015,
+              "PosY": 8.122544,
+              "PosZ": -3.410004,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "FinishAfterStop": true,
+                    "IsClientOnly": true,
+                    "MoveStance": "Run",
+                    "SkipStartTurn": true,
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": []
+              }
+            },
+            {
+              "PosX": -21.67,
+              "PosY": 8.122544,
+              "PosZ": -7.76,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "IsClientOnly": true,
+                    "MoveStance": "Walk",
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": []
+              }
+            },
+            {
+              "PosX": -31.5,
+              "PosY": 12.51788,
+              "PosZ": -12.63,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "IsClientOnly": true,
+                    "MoveStance": "Walk",
+                    "TaskEnabled": true
+                  }
+                ],
+                "WaitMessages": []
+              }
+            },
+            {
+              "PosX": -26.42,
+              "PosY": 12.51788,
+              "PosZ": 0.080002,
+              "RestartMode": "RestartFromPoint",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "IsClientOnly": true,
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true,
+                    "TaskEnabled": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait, RPG.GameCore.Config",
+                    "IsClientOnly": true,
+                    "TaskEnabled": true,
+                    "Time": -1
+                  }
+                ],
+                "WaitMessages": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 201180105,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
+}

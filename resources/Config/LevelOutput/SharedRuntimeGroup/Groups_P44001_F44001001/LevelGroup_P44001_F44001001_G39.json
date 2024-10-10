@@ -1,0 +1,206 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "CheckPoint_1",
+      "PosX": -114.618,
+      "PosY": -0.101087,
+      "PosZ": -70.482,
+      "RotY": 234.1567
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P44001_F44001001_G39",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Tpl_PeiPeiChallenge02",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupTemplateGraph/PeiPeiChallenge.json",
+  "LoadOnInitial": true,
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/GamePlay/PeiPei/ST_NPCMonster_FindPeiPei_Master.json",
+        "PathwayList": [
+          {
+            "UseGroup": 39,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 8,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40002046,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8012010,
+      "Name": "Monster1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -128.665,
+      "PosY": 2.769734,
+      "PosZ": -52.28201,
+      "RotY": 328.805,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/GamePlay/PeiPei/ST_NPCMonster_FindPeiPei_Master.json",
+        "PathwayList": [
+          {
+            "UseGroup": 39,
+            "UseID": 2,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 8,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40002046,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8012010,
+      "Name": "Monster2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -133.96,
+      "PosY": -0.115229,
+      "PosZ": -76.39,
+      "RotY": 328.805,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -14.71392,
+      "PosY": 1.039487,
+      "PosZ": -70.81121,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -14.71392,
+      "PosY": 1.039487,
+      "PosZ": -70.81121,
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint01_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G39,CheckPoint_1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "RaidChanllenge",
+        "Value": "440010101"
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "CheckPoint01_Anchor",
+        "Value": "LevelArea_P44001_F44001001_G39,CheckPoint_1"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "RaidChanllenge",
+        "Value": "440010101"
+      }
+    ]
+  },
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -131.02,
+      "PosY": 2.993045,
+      "PosZ": -41.09
+    },
+    {
+      "ID": 2,
+      "PosX": -128.358,
+      "PosY": 2.993045,
+      "PosZ": -52.388
+    },
+    {
+      "ID": 3,
+      "PosX": -134.147,
+      "PosY": -0.119881,
+      "PosZ": -76.665
+    },
+    {
+      "ID": 4,
+      "PosX": -134.147,
+      "PosY": -0.119881,
+      "PosZ": -69.71
+    }
+  ]
+}

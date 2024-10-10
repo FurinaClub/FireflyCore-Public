@@ -1,0 +1,132 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -4.03,
+      "PosY": 0.000002,
+      "PosZ": -13.006,
+      "RotY": 270
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10000_F10000000_G34",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "ChallengeMaze",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 401010506,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "Dialog": {
+        "EnableCondition": {
+          "Conditions": [
+            {
+              "ID": 401010507,
+              "Type": "SubMission"
+            },
+            {
+              "ID": 401010509,
+              "Phase": "Finish",
+              "Type": "SubMission"
+            },
+            {
+              "ID": 401010509,
+              "Type": "SubMission"
+            }
+          ],
+          "Operation": "Or"
+        },
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G34/DialogueMain_F10000000_G34_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G34/DialoguePack_Transferred_F10000000_G34_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        401010507,
+        401010531,
+        401010567
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsInitialHidden": true,
+      "IsMapContent": true,
+      "LevelGraph": "Config/Level/NPC/NPC_Train_Messenger.json",
+      "LoadOnInitial": true,
+      "NPCID": 3012,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 1209718592
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -5.717,
+      "PosY": 0.000002,
+      "PosZ": -13.802,
+      "RotY": 40.61753,
+      "ServerInteractVerificationIDList": [
+        29,
+        16
+      ],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 1.5,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkChosenType": "loop",
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 3.5,
+        "PointList": [],
+        "Radius": 2,
+        "Server": true
+      },
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
+}

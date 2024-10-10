@@ -1,0 +1,219 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": 91.43,
+      "PosY": 16.96,
+      "PosZ": -72.93,
+      "RotX": -0.000118,
+      "RotY": 0.00011
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": 93.38,
+      "PosY": 16.33659,
+      "PosZ": -69.11,
+      "RotY": 133.5019
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": 94.26,
+      "PosY": 16.33659,
+      "PosZ": -67.97,
+      "RotY": 133.5019
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P20221_F20221001_G51",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1021001_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 102100108,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_102100108.json",
+        "PathwayList": [
+          {
+            "UseGroup": 51,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 312080000,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1207,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 93.8,
+      "PosY": 16.3366,
+      "PosZ": -76.6,
+      "RotY": 61.77259,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 1021001,
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": 158.7411,
+      "PosY": 19.99798,
+      "PosZ": -65.86713,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 163.43,
+      "PosY": 21.62319,
+      "PosZ": -74.74,
+      "PropID": 111,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 4,
+        "DimY": 2,
+        "DimZ": 10,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    }
+  ],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 102100108,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 93.86,
+      "PosY": 16.40084,
+      "PosZ": -76.56
+    },
+    {
+      "ID": 2,
+      "PosX": 96.68,
+      "PosY": 16.40084,
+      "PosZ": -76.09
+    },
+    {
+      "ID": 3,
+      "PosX": 107.98,
+      "PosY": 16.318,
+      "PosZ": -75.37
+    },
+    {
+      "ID": 4,
+      "PosX": 121.82,
+      "PosY": 21.6398,
+      "PosZ": -74.59
+    },
+    {
+      "ID": 5,
+      "PosX": 136.23,
+      "PosY": 21.63977,
+      "PosZ": -73.21
+    },
+    {
+      "ID": 6,
+      "PosX": 151.83,
+      "PosY": 21.63978,
+      "PosZ": -73.27
+    },
+    {
+      "ID": 7,
+      "PosX": 162.6,
+      "PosY": 21.59315,
+      "PosZ": -73.63
+    }
+  ]
+}

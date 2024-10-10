@@ -1,0 +1,65 @@
+{
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "Duration": {
+    "fixedValue": {
+      "Value": -1
+    }
+  },
+  "GatherConfig": {
+    "CentripetalFactorX": 12,
+    "CentripetalFactorY": 50,
+    "CentripetalSpeedCurve": "Camera/BlendCurve/BlendCut_1220_MazeCentripetalSpeed.asset",
+    "CollideIgnorePlayer": true,
+    "ConstraintRadius": 12,
+    "FilterModifiers": [
+      "ADV_StageAbility_Maze_Feixiao_GatheredEnemy"
+    ],
+    "ForAttack": true,
+    "IsClockwise": true,
+    "MaxRadius": 2,
+    "RegionOffset": -5,
+    "RegionRadius": 3,
+    "RingCount": 3,
+    "TangentSpeedCurve": "Camera/BlendCurve/BlendCut_1220_MazeTangentSpeed.asset",
+    "TangentSpeedFactorX": 40,
+    "TangentSpeedFactorY": 6,
+    "UpdateOnce": true
+  },
+  "GroupConfigName": "StaticUnit",
+  "ShoesType": "boot",
+  "TickLodTemplateName": "DefaultStaticEntity",
+  "TriggerConfig": {
+    "CustomTriggers": [
+      {
+        "DefaultEnable": true,
+        "OnTriggerEnter": [],
+        "Radius": {
+          "fixedValue": {
+            "Value": 12
+          }
+        },
+        "RayStartOffsetY": 1,
+        "SkipFakeAvatar": true,
+        "TargetTypes": [
+          "NPCMonster"
+        ],
+        "TriggerName": "GatheringRange"
+      },
+      {
+        "DefaultEnable": true,
+        "OnTriggerEnter": [],
+        "Radius": {
+          "fixedValue": {
+            "Value": 4
+          }
+        },
+        "RayStartOffsetY": 1,
+        "SkipFakeAvatar": true,
+        "TargetTypes": [
+          "NPCMonster"
+        ],
+        "TriggerName": "AttackRange"
+      }
+    ]
+  }
+}

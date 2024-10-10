@@ -1,0 +1,57 @@
+[
+  {
+    "ChallengeGroupType": "Memory",
+    "GotoID": 218,
+    "GuideConditions": [
+      {
+        "Param": "4010106",
+        "Type": "FinishMainMission"
+      }
+    ],
+    "PreConditions": [],
+    "TabImgPath": "SpriteOutput/UI/ChallengeBoss/ChallengeBossQuestTabImg1.png"
+  },
+  {
+    "ChallengeGroupType": "Story",
+    "GotoID": 230,
+    "GuideConditions": [
+      {
+        "Param": "801710102",
+        "Type": "FinishSubMission"
+      }
+    ],
+    "PreConditions": [
+      {
+        "Param": "1021501",
+        "Type": "FinishMainMission"
+      },
+      {
+        "Param": "4020103",
+        "Type": "FinishMainMission"
+      }
+    ],
+    "TabImgPath": "SpriteOutput/UI/ChallengeBoss/ChallengeBossQuestTabImg2.png"
+  },
+  {
+    "ChallengeGroupType": "Boss",
+    "EarlyAccessContentID": 200001,
+    "GotoID": 232,
+    "GuideConditions": [
+      {
+        "Param": "802330103",
+        "Type": "FinishSubMission"
+      }
+    ],
+    "PreConditions": [
+      {
+        "Param": "1032501",
+        "Type": "FinishMainMission"
+      },
+      {
+        "Param": "4020103",
+        "Type": "FinishMainMission"
+      }
+    ],
+    "TabImgPath": "SpriteOutput/UI/ChallengeBoss/ChallengeBossQuestTabImg3.png"
+  }
+]

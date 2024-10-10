@@ -1,0 +1,95 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20131_F20131001_G61",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 3011111
+      },
+      {
+        "ID": 3011111,
+        "Phase": "Finish"
+      },
+      {
+        "ID": 3011113
+      },
+      {
+        "ID": 3011114
+      },
+      {
+        "ID": 3011112
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100030000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20131/F20131001_G61/DialogueMain_F20131001_G61_N400002.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20131/F20131001_G61/DialoguePack_DailyMission_F20131001_G61_N400002.json",
+            "Name": "DailyMission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20131/F20131001_G61/DialoguePack_Common_F20131001_G61_N400002.json",
+            "Name": "Common"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        301111101,
+        301111102,
+        301111201,
+        301111301,
+        301111305,
+        301111401,
+        100006105
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11402,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": -1386130857
+      },
+      "OverrideNPCTitle": {
+        "Hash": 1144554347
+      },
+      "OverrideSeriesID": 1140201,
+      "PosX": -46.32,
+      "PosY": -0.984844,
+      "PosZ": -165.76,
+      "RotY": 243.775,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        100006102
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
+}

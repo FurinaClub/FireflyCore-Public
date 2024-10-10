@@ -1,0 +1,188 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X201_MainLine_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [],
+          "ID": 1,
+          "MaxValue": 1,
+          "Name": "RobotSandBox"
+        }
+      ],
+      "StartAnchorID": 1
+    }
+  ],
+  "FloorID": 43213001,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "11": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "12": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "13": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "14": {
+      "Category": "BattleProps",
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "15": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8015112,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "16": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "21": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "22": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "23": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "24": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "25": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "26": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G11.json",
+      "ID": 11,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G12.json",
+      "ID": 12,
+      "Name": "enviroProfile"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G13.json",
+      "ID": 13,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G14.json",
+      "ID": 14,
+      "Name": "BATProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G15.json",
+      "ID": 15,
+      "Name": "MainMission8015112_Main"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G16.json",
+      "ID": 16,
+      "Name": "CommandRobotPuzzle_Lv1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G21.json",
+      "ID": 21,
+      "Name": "CommandRobotPuzzle_Display"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G22.json",
+      "ID": 22,
+      "Name": "BlockLines"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G23.json",
+      "ID": 23,
+      "Name": "CommandRobotPuzzle_Lv2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G24.json",
+      "ID": 24,
+      "Name": "CommandRobotPuzzle_Lv3"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G25.json",
+      "ID": 25,
+      "Name": "HunTianYi"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43213_F43213001/LevelGroup_P43213_F43213001_G26.json",
+      "ID": 26,
+      "Name": "Checkpoint"
+    }
+  ],
+  "LayerToAreaMask": [
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20221_F20221001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X201_MainLine_01_StageData/Chap02_MAZ_X201_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

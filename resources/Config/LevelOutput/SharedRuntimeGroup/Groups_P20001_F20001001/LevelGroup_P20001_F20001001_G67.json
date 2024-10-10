@@ -1,0 +1,123 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20001_F20001001_G67",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "ForceUnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 8000101,
+        "Phase": "Cancel"
+      },
+      {
+        "ID": 8000102,
+        "Phase": "Cancel"
+      },
+      {
+        "ID": 8000104,
+        "Phase": "Cancel"
+      },
+      {
+        "ID": 8000105,
+        "Phase": "Cancel"
+      }
+    ]
+  },
+  "GroupName": "Act_Online_02",
+  "LittleGameList": [],
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 800010205,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      },
+      {
+        "ID": 800010205,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010231,
+      "DefaultIdleStateName": "HoldArm01Loop",
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G67/DialogueMain_F20001001_G67_N400002.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G67/DialoguePack_Transferred_F20001001_G67_N400002.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
+      "DialogueGroups": [
+        800010403,
+        800010404,
+        800010212,
+        800010206
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10110,
+      "Name": "Act_Online_02_Host",
+      "OverrideNPCName": {
+        "Hash": 526547389
+      },
+      "OverrideNPCTitle": {
+        "Hash": 1130215681
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "OverrideSeriesID": 1011001,
+      "PosX": -25.276,
+      "PosY": 0.00545,
+      "PosZ": 237.303,
+      "RotY": 19.65458,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        800010208
+      ]
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 8000105
+      },
+      {
+        "ID": 8000105,
+        "Phase": "Finish"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
+}

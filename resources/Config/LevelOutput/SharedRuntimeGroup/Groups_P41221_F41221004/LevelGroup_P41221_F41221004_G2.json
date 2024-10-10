@@ -1,0 +1,7084 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P41221_F41221004_G2",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [
+    {
+      "ID": 1,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District1",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Sichengong_Outside"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 30,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 15,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": 25.5,
+      "PosY": 6.11,
+      "PosZ": -34.9,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 8,
+        "DimZ": 35,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 3,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District3",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Xuanye_Avenue_Middle"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 30,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 15,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -45.6,
+      "PosY": -2.9,
+      "PosZ": -90.2,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 2,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District2",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_port_wind",
+        "StopEventName": "Ev_sfx_amb_xingchahai_port_wind_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 59.4632263,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.725322247,
+                "y": 0.018667,
+                "z": 0.688156366
+              },
+              "sqrMagnitude": 3535.87549,
+              "x": 43.13,
+              "y": 1.11,
+              "z": 40.92
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 74.5142441,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.8842605,
+                "y": 0.0148964813,
+                "z": 0.466756374
+              },
+              "sqrMagnitude": 5552.37256,
+              "x": 65.89,
+              "y": 1.11,
+              "z": 34.78
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Port"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCValue": 95,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": 30.72,
+      "PosY": 4.01,
+      "PosZ": 16.77,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 80,
+        "DimY": 8,
+        "DimZ": 70,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 4,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District4",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Sichengong_Outside"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 30,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 15,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -36.83,
+      "PosY": 5.74,
+      "PosZ": -13.74,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 2,
+        "DimZ": 15,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 5,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District5",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bell_large_distant",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bell_large_distant_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 187.874985,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.2427146,
+                  "y": 0.1181637,
+                  "z": -0.962874353
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.242714584,
+                "y": 0.11816369,
+                "z": -0.9628743
+              },
+              "sqrMagnitude": 35297.0078,
+              "x": -45.6,
+              "y": 22.2,
+              "z": -180.9
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -45.6,
+      "PosY": 2.9,
+      "PosZ": -132.4,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 80
+      }
+    },
+    {
+      "ID": 6,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District6",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bird_distant",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bird_distant_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 183.17807,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.648549259,
+                "y": 0.01583159,
+                "z": -0.7610081
+              },
+              "sqrMagnitude": 33554.207,
+              "x": -118.8,
+              "y": 2.9,
+              "z": -139.4
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 131.0674,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.316402137,
+                  "y": 0.0221260227,
+                  "z": -0.9483671
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": 0.3164021,
+                "y": 0.02212602,
+                "z": -0.948367059
+              },
+              "sqrMagnitude": 17178.6621,
+              "x": 41.47,
+              "y": 2.9,
+              "z": -124.3
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 63.8872452,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.898457944,
+                "y": 0.0453924723,
+                "z": -0.436706871
+              },
+              "sqrMagnitude": 4081.58,
+              "x": -57.4,
+              "y": 2.9,
+              "z": -27.9
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -38.4,
+      "PosY": 2.9,
+      "PosZ": -85.5,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 100
+      }
+    },
+    {
+      "ID": 7,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District7",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_pad_music",
+        "StopEventName": "Ev_sfx_amb_xingchahai_pad_music_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 140.19136,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.09701026,
+                "y": 0.0206860118,
+                "z": -0.995068431
+              },
+              "sqrMagnitude": 19653.62,
+              "x": -13.6,
+              "y": 2.9,
+              "z": -139.5
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -45.6,
+      "PosY": 2.9,
+      "PosZ": -90.2,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 70
+      }
+    },
+    {
+      "ID": 8,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District8",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bell_small_close",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bell_small_close_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 112.822617,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.6129091,
+                  "y": 0.0257040691,
+                  "z": -0.7897353
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.612909,
+                "y": 0.0257040672,
+                "z": -0.789735258
+              },
+              "sqrMagnitude": 12728.9424,
+              "x": -69.15,
+              "y": 2.9,
+              "z": -89.1
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -59.71,
+      "PosY": 2.9,
+      "PosZ": -89.1,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 9,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District9",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bell_large_close",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bell_large_close_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 91.4132,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.302800924,
+                "y": 0.0818262547,
+                "z": -0.949534655
+              },
+              "sqrMagnitude": 8356.373,
+              "x": 27.68,
+              "y": 7.48,
+              "z": -86.8
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 23.5,
+      "PosY": 2.9,
+      "PosZ": -99.6,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 30
+      }
+    },
+    {
+      "ID": 10,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District10",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bowl_foley",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bowl_foley_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 106.224182,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.7824961,
+                  "y": 0.0113910045,
+                  "z": -0.6225513
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.782496035,
+                "y": 0.0113910036,
+                "z": -0.622551262
+              },
+              "sqrMagnitude": 11283.5762,
+              "x": -83.12,
+              "y": 1.21,
+              "z": -66.13
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -68,
+      "PosY": 2.9,
+      "PosZ": -90.2,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 11,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District11",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_yujiemen_distant",
+        "StopEventName": "Ev_sfx_amb_xingchahai_yujiemen_distant_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 1731.26819,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.0162308775,
+                "y": 0.07624469,
+                "z": 0.996957064
+              },
+              "sqrMagnitude": 2997289.5,
+              "x": -28.1,
+              "y": 132,
+              "z": 1726
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -63.1,
+      "PosY": -67,
+      "PosZ": 1021,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1200
+      }
+    },
+    {
+      "ID": 12,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District12",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_walla",
+        "StopEventName": "Ev_sfx_amb_xingchahai_walla_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 123.936958,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.429895967,
+                "z": -0.9028784
+              },
+              "sqrMagnitude": 15360.3691,
+              "x": -53.28,
+              "z": -111.9
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 84.4567261,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.6308556,
+                "z": -0.7759003
+              },
+              "sqrMagnitude": 7132.939,
+              "x": -53.28,
+              "z": -65.53
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -45.6,
+      "PosZ": -90.2,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 13,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District13",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_wood_foley",
+        "StopEventName": "Ev_sfx_amb_xingchahai_wood_foley_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 144.767487,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.341858536,
+                "y": 0.008427307,
+                "z": -0.9397137
+              },
+              "sqrMagnitude": 20957.627,
+              "x": -49.49,
+              "y": 1.22,
+              "z": -136.04
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -49.49,
+      "PosY": 2.03,
+      "PosZ": -136.4,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 14,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District14",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_sweep",
+        "StopEventName": "Ev_sfx_amb_xingchahai_sweep_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 81.6952744,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.177366436,
+                "z": -0.984144866
+              },
+              "sqrMagnitude": 6674.11768,
+              "x": -14.49,
+              "z": -80.39999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 114.409653,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.495762378,
+                "z": -0.8684582
+              },
+              "sqrMagnitude": 13089.5684,
+              "x": -56.72,
+              "z": -99.36
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -45.6,
+      "PosZ": -90.2,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 15,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District15",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Xuanye_Avenue_Middle_Bridge"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 30,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 15,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -36.75,
+      "PosY": 0.76,
+      "PosZ": -78.58,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 30,
+        "DimY": 5,
+        "DimZ": 10,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 17,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District17",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_port_wind",
+        "StopEventName": "Ev_sfx_amb_xingchahai_port_wind_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 79.75625,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.9290808,
+                "z": 0.369876981
+              },
+              "sqrMagnitude": 6361.05957,
+              "x": -74.1,
+              "z": 29.5
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 86.95375,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9978868,
+                "z": 0.06497707
+              },
+              "sqrMagnitude": 7560.95459,
+              "x": -86.77,
+              "z": 5.65
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Port"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCValue": 95,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -54.6,
+      "PosZ": 27.5,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 60,
+        "DimY": 2,
+        "DimZ": 70,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 18,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District18",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Port"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 30,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 15,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -91.25,
+      "PosY": 3.09,
+      "PosZ": -22.96,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 20,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 19,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District19",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Xuanye_Avenue_Side"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 30,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 15,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": 2.79,
+      "PosY": 4,
+      "PosZ": -105.25,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 40,
+        "DimY": 10,
+        "DimZ": 30,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 20,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District20",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_ship_distant",
+        "StopEventName": "Ev_sfx_amb_xingchahai_ship_distant_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 148.386292,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.262827545,
+                  "y": 0.146913856,
+                  "z": -0.9535922
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.262827516,
+                "y": 0.146913841,
+                "z": -0.9535921
+              },
+              "sqrMagnitude": 22018.49,
+              "x": -39,
+              "y": 21.8,
+              "z": -141.5
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 47.4915771,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.8211982,
+                "y": 0.459028751,
+                "z": -0.3390075
+              },
+              "sqrMagnitude": 2255.45,
+              "x": -39,
+              "y": 21.8,
+              "z": -16.1
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -40.1,
+      "PosY": 12.1,
+      "PosZ": -81.6,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 50,
+        "DimY": 30,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 21,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District21",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Port"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCValue": 90,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -17.91,
+      "PosY": 5.74,
+      "PosZ": 6.93,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 5,
+        "DimY": 2,
+        "DimZ": 25,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 22,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District22",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bird_close",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bird_close_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 66.5691,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.961557269,
+                "y": 0.03950782,
+                "z": 0.2717477
+              },
+              "sqrMagnitude": 4431.44531,
+              "x": 64.01,
+              "y": 2.63,
+              "z": 18.09
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 64.84545,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.995289564,
+                "y": 0.0405579731,
+                "z": 0.08805552
+              },
+              "sqrMagnitude": 4204.93262,
+              "x": 64.54,
+              "y": 2.63,
+              "z": 5.71
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 55.46348,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.949633837,
+                "y": 0.04741859,
+                "z": 0.309753358
+              },
+              "sqrMagnitude": 3076.198,
+              "x": 52.67,
+              "y": 2.63,
+              "z": 17.18
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 60.05,
+      "PosY": 4.75,
+      "PosZ": 14.56,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 23,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District23",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bird_close",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bird_close_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 24.6012077,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9532053,
+                "y": 0.289416671,
+                "z": -0.0873941258
+              },
+              "sqrMagnitude": 605.2194,
+              "x": -23.45,
+              "y": 7.12,
+              "z": -2.150001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 14.9164944,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.8668257,
+                "y": 0.477323949,
+                "z": -0.144135818
+              },
+              "sqrMagnitude": 222.5018,
+              "x": -12.93,
+              "y": 7.12,
+              "z": -2.150001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -22.85,
+      "PosY": 4.75,
+      "PosZ": 5.95,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 24,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District24",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bird_close",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bird_close_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 86.7749939,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.991184056,
+                  "y": 0.0504753776,
+                  "z": 0.12250074
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.991184,
+                "y": 0.0504753739,
+                "z": 0.122500733
+              },
+              "sqrMagnitude": 7529.89941,
+              "x": -86.00999,
+              "y": 4.38,
+              "z": 10.63
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 77.2182846,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.9818918,
+                "y": 0.049988158,
+                "z": 0.182728738
+              },
+              "sqrMagnitude": 5962.664,
+              "x": -75.82,
+              "y": 3.86,
+              "z": 14.11
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -87.88,
+      "PosY": 2.01,
+      "PosZ": 18.73,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 25,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District25",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cliff",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cliff_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 78.30972,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.7466506,
+                "y": 0.0148129752,
+                "z": 0.6650515
+              },
+              "sqrMagnitude": 6132.413,
+              "x": 58.47,
+              "y": 1.16,
+              "z": 52.08
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 71.456,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.9155284,
+                "y": 0.0162337646,
+                "z": 0.401925653
+              },
+              "sqrMagnitude": 5105.96045,
+              "x": 65.42,
+              "y": 1.16,
+              "z": 28.72
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 59.0393829,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.873484731,
+                "y": 0.0196479019,
+                "z": 0.486454934
+              },
+              "sqrMagnitude": 3485.649,
+              "x": 51.57,
+              "y": 1.16,
+              "z": 28.72
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 69.85291,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.9986697,
+                "y": 0.0166063216,
+                "z": -0.0488168634
+              },
+              "sqrMagnitude": 4879.429,
+              "x": 69.75999,
+              "y": 1.16,
+              "z": -3.41
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 41.4686775,
+              "normalized": {
+                "magnitude": 1.00000012,
+                "normalized": {
+                  "magnitude": 0.99999994,
+                  "normalized": {
+                    "magnitude": 1,
+                    "sqrMagnitude": 1.00000012,
+                    "x": 0.9988261,
+                    "y": 0.027972918,
+                    "z": 0.0395479463
+                  },
+                  "sqrMagnitude": 0.99999994,
+                  "x": 0.998826,
+                  "y": 0.0279729161,
+                  "z": 0.0395479426
+                },
+                "sqrMagnitude": 1.00000024,
+                "x": 0.998826146,
+                "y": 0.02797292,
+                "z": 0.0395479463
+              },
+              "sqrMagnitude": 1719.65137,
+              "x": 41.42,
+              "y": 1.16,
+              "z": 1.640001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 4.47607,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.8936411,
+                "y": 0.2591559,
+                "z": 0.3663931
+              },
+              "sqrMagnitude": 20.0352039,
+              "x": -4,
+              "y": 1.16,
+              "z": 1.640001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 48.8513222,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.9991542,
+                  "y": 0.02374552,
+                  "z": 0.0335712768
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": 0.99915415,
+                "y": 0.0237455182,
+                "z": 0.0335712731
+              },
+              "sqrMagnitude": 2386.45166,
+              "x": 48.81,
+              "y": 1.16,
+              "z": 1.640001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 32.14283,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.9980453,
+                "y": 0.0360889174,
+                "z": 0.0510223
+              },
+              "sqrMagnitude": 1033.16162,
+              "x": 32.08,
+              "y": 1.16,
+              "z": 1.640001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 15.5403767,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.991610467,
+                "y": 0.07464426,
+                "z": 0.105531618
+              },
+              "sqrMagnitude": 241.5033,
+              "x": 15.41,
+              "y": 1.16,
+              "z": 1.640001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 4.7642,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.906762958,
+                "y": 0.24348262,
+                "z": 0.3442343
+              },
+              "sqrMagnitude": 22.6976051,
+              "x": -4.32,
+              "y": 1.16,
+              "z": 1.640001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 33.5,
+      "PosY": -3.39,
+      "PosZ": 32.9,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 100,
+        "DimY": 10,
+        "DimZ": 80,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 26,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District26",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cliff",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cliff_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 17.4545422,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.996302247,
+                "y": 0.009739585,
+                "z": -0.08536448
+              },
+              "sqrMagnitude": 304.661072,
+              "x": -17.39,
+              "y": 0.17,
+              "z": -1.489998
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 43.72823,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9975249,
+                "y": 0.003887649,
+                "z": 0.07020641
+              },
+              "sqrMagnitude": 1912.1582,
+              "x": -43.62,
+              "y": 0.17,
+              "z": 3.070002
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 58.42059,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.9999899,
+                  "y": 0.00290993322,
+                  "z": 0.003423468
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.999989867,
+                "y": 0.002909933,
+                "z": 0.00342346774
+              },
+              "sqrMagnitude": 3412.965,
+              "x": -58.42,
+              "y": 0.17,
+              "z": 0.200001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 77.88197,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9980487,
+                "y": 0.00218279,
+                "z": 0.06240213
+              },
+              "sqrMagnitude": 6065.602,
+              "x": -77.73,
+              "y": 0.17,
+              "z": 4.860001
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 86.33331,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9982242,
+                "y": 0.00196911255,
+                "z": -0.05953668
+              },
+              "sqrMagnitude": 7453.441,
+              "x": -86.18,
+              "y": 0.17,
+              "z": -5.139999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 89.80303,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.9596559,
+                  "y": 0.001893032,
+                  "z": 0.281170934
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.9596558,
+                "y": 0.00189303188,
+                "z": 0.2811709
+              },
+              "sqrMagnitude": 8064.584,
+              "x": -86.18,
+              "y": 0.17,
+              "z": 25.25
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 82.51081,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.9335746,
+                "y": 0.002060336,
+                "z": 0.358377278
+              },
+              "sqrMagnitude": 6808.034,
+              "x": -77.03,
+              "y": 0.17,
+              "z": 29.57
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 17.8043423,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.732967257,
+                "y": 0.258925617,
+                "z": 0.62906003
+              },
+              "sqrMagnitude": 316.9946,
+              "x": -13.05,
+              "y": 4.61,
+              "z": 11.2
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 27.2030525,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.863138437,
+                "y": 0.169466287,
+                "z": 0.4756819
+              },
+              "sqrMagnitude": 740.006042,
+              "x": -23.48,
+              "y": 4.61,
+              "z": 12.94
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 26.2382069,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.68030566,
+                "y": 0.175697982,
+                "z": 0.711557746
+              },
+              "sqrMagnitude": 688.443542,
+              "x": -17.85,
+              "y": 4.61,
+              "z": 18.67
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -40.5,
+      "PosY": -0.6,
+      "PosZ": 32.9,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 100,
+        "DimY": 15,
+        "DimZ": 80,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 27,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District27",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_drink_tea",
+        "StopEventName": "Ev_sfx_amb_xingchahai_drink_tea_stop",
+        "TransformList": []
+      },
+      "PosX": -53.75,
+      "PosY": 1.16,
+      "PosZ": -63.23,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 28,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District28",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cup_tea",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cup_tea_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 41.98075,
+              "normalized": {
+                "magnitude": 0.9999999,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.877068758,
+                  "y": 0.13768217,
+                  "z": -0.460210979
+                },
+                "sqrMagnitude": 0.9999998,
+                "x": -0.877068639,
+                "y": 0.137682155,
+                "z": -0.460210919
+              },
+              "sqrMagnitude": 1762.3833,
+              "x": -36.82,
+              "y": 5.78,
+              "z": -19.32
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -35.5,
+      "PosY": 1.16,
+      "PosZ": -17.67,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 29,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District29",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_linglongzhai_bell",
+        "StopEventName": "Ev_sfx_amb_xingchahai_linglongzhai_bell_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 82.65183,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.8389408,
+                "y": 0.00362968375,
+                "z": -0.544210553
+              },
+              "sqrMagnitude": 6831.325,
+              "x": -69.34,
+              "y": 0.3,
+              "z": -44.98
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -67.34,
+      "PosY": 1.16,
+      "PosZ": -44.98,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 30,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District30",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_roof_xiao",
+        "StopEventName": "Ev_sfx_amb_xingchahai_roof_xiao_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 136.196686,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.7105165,
+                "y": 0.13495189,
+                "z": -0.6906189
+              },
+              "sqrMagnitude": 18549.54,
+              "x": -96.77,
+              "y": 18.38,
+              "z": -94.06
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -73.91,
+      "PosY": 1.16,
+      "PosZ": -96.97,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 40
+      }
+    },
+    {
+      "ID": 31,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District31",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_window_wood",
+        "StopEventName": "Ev_sfx_amb_xingchahai_window_wood_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 130.466675,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.5269545,
+                "y": 0.03832396,
+                "z": -0.849029064
+              },
+              "sqrMagnitude": 17021.5547,
+              "x": -68.75,
+              "y": 5,
+              "z": -110.77
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -60.83,
+      "PosY": 1.16,
+      "PosZ": -110.39,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 32,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District32",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_window_knock",
+        "StopEventName": "Ev_sfx_amb_xingchahai_window_knock_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 154.392258,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.377868682,
+                "y": 0.0174879245,
+                "z": -0.925694048
+              },
+              "sqrMagnitude": 23836.97,
+              "x": -58.34,
+              "y": 2.7,
+              "z": -142.92
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -60.83,
+      "PosY": 1.16,
+      "PosZ": -136.23,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 16,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District16",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_crane_distant",
+        "StopEventName": "Ev_sfx_amb_xingchahai_crane_distant_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 57.3399429,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.251482636,
+                "y": 0.752529562,
+                "z": -0.6086508
+              },
+              "sqrMagnitude": 3287.86914,
+              "x": 14.42,
+              "y": 43.15,
+              "z": -34.9
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 25.5,
+      "PosY": 6.11,
+      "PosZ": -34.9,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 80,
+        "DimZ": 35,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 33,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District33",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_crane_distant",
+        "StopEventName": "Ev_sfx_amb_xingchahai_crane_distant_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 37.9277573,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.0218836572,
+                "y": 0.08542556,
+                "z": 0.99610424
+              },
+              "sqrMagnitude": 1438.51477,
+              "x": 0.829998,
+              "y": 3.24,
+              "z": 37.78
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 94.1661758,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.8551903,
+                "y": 0.034407258,
+                "z": 0.517170846
+              },
+              "sqrMagnitude": 8867.269,
+              "x": 80.53,
+              "y": 3.24,
+              "z": 48.7
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 34.03,
+      "PosY": 3.24,
+      "PosZ": 17.4,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 100,
+        "DimY": 8,
+        "DimZ": 70,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 34,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District34",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_crane_distant",
+        "StopEventName": "Ev_sfx_amb_xingchahai_crane_distant_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 129.6198,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.948929131,
+                "y": 0.229208812,
+                "z": 0.216787875
+              },
+              "sqrMagnitude": 16801.293,
+              "x": -123,
+              "y": 29.71,
+              "z": 28.1
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 123.817543,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.328709483,
+                "y": 0.239949837,
+                "z": -0.9134408
+              },
+              "sqrMagnitude": 15330.7832,
+              "x": -40.7,
+              "y": 29.71,
+              "z": -113.1
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -79.5,
+      "PosY": 6.11,
+      "PosZ": -40.1,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 100,
+        "DimY": 80,
+        "DimZ": 150,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 35,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District35",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cricket_near",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cricket_near_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 66.5691,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.961557269,
+                "y": 0.03950782,
+                "z": 0.2717477
+              },
+              "sqrMagnitude": 4431.44531,
+              "x": 64.01,
+              "y": 2.63,
+              "z": 18.09
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 64.84545,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.995289564,
+                "y": 0.0405579731,
+                "z": 0.08805552
+              },
+              "sqrMagnitude": 4204.93262,
+              "x": 64.54,
+              "y": 2.63,
+              "z": 5.71
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 55.46348,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.949633837,
+                "y": 0.04741859,
+                "z": 0.309753358
+              },
+              "sqrMagnitude": 3076.198,
+              "x": 52.67,
+              "y": 2.63,
+              "z": 17.18
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 60.05,
+      "PosY": 4.75,
+      "PosZ": 14.56,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 36,
+      "InRoomEmitter": true,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District36",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cliff",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cliff_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 87.21863,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.542430043,
+                  "y": -0.006879265,
+                  "z": -0.8400729
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.54243,
+                "y": -0.00687926449,
+                "z": -0.8400728
+              },
+              "sqrMagnitude": 7607.089,
+              "x": -47.31,
+              "y": -0.6,
+              "z": -73.27
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 83.20329,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.4737793,
+                "y": -0.00721125351,
+                "z": -0.880614161
+              },
+              "sqrMagnitude": 6922.78857,
+              "x": -39.42,
+              "y": -0.6,
+              "z": -73.27
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 76.89695,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.303393036,
+                "y": -0.00780265033,
+                "z": -0.9528336
+              },
+              "sqrMagnitude": 5913.141,
+              "x": -23.33,
+              "y": -0.6,
+              "z": -73.27
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 88.65479,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.231233969,
+                "y": -0.006767824,
+                "z": -0.972874641
+              },
+              "sqrMagnitude": 7859.67236,
+              "x": -20.5,
+              "y": -0.6,
+              "z": -86.25
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 97.30659,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.49277243,
+                  "y": -0.00616607862,
+                  "z": -0.8701364
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.4927724,
+                "y": -0.006166078,
+                "z": -0.8701363
+              },
+              "sqrMagnitude": 9468.571,
+              "x": -47.95,
+              "y": -0.6,
+              "z": -84.67
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 110.171272,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.453838825,
+                "y": -0.005446066,
+                "z": -0.891067147
+              },
+              "sqrMagnitude": 12137.709,
+              "x": -50,
+              "y": -0.6,
+              "z": -98.17
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 70.28323,
+              "normalized": {
+                "magnitude": 0.9999999,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.7114073,
+                  "y": -0.008536888,
+                  "z": -0.7027281
+                },
+                "sqrMagnitude": 0.9999998,
+                "x": -0.711407244,
+                "y": -0.008536887,
+                "z": -0.702728033
+              },
+              "sqrMagnitude": 4939.73242,
+              "x": -50,
+              "y": -0.6,
+              "z": -49.39
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 52.5566521,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.441238165,
+                "y": -0.0114162527,
+                "z": -0.8973174
+              },
+              "sqrMagnitude": 2762.20166,
+              "x": -23.19,
+              "y": -0.6,
+              "z": -47.16
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 98.97874,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.1782201,
+                "y": 0.009092862,
+                "z": -0.9839487
+              },
+              "sqrMagnitude": 9796.791,
+              "x": -17.64,
+              "y": 0.9,
+              "z": -97.39
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -40.5,
+      "PosY": -0.6,
+      "PosZ": -70.5,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 50,
+        "DimY": 15,
+        "DimZ": 100,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 37,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District37",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_kite_near",
+        "StopEventName": "Ev_sfx_amb_xingchahai_kite_near_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 59.50525,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.218300059,
+                "y": -0.00168052409,
+                "z": -0.975880265
+              },
+              "sqrMagnitude": 3540.87476,
+              "x": -12.99,
+              "y": -0.1,
+              "z": -58.07
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -15.44,
+      "PosY": -0.1,
+      "PosZ": -57.09,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 6
+      }
+    },
+    {
+      "ID": 38,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District38",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_pad_drone",
+        "StopEventName": "Ev_sfx_amb_xingchahai_pad_drone_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 183.17807,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.648549259,
+                "y": 0.01583159,
+                "z": -0.7610081
+              },
+              "sqrMagnitude": 33554.207,
+              "x": -118.8,
+              "y": 2.9,
+              "z": -139.4
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 131.0674,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.316402137,
+                  "y": 0.0221260227,
+                  "z": -0.9483671
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": 0.3164021,
+                "y": 0.02212602,
+                "z": -0.948367059
+              },
+              "sqrMagnitude": 17178.6621,
+              "x": 41.47,
+              "y": 2.9,
+              "z": -124.3
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 63.8872452,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.898457944,
+                "y": 0.0453924723,
+                "z": -0.436706871
+              },
+              "sqrMagnitude": 4081.58,
+              "x": -57.4,
+              "y": 2.9,
+              "z": -27.9
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -38.4,
+      "PosY": 2.9,
+      "PosZ": -85.5,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 100
+      }
+    },
+    {
+      "ID": 39,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District39",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_whoosh",
+        "StopEventName": "Ev_sfx_amb_xingchahai_whoosh_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 183.17807,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.648549259,
+                "y": 0.01583159,
+                "z": -0.7610081
+              },
+              "sqrMagnitude": 33554.207,
+              "x": -118.8,
+              "y": 2.9,
+              "z": -139.4
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 131.0674,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.316402137,
+                  "y": 0.0221260227,
+                  "z": -0.9483671
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": 0.3164021,
+                "y": 0.02212602,
+                "z": -0.948367059
+              },
+              "sqrMagnitude": 17178.6621,
+              "x": 41.47,
+              "y": 2.9,
+              "z": -124.3
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 63.8872452,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.898457944,
+                "y": 0.0453924723,
+                "z": -0.436706871
+              },
+              "sqrMagnitude": 4081.58,
+              "x": -57.4,
+              "y": 2.9,
+              "z": -27.9
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -38.4,
+      "PosY": 2.9,
+      "PosZ": -85.5,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 70,
+        "DimY": 5,
+        "DimZ": 140,
+        "PointList": [],
+        "Radius": 100
+      }
+    },
+    {
+      "ID": 40,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District40",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cricket_near",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cricket_near_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 13.8055754,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.92933476,
+                  "y": 0.3440639,
+                  "z": -0.134003848
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.9293347,
+                "y": 0.344063878,
+                "z": -0.134003833
+              },
+              "sqrMagnitude": 190.5939,
+              "x": -12.83,
+              "y": 4.75,
+              "z": -1.85
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 23.7045879,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.9766042,
+                  "y": 0.200383171,
+                  "z": -0.0780439749
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.976604164,
+                "y": 0.200383157,
+                "z": -0.07804397
+              },
+              "sqrMagnitude": 561.9075,
+              "x": -23.15,
+              "y": 4.75,
+              "z": -1.85
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -14.3,
+      "PosY": 4.75,
+      "PosZ": 5.74,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 41,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District41",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cricket_near",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cricket_near_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 74.36297,
+              "normalized": {
+                "magnitude": 0.9999999,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.707475841,
+                  "y": 0.0638758838,
+                  "z": -0.703845
+                },
+                "sqrMagnitude": 0.9999998,
+                "x": 0.7074758,
+                "y": 0.06387588,
+                "z": -0.703844965
+              },
+              "sqrMagnitude": 5529.85059,
+              "x": 52.61,
+              "y": 4.75,
+              "z": -52.34
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 59.8936272,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.5660035,
+                "y": 0.143754855,
+                "z": -0.811772466
+              },
+              "sqrMagnitude": 3587.24658,
+              "x": 33.9,
+              "y": 8.61,
+              "z": -48.62
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 45.69,
+      "PosY": 4.75,
+      "PosZ": -35.93,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 42,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District42",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cricket_near",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cricket_near_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 72.6365,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.9224013,
+                "y": 0.117709421,
+                "z": -0.367859125
+              },
+              "sqrMagnitude": 5276.061,
+              "x": 67,
+              "y": 8.55,
+              "z": -26.72
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 64.12,
+      "PosY": 4.75,
+      "PosZ": -35.93,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 43,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District43",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cricket_near",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cricket_near_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 45.9928169,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.07653369,
+                "y": 0.197422132,
+                "z": -0.9773266
+              },
+              "sqrMagnitude": 2115.33936,
+              "x": -3.52,
+              "y": 9.08,
+              "z": -44.95
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -3.52,
+      "PosY": 4.75,
+      "PosZ": -35.93,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 44,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District44",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cricket_near",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cricket_near_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 77.06223,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9860863,
+                "y": 0.04321183,
+                "z": 0.160519615
+              },
+              "sqrMagnitude": 5938.588,
+              "x": -75.99001,
+              "y": 3.33,
+              "z": 12.37
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 87.0181046,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9891045,
+                "y": 0.0382679,
+                "z": 0.142154321
+              },
+              "sqrMagnitude": 7572.151,
+              "x": -86.07,
+              "y": 3.33,
+              "z": 12.37
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -81.55,
+      "PosY": 4.75,
+      "PosZ": 9.6,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 45,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District45",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_breakfast",
+        "StopEventName": "Ev_sfx_amb_xingchahai_breakfast_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 128.953522,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.389675319,
+                  "y": -0.000775473251,
+                  "z": -0.920952
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.3896753,
+                "y": -0.0007754732,
+                "z": -0.920951962
+              },
+              "sqrMagnitude": 16629.0117,
+              "x": -50.25,
+              "y": -0.1,
+              "z": -118.76
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -51.34,
+      "PosY": -0.1,
+      "PosZ": -118.12,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 6
+      }
+    },
+    {
+      "ID": 46,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District46",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_sewing_idle",
+        "StopEventName": "Ev_sfx_amb_xingchahai_sewing_idle_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 29.5722179,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.782491148,
+                "y": 0.119706951,
+                "z": -0.6110465
+              },
+              "sqrMagnitude": 874.5161,
+              "x": 23.14,
+              "y": 3.54,
+              "z": -18.07
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 20.1284237,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.403906465,
+                  "y": 0.175870717,
+                  "z": -0.897735536
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": 0.403906435,
+                "y": 0.1758707,
+                "z": -0.8977355
+              },
+              "sqrMagnitude": 405.1534,
+              "x": 8.13,
+              "y": 3.54,
+              "z": -18.07
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 14.89,
+      "PosY": -0.1,
+      "PosZ": -14.52,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 10,
+        "DimZ": 1,
+        "PointList": [
+          {
+            "magnitude": 30.8432121,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.787936449,
+              "y": -0.6157566
+            },
+            "sqrMagnitude": 951.3037,
+            "x": -24.30249,
+            "y": -18.99191
+          },
+          {
+            "magnitude": 28.9711952,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.8298198,
+              "y": 0.5580315
+            },
+            "sqrMagnitude": 839.330139,
+            "x": -24.04087,
+            "y": 16.16684
+          },
+          {
+            "magnitude": 28.5951176,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1.00000012,
+              "x": 0.8370849,
+              "y": 0.5470731
+            },
+            "sqrMagnitude": 817.6808,
+            "x": 23.93654,
+            "y": 15.64362
+          },
+          {
+            "magnitude": 32.59072,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.811504364,
+                "y": -0.5843464
+              },
+              "sqrMagnitude": 0.9999999,
+              "x": 0.8115043,
+              "y": -0.584346354
+            },
+            "sqrMagnitude": 1062.155,
+            "x": 26.44751,
+            "y": -19.04427
+          }
+        ],
+        "Radius": 1,
+        "Shape": "Polygon"
+      }
+    },
+    {
+      "ID": 47,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District47",
+      "OnEnterAreaSound": {
+        "TransformList": []
+      },
+      "PosX": 14.89,
+      "PosY": -0.72,
+      "PosZ": -14.52,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 10,
+        "DimZ": 1,
+        "PointList": [
+          {
+            "magnitude": 31.83461,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.807099,
+                "y": -0.590416253
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": -0.8070989,
+              "y": -0.5904162
+            },
+            "sqrMagnitude": 1013.44238,
+            "x": -25.69368,
+            "y": -18.79567
+          },
+          {
+            "magnitude": 30.9439449,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": -0.8033989,
+                "y": 0.5954413
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": -0.803398848,
+              "y": 0.5954412
+            },
+            "sqrMagnitude": 957.5277,
+            "x": -24.86033,
+            "y": 18.4253
+          },
+          {
+            "magnitude": 28.9276581,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.8081812,
+              "y": 0.588933945
+            },
+            "sqrMagnitude": 836.809448,
+            "x": 23.37879,
+            "y": 17.03648
+          },
+          {
+            "magnitude": 34.1042862,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.7832461,
+              "y": -0.62171185
+            },
+            "sqrMagnitude": 1163.10242,
+            "x": 26.71205,
+            "y": -21.20304
+          }
+        ],
+        "Radius": 1,
+        "Shape": "Polygon"
+      }
+    },
+    {
+      "ID": 48,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District48",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Sichengong_Backyard"
+        }
+      ],
+      "PosX": 50.68,
+      "PosY": 6.11,
+      "PosZ": -78.34,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 49,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District49",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_stream_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_stream_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 95.62167,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": 0.51703763,
+                  "y": 0.0350339,
+                  "z": -0.8552455
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": 0.5170376,
+                "y": 0.0350338966,
+                "z": -0.8552454
+              },
+              "sqrMagnitude": 9143.504,
+              "x": 49.44,
+              "y": 3.35,
+              "z": -81.78
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 98.26894,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.4795004,
+                "y": 0.0340901166,
+                "z": -0.8768793
+              },
+              "sqrMagnitude": 9656.785,
+              "x": 47.12,
+              "y": 3.35,
+              "z": -86.17
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 100.18856,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.456638962,
+                "y": 0.03343695,
+                "z": -0.8890236
+              },
+              "sqrMagnitude": 10037.748,
+              "x": 45.75,
+              "y": 3.35,
+              "z": -89.06999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 96.0846558,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.409846932,
+                "y": 0.03486509,
+                "z": -0.911487758
+              },
+              "sqrMagnitude": 9232.261,
+              "x": 39.38,
+              "y": 3.35,
+              "z": -87.57999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 92.68062,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.440868884,
+                "y": 0.0361456349,
+                "z": -0.896843433
+              },
+              "sqrMagnitude": 8589.697,
+              "x": 40.86,
+              "y": 3.35,
+              "z": -83.12
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 94.90001,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.276817679,
+                "y": 0.03530031,
+                "z": -0.960273862
+              },
+              "sqrMagnitude": 9006.012,
+              "x": 26.27,
+              "y": 3.35,
+              "z": -91.13
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 50.68,
+      "PosY": 6.11,
+      "PosZ": -78.34,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 50,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District50",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_stream_near_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_stream_near_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 87.02244,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.499985963,
+                "y": 0.04332216,
+                "z": -0.8649493
+              },
+              "sqrMagnitude": 7572.90527,
+              "x": 43.51,
+              "y": 3.77,
+              "z": -75.27
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 95.15969,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.5725113,
+                "y": 0.0396176167,
+                "z": -0.8189391
+              },
+              "sqrMagnitude": 9055.367,
+              "x": 54.48,
+              "y": 3.77,
+              "z": -77.92999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 101.040535,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.5980768,
+                "y": 0.03731176,
+                "z": -0.8005698
+              },
+              "sqrMagnitude": 10209.1895,
+              "x": 60.43,
+              "y": 3.77,
+              "z": -80.89
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 92.97683,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": 0.36417678,
+                  "y": 0.04054774,
+                  "z": -0.9304468
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": 0.36417675,
+                "y": 0.040547736,
+                "z": -0.930446744
+              },
+              "sqrMagnitude": 8644.69,
+              "x": 33.86,
+              "y": 3.77,
+              "z": -86.50999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 50.68,
+      "PosY": 6.11,
+      "PosZ": -78.34,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 51,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District51",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_cliff",
+        "StopEventName": "Ev_sfx_amb_xingchahai_cliff_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 86.5046844,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.9100085,
+                  "y": 0.03710782,
+                  "z": -0.412925661
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": 0.91000843,
+                "y": 0.0371078178,
+                "z": -0.412925631
+              },
+              "sqrMagnitude": 7483.06,
+              "x": 78.71999,
+              "y": 3.21,
+              "z": -35.72
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 92.13639,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.8543855,
+                "y": 0.0348396562,
+                "z": -0.5184705
+              },
+              "sqrMagnitude": 8489.114,
+              "x": 78.71999,
+              "y": 3.21,
+              "z": -47.77
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 101.277794,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.777268052,
+                "y": 0.0316950046,
+                "z": -0.6283707
+              },
+              "sqrMagnitude": 10257.1914,
+              "x": 78.71999,
+              "y": 3.21,
+              "z": -63.64
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Sichengong_Backyard"
+        }
+      ],
+      "PosX": 75.52,
+      "PosY": 4.45,
+      "PosZ": -50.82,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 8,
+        "DimY": 8,
+        "DimZ": 40,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 52,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District52",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_stream_loop",
+        "StopEventName": "Ev_sfx_amb_xingchahai_stream_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 49.9101524,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.549787939,
+                "y": 0.122419983,
+                "z": -0.8262848
+              },
+              "sqrMagnitude": 2491.02344,
+              "x": 27.44,
+              "y": 6.11,
+              "z": -41.24
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 55.654892,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": 0.6624755,
+                  "y": 0.109783709,
+                  "z": -0.740995169
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": 0.662475467,
+                "y": 0.1097837,
+                "z": -0.7409951
+              },
+              "sqrMagnitude": 3097.4668,
+              "x": 36.87,
+              "y": 6.11,
+              "z": -41.24
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 63.219532,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.5832058,
+                "y": 0.09664735,
+                "z": -0.806554556
+              },
+              "sqrMagnitude": 3996.70923,
+              "x": 36.87,
+              "y": 6.11,
+              "z": -50.99
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 53.6851654,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.4843051,
+                "y": 0.1138117,
+                "z": -0.86746496
+              },
+              "sqrMagnitude": 2882.097,
+              "x": 26,
+              "y": 6.11,
+              "z": -46.57
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 33.68,
+      "PosY": 6.11,
+      "PosZ": -44.97,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 53,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District53",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_stream_loop",
+        "StopEventName": "Ev_sfx_amb_xingchahai_stream_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 42.7171059,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.17908518,
+                  "y": 0.143034056,
+                  "z": -0.9733806
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.179085165,
+                "y": 0.143034041,
+                "z": -0.973380566
+              },
+              "sqrMagnitude": 1824.75122,
+              "x": -7.65,
+              "y": 6.11,
+              "z": -41.58
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 42.258255,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": 0.0589234,
+                  "y": 0.144587159,
+                  "z": -0.9877361
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": 0.0589233972,
+                "y": 0.144587144,
+                "z": -0.987736046
+              },
+              "sqrMagnitude": 1785.76,
+              "x": 2.49,
+              "y": 6.11,
+              "z": -41.74
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 51.36412,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.01907947,
+                  "y": 0.118954644,
+                  "z": -0.9927164
+                },
+                "sqrMagnitude": 0.9999999,
+                "x": -0.0190794673,
+                "y": 0.118954636,
+                "z": -0.9927163
+              },
+              "sqrMagnitude": 2638.27271,
+              "x": -0.98,
+              "y": 6.11,
+              "z": -50.99
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 49.69933,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.05372306,
+                "y": 0.122939289,
+                "z": -0.990959048
+              },
+              "sqrMagnitude": 2470.02344,
+              "x": 2.67,
+              "y": 6.11,
+              "z": -49.25
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -1.41,
+      "PosY": 6.11,
+      "PosZ": -44.97,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 54,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District54",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_stream_loop",
+        "StopEventName": "Ev_sfx_amb_xingchahai_stream_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 77.3032,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.939417839,
+                "y": 0.0182398651,
+                "z": -0.342288524
+              },
+              "sqrMagnitude": 5975.78467,
+              "x": -72.62,
+              "y": 1.41,
+              "z": -26.46
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 71.79656,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.9299888,
+                  "y": 0.0179674346,
+                  "z": -0.367148548
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.929988742,
+                "y": 0.0179674327,
+                "z": -0.367148519
+              },
+              "sqrMagnitude": 5154.746,
+              "x": -66.77,
+              "y": 1.29,
+              "z": -26.36
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 79.34838,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9140703,
+                "y": 0.0143670226,
+                "z": -0.405301273
+              },
+              "sqrMagnitude": 6296.166,
+              "x": -72.53,
+              "y": 1.14,
+              "z": -32.16
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 74.60858,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.9008347,
+                "y": 0.01608394,
+                "z": -0.4338643
+              },
+              "sqrMagnitude": 5566.441,
+              "x": -67.21,
+              "y": 1.2,
+              "z": -32.37
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -71.29,
+      "PosY": 6.11,
+      "PosZ": -25.69,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 55,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District55",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_stream_loop",
+        "StopEventName": "Ev_sfx_amb_xingchahai_stream_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 89.7405,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.809222162,
+                "y": -0.0172720216,
+                "z": -0.5872488
+              },
+              "sqrMagnitude": 8053.35742,
+              "x": -72.62,
+              "y": -1.55,
+              "z": -52.7
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 85.22954,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.7868164,
+                "y": -0.006101171,
+                "z": -0.6171569
+              },
+              "sqrMagnitude": 7264.07373,
+              "x": -67.06,
+              "y": -0.52,
+              "z": -52.6
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 90.87359,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.798141658,
+                "y": -0.0106741693,
+                "z": -0.602375269
+              },
+              "sqrMagnitude": 8258.01,
+              "x": -72.53,
+              "y": -0.97,
+              "z": -54.74
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -71.29,
+      "PosY": 1.23,
+      "PosZ": -51.93,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 56,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District56",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_stream_loop",
+        "StopEventName": "Ev_sfx_amb_xingchahai_stream_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 102.637367,
+              "normalized": {
+                "magnitude": 1.00000012,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
+                  "x": -0.733358562,
+                  "y": -0.01510171,
+                  "z": -0.6796743
+                },
+                "sqrMagnitude": 1.00000024,
+                "x": -0.7333586,
+                "y": -0.0151017122,
+                "z": -0.6796744
+              },
+              "sqrMagnitude": 10534.43,
+              "x": -75.27,
+              "y": -1.55,
+              "z": -69.75999
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 100.191971,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.715825856,
+                "y": -0.00519003626,
+                "z": -0.698259532
+              },
+              "sqrMagnitude": 10038.4307,
+              "x": -71.72,
+              "y": -0.52,
+              "z": -69.96
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 104.163567,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.746518254,
+                "y": -0.009312278,
+                "z": -0.665299833
+              },
+              "sqrMagnitude": 10850.0488,
+              "x": -77.76,
+              "y": -0.97,
+              "z": -69.3
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -73.94,
+      "PosY": 1.23,
+      "PosZ": -68.99,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 10
+      }
+    },
+    {
+      "ID": 57,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District57",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_stream_near_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_stream_near_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 97.4655762,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.3135466,
+                "y": -0.00359101128,
+                "z": -0.949566066
+              },
+              "sqrMagnitude": 9499.539,
+              "x": 30.56,
+              "y": -0.35,
+              "z": -92.55
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 22.88,
+      "PosY": 2.31,
+      "PosZ": -93.81,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 15
+      }
+    },
+    {
+      "ID": 58,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District58",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Xuanye_Avenue_Side"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 30,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 15,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": 12.51,
+      "PosY": 4,
+      "PosZ": -85.17,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 20,
+        "DimY": 10,
+        "DimZ": 10,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 59,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District59",
+      "OnEnterAudioState": [
+        {
+          "GroupName": "StateGroup_City_Xianzhou_Xingchahai",
+          "StateName": "State_Xuanye_Avenue_Side"
+        }
+      ],
+      "OnEnterRTPC": [
+        {
+          "IsRandom": true,
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 30,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 15,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": 46.26,
+      "PosY": 4,
+      "PosZ": -106.08,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 50,
+        "DimY": 10,
+        "DimZ": 10,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 60,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District60",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_xingchahai_bolanggu",
+        "StopEventName": "Ev_sfx_amb_xingchahai_bolanggu_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 132.034714,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.5317541,
+                "y": -0.0007573766,
+                "z": -0.8468985
+              },
+              "sqrMagnitude": 17433.166,
+              "x": -70.21,
+              "y": -0.1,
+              "z": -111.82
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -63.08,
+      "PosY": -0.1,
+      "PosZ": -111.76,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 12
+      }
+    },
+    {
+      "ID": 61,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District61",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_stream_near_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_stream_near_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 52.33053,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.2038963,
+                  "y": -0.00668825675,
+                  "z": -0.9789697
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.203896284,
+                "y": -0.00668825628,
+                "z": -0.978969634
+              },
+              "sqrMagnitude": 2738.48438,
+              "x": -10.67,
+              "y": -0.35,
+              "z": -51.23
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": -16.6,
+      "PosY": 2.31,
+      "PosZ": -47.82,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 15
+      }
+    },
+    {
+      "ID": 62,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District62",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_door_mid_stream_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_door_mid_stream_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 56.7208,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.330037653,
+                "y": 0.09855292,
+                "z": -0.9388091
+              },
+              "sqrMagnitude": 3217.249,
+              "x": 18.72,
+              "y": 5.59,
+              "z": -53.25
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 54.7406845,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.208071932,
+                "y": 0.102117836,
+                "z": -0.972768247
+              },
+              "sqrMagnitude": 2996.54272,
+              "x": 11.39,
+              "y": 5.59,
+              "z": -53.25
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 45.2069931,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.251952171,
+                "y": 0.123653442,
+                "z": -0.9598072
+              },
+              "sqrMagnitude": 2043.67224,
+              "x": 11.39,
+              "y": 5.59,
+              "z": -43.39
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 48.09512,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.415426761,
+                "y": 0.116228014,
+                "z": -0.902170539
+              },
+              "sqrMagnitude": 2313.14063,
+              "x": 19.98,
+              "y": 5.59,
+              "z": -43.39
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 15.97,
+      "PosY": 8.25,
+      "PosZ": -47.41,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 15
+      }
+    },
+    {
+      "ID": 63,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District63",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_sichengong_door_side_stream_loop",
+        "StopEventName": "Ev_sfx_amb_sichengong_door_side_stream_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 60.3538971,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": 0.344633937,
+                  "y": 0.09262037,
+                  "z": -0.934156835
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": 0.3446339,
+                "y": 0.0926203653,
+                "z": -0.9341568
+              },
+              "sqrMagnitude": 3642.59277,
+              "x": 20.8,
+              "y": 5.59,
+              "z": -56.38
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 57.4130363,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.161809951,
+                "y": 0.09736465,
+                "z": -0.982006967
+              },
+              "sqrMagnitude": 3296.25684,
+              "x": 9.290001,
+              "y": 5.59,
+              "z": -56.38
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 48.8472824,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.19714506,
+                "y": 0.123036534,
+                "z": -0.972623169
+              },
+              "sqrMagnitude": 2386.057,
+              "x": 9.63,
+              "y": 6.01,
+              "z": -47.51
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 52.2067451,
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": 0.398224443,
+                  "y": 0.115119234,
+                  "z": -0.91003567
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": 0.3982244,
+                "y": 0.115119226,
+                "z": -0.9100356
+              },
+              "sqrMagnitude": 2725.54419,
+              "x": 20.79,
+              "y": 6.01,
+              "z": -47.51
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 15.97,
+      "PosY": 8.25,
+      "PosZ": -47.41,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 50,
+        "PointList": [],
+        "Radius": 15
+      }
+    },
+    {
+      "ID": 64,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District64",
+      "OnEnterAreaSound": {
+        "PlayEventName": "Ev_sfx_amb_changletian_frog_pad_loop",
+        "StopEventName": "Ev_sfx_amb_changletian_frog_pad_loop_stop",
+        "TransformList": [
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 103.85025,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.516898155,
+                "y": -0.0033702373,
+                "z": -0.8560403
+              },
+              "sqrMagnitude": 10784.875,
+              "x": 53.68,
+              "y": -0.35,
+              "z": -88.9
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          },
+          {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
+            "Position": {
+              "magnitude": 97.43032,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.3556388,
+                "y": -0.00359231071,
+                "z": -0.9346166
+              },
+              "sqrMagnitude": 9492.668,
+              "x": 34.65,
+              "y": -0.35,
+              "z": -91.06
+            },
+            "Up": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "PosX": 43.85,
+      "PosY": 2.31,
+      "PosZ": -75.64,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 5,
+        "DimZ": 50,
+        "PointList": [
+          {
+            "magnitude": 28.2867336,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1.00000012,
+              "x": -0.715790331,
+              "y": -0.6983153
+            },
+            "sqrMagnitude": 800.139343,
+            "x": -20.24737,
+            "y": -19.75306
+          },
+          {
+            "magnitude": 22.4187241,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.8704465,
+              "y": -0.492263049
+            },
+            "sqrMagnitude": 502.599182,
+            "x": -19.5143,
+            "y": -11.03591
+          },
+          {
+            "magnitude": 13.042407,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.99752146,
+                "y": 0.0703632459
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": -0.9975214,
+              "y": 0.07036324
+            },
+            "sqrMagnitude": 170.10437,
+            "x": -13.01008,
+            "y": 0.917706
+          },
+          {
+            "magnitude": 16.1351738,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": -0.6117153,
+                "y": 0.791078031
+              },
+              "sqrMagnitude": 0.9999999,
+              "x": -0.611715257,
+              "y": 0.791078
+            },
+            "sqrMagnitude": 260.3438,
+            "x": -9.870132,
+            "y": 12.76418
+          },
+          {
+            "magnitude": 12.5686722,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.08594161,
+              "y": 0.996300161
+            },
+            "sqrMagnitude": 157.971527,
+            "x": 1.080172,
+            "y": 12.52217
+          },
+          {
+            "magnitude": 5.082419,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
+                "x": 0.226219282,
+                "y": 0.9740764
+              },
+              "sqrMagnitude": 0.9999999,
+              "x": 0.226219267,
+              "y": 0.974076331
+            },
+            "sqrMagnitude": 25.83098,
+            "x": 1.149741,
+            "y": 4.950664
+          },
+          {
+            "magnitude": 29.3432732,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.9878633,
+                "y": 0.155326068
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": 0.987863243,
+              "y": 0.155326054
+            },
+            "sqrMagnitude": 861.027649,
+            "x": 28.98714,
+            "y": 4.557775
+          },
+          {
+            "magnitude": 36.0115356,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.8176933,
+              "y": -0.575654149
+            },
+            "sqrMagnitude": 1296.83069,
+            "x": 29.44639,
+            "y": -20.73019
+          }
+        ],
+        "Radius": 20,
+        "Shape": "Polygon"
+      }
+    },
+    {
+      "ID": 65,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District65",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 1,
+          "RandomFrequncy": 5
+        }
+      ],
+      "OnExitRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -36.75,
+      "PosY": 0.76,
+      "PosZ": -78.58,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 30,
+        "DimY": 5,
+        "DimZ": 10,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 66,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District66",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 1,
+          "RandomFrequncy": 5
+        }
+      ],
+      "OnExitRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -17.91,
+      "PosY": 5.74,
+      "PosZ": 6.93,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 5,
+        "DimY": 2,
+        "DimZ": 25,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 67,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District67",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 1,
+          "RandomFrequncy": 5
+        }
+      ],
+      "OnExitRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -91.25,
+      "PosY": 3.09,
+      "PosZ": -22.96,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 55,
+        "DimY": 8,
+        "DimZ": 20,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 68,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District68",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 1,
+          "RandomFrequncy": 5
+        }
+      ],
+      "OnExitRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -54.6,
+      "PosZ": 27.5,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 60,
+        "DimY": 2,
+        "DimZ": 70,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 69,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District69",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 14,
+          "RandomFrequncy": 5
+        }
+      ],
+      "OnExitRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": -15.62,
+      "PosY": -0.974495,
+      "PosZ": -68.49,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 20,
+        "DimZ": 60,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 70,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District70",
+      "OnEnterRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
+        }
+      ],
+      "PosX": 15.31,
+      "PosY": 49.93,
+      "PosZ": -102.75,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 500
+      }
+    }
+  ],
+  "GroupName": "Sound",
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
+}

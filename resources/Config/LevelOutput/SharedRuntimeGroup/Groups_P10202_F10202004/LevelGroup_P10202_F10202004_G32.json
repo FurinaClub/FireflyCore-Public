@@ -1,0 +1,318 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -57.07,
+      "PosY": -2.03696,
+      "PosZ": -67.7
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -31.01,
+      "PosY": 0.482366,
+      "PosZ": -45.57001,
+      "RotY": 205.3376
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": -58.56,
+      "PosY": -2.03696,
+      "PosZ": -68.39,
+      "RotY": 109.0532
+    },
+    {
+      "ID": 4,
+      "Name": "Anchor4",
+      "PosX": -31.62,
+      "PosY": 2.05,
+      "PosZ": -48.59,
+      "RotX": 12,
+      "RotY": 359.17,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 5,
+      "Name": "Anchor5",
+      "PosX": -31.91,
+      "PosY": 0.482366,
+      "PosZ": -46.8,
+      "RotX": 1.95042,
+      "RotY": 36.14971,
+      "RotZ": 350.2167
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10202_F10202004_G32",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission8003202_01",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 800320201,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 800320204,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_800320201.json",
+        "PathwayList": [
+          {
+            "UseGroup": 32,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 312110000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1209,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -57.07,
+      "PosY": -2.03696,
+      "PosZ": -67.7,
+      "RotY": 115.3255,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 8003202,
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -57.07,
+      "PosY": -2.03696,
+      "PosZ": -67.7,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -31.01,
+      "PosY": 0.482366,
+      "PosZ": -45.57001,
+      "PropID": 100,
+      "RotY": 94.69317,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 12,
+        "DimY": 3,
+        "DimZ": 20,
+        "PointList": [],
+        "Radius": 3
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -54.1,
+      "PosY": -2.03696,
+      "PosZ": -69.11,
+      "PropID": 100,
+      "RotY": 23.49202,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 2,
+        "DimY": 3,
+        "DimZ": 15,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    }
+  ],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 800320204,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -57.07,
+      "PosY": -2.03696,
+      "PosZ": -67.7
+    },
+    {
+      "ID": 2,
+      "PosX": -50.3,
+      "PosY": -2.03696,
+      "PosZ": -69.45
+    },
+    {
+      "ID": 3,
+      "PosX": -44.91,
+      "PosY": -2.036958,
+      "PosZ": -68.07
+    },
+    {
+      "ID": 4,
+      "PosX": -41.76,
+      "PosY": -2.037611,
+      "PosZ": -67.09
+    },
+    {
+      "ID": 5,
+      "PosX": -39.45,
+      "PosY": -0.643457,
+      "PosZ": -64.79
+    },
+    {
+      "ID": 6,
+      "PosX": -35.99,
+      "PosY": -0.727683,
+      "PosZ": -61.09
+    },
+    {
+      "ID": 7,
+      "PosX": -31.907,
+      "PosY": -0.727684,
+      "PosZ": -52.059
+    },
+    {
+      "ID": 8,
+      "PosX": -31.03,
+      "PosY": 0.494439,
+      "PosZ": -48.98
+    },
+    {
+      "ID": 9,
+      "PosX": -31.038,
+      "PosY": 0.481725,
+      "PosZ": -45.566
+    }
+  ]
+}

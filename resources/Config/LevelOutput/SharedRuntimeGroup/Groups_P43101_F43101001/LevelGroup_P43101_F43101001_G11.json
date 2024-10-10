@@ -1,0 +1,136 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P43101_F43101001_G11",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2010202_04",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupGraph/F43101001/Group_F43101001_G11.json",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 201020204,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_201020211.json",
+        "PathwayList": [
+          {
+            "UseGroup": 11,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 900050000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 3023,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 127.5,
+      "PosY": 46.45185,
+      "PosZ": -64.42,
+      "RotY": 155.2,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 2010202,
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": 216.41,
+      "PosY": 47.57881,
+      "PosZ": -128.6112,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 201020204,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 127.5,
+      "PosY": 46.45185,
+      "PosZ": -64.42
+    },
+    {
+      "ID": 2,
+      "PosX": 130.22,
+      "PosY": 46.47109,
+      "PosZ": -70.7305
+    },
+    {
+      "ID": 3,
+      "PosX": 137.7619,
+      "PosY": 46.28112,
+      "PosZ": -72.12222
+    },
+    {
+      "ID": 4,
+      "PosX": 145.821,
+      "PosY": 46.28318,
+      "PosZ": -71.48114
+    },
+    {
+      "ID": 5,
+      "PosX": 158.6173,
+      "PosY": 46.37547,
+      "PosZ": -65.63531
+    }
+  ]
+}

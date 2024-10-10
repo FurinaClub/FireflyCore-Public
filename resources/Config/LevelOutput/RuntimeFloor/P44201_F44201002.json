@@ -1,0 +1,394 @@
+{
+  "CameraType": "Maze",
+  "CustomValues": [
+    {
+      "$type": "RPG.GameCore.FloorCustomStringConfig, RPG.GameCore.Config",
+      "ID": 10001,
+      "Name": "NPCAIState"
+    }
+  ],
+  "DimensionList": [
+    {
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X301_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 44201002,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "SaveType": "Reset"
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "6": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "8": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "9": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "10": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "13": {
+      "Category": "Mission",
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 4072012,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "14": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407201215,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "15": {
+      "Category": "Mission",
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 4072012,
+            "Phase": "Finish"
+          }
+        ]
+      }
+    },
+    "18": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407201208,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "24": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407201201,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "30": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "31": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "32": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "33": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "36": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "38": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407201214,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "41": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407201216,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ],
+        "DelayToLevelReload": true
+      }
+    },
+    "42": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407201204,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "43": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407201203,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "44": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "48": {
+      "Category": "Mission",
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407201212,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G3.json",
+      "ID": 3,
+      "Name": "Default_BoundaryCamera_Client"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G4.json",
+      "ID": 4,
+      "Name": "Default_BoundaryCamera_Client"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G5.json",
+      "ID": 5,
+      "Name": "Default_BoundaryCamera_Client"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G6.json",
+      "ID": 6,
+      "Name": "Default_BoundaryCamera_Client"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G7.json",
+      "ID": 7,
+      "Name": "Default_BoundaryCamera_Client"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G8.json",
+      "ID": 8,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G9.json",
+      "ID": 9,
+      "Name": "BlockLines"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G10.json",
+      "ID": 10,
+      "Name": "Checkpoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G24.json",
+      "ID": 24,
+      "Name": "MainMission4072012_Wave1_Point1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G48.json",
+      "ID": 48,
+      "Name": "MainMission4072012_Wave1_Point1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G13.json",
+      "ID": 13,
+      "Name": "MainMission4072012_Wave1_Monster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G18.json",
+      "ID": 18,
+      "Name": "MainMission4072012_Wave2A_Monster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G33.json",
+      "ID": 33,
+      "Name": "MainMission4072012_NPCBird"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G38.json",
+      "ID": 38,
+      "Name": "MainMission4072012_Wave2_NPCTalk"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G14.json",
+      "ID": 14,
+      "Name": "MainMission4072012_Wave2_Talk"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G15.json",
+      "ID": 15,
+      "Name": "MainMission4072012_Wave2A_Monster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G42.json",
+      "ID": 42,
+      "Name": "MainMission4072012_Wave2_Point1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G43.json",
+      "ID": 43,
+      "Name": "MainMission4072012_Wave2_Point2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G30.json",
+      "ID": 30,
+      "Name": "Gameplay_Sneek_ForSpecialVision"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G31.json",
+      "ID": 31,
+      "Name": "Default_Elevator_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G32.json",
+      "ID": 32,
+      "Name": "Default_Elevator_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G36.json",
+      "ID": 36,
+      "Name": "MPProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G41.json",
+      "ID": 41,
+      "Name": "MainMission4072012_Wave3_Point2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44201_F44201002/LevelGroup_P44201_F44201002_G44.json",
+      "ID": 44,
+      "Name": "ChallengeTarget"
+    }
+  ],
+  "LayerToAreaMask": [
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20231_F20231001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X301_MainLine_01_StageData/Chap02_MAZ_X301_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

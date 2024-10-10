@@ -1,0 +1,175 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X102_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 9
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40212002,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "4": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407212201,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "9": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "10": {
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "11": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 407212203,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
+    },
+    "12": {
+      "Category": "Mission",
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "17": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "22": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "23": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "24": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G4.json",
+      "ID": 4,
+      "Name": "MIssion Group1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G9.json",
+      "ID": 9,
+      "Name": "MIneG1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G10.json",
+      "ID": 10,
+      "Name": "MIneG2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G11.json",
+      "ID": 11,
+      "Name": "MIssion Group2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G12.json",
+      "ID": 12,
+      "Name": "MIssion Group3"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G17.json",
+      "ID": 17,
+      "Name": "Gameplay_CallPuppy"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G22.json",
+      "ID": 22,
+      "Name": "PollutionG1sub"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G23.json",
+      "ID": 23,
+      "Name": "PollutionG2sub"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G24.json",
+      "ID": 24,
+      "Name": "PollutionG3sub"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G2.json",
+      "ID": 2,
+      "Name": "V1_MaintainRobot Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40212_F40212002/LevelGroup_P40212_F40212002_G3.json",
+      "ID": 3,
+      "Name": "Kafka_Door"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20212_F20212001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X102_MainLine_01_StageData/Chap02_MAZ_X102_MainLine_01_StageData.stage",
+  "StartAnchorID": 9,
+  "TempGroupUnloadByY": 10000000
+}

@@ -1,0 +1,110 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "PlayerStart",
+      "PosX": -179.86,
+      "PosY": 15.70887,
+      "PosZ": -2.64,
+      "RotY": 27.11496,
+      "Usage": "Actor"
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P43202_F43202006_G1",
+  "BattleAreaList": [
+    {
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Day.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea1",
+      "PrefetchMainMissionList": [],
+      "PrefetchSubMissionList": [],
+      "PropsGroupID": 4,
+      "Tags": [
+        "BattleArea01"
+      ]
+    },
+    {
+      "AudioEnterEvent": [
+        "Ev_amb_maze_xianzhou_x3_3_battle"
+      ],
+      "AudioState": [
+        {
+          "GroupName": "State_Battle_Monster_W2_Huanlong_00",
+          "StateName": "Phase1"
+        }
+      ],
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Phase1_Day.enviroProfile.asset",
+      "ID": 2,
+      "Name": "BattleArea2",
+      "PrefetchMainMissionList": [],
+      "PrefetchSubMissionList": [],
+      "PropsGroupID": 81,
+      "Tags": [
+        "BattleArea02"
+      ]
+    }
+  ],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Default",
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_BlockLine_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -313.02,
+      "PosY": -29.4273,
+      "PosZ": 4.86,
+      "PropID": 102004,
+      "RotY": 90,
+      "Scale": {
+        "magnitude": 1.85472369,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1.00000012,
+          "x": 0.6469967,
+          "y": 0.5391639,
+          "z": 0.5391639
+        },
+        "sqrMagnitude": 3.44,
+        "x": 1.2,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
+}

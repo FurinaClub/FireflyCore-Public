@@ -1,0 +1,105 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20132_F20132001_G47",
+  "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "New Group",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "AnchorGroupID": 1,
+      "AnchorID": 5,
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_OnEnter": {
+          "Radius": 20
+        }
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/Town/Town_Chapter01_TestDoor_LV5Boss.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2013205,
+      "Name": "Prop2",
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 101.27,
+      "PosY": 2.800493,
+      "PosZ": 78.87997,
+      "PropID": 114,
+      "RaidID": 1,
+      "RotY": 315,
+      "Scale": {
+        "magnitude": 1.68169558,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "x": 0.5411205,
+          "y": 0.59463793,
+          "z": 0.59463793
+        },
+        "sqrMagnitude": 2.8281,
+        "x": 0.91,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [
+        16
+      ],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 20,
+        "DimY": 4,
+        "DimZ": 10,
+        "Radius": 8,
+        "Server": true,
+        "Shape": "Box"
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "VCam",
+            "Value": "Chap01_MAZ_M302_LevelArea,RaidCam_01"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "VCam",
+            "Value": "Chap01_MAZ_M302_LevelArea,RaidCam_01"
+          }
+        ]
+      }
+    }
+  ],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 1011403,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
+}

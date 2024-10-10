@@ -1,0 +1,204 @@
+{
+  "AttachPoint": "Origin",
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "Duration": {
+    "fixedValue": {
+      "Value": -1
+    }
+  },
+  "GroupConfigName": "FollowField",
+  "OnCreate": [
+    {
+      "$type": "RPG.GameCore.DisableMazeLockTarget, RPG.GameCore.Config",
+      "Disable": true,
+      "IsClientOnly": true,
+      "Target": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "AdvLocalPlayer"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.WaitSecond, RPG.GameCore.Config",
+      "IsClientOnly": true,
+      "MaxAdvencePerTick": -1,
+      "TaskEnabled": true,
+      "WaitTime": {
+        "fixedValue": {
+          "Value": 19.50000000046566
+        }
+      }
+    },
+    {
+      "$type": "RPG.GameCore.SetSummonUnitTriggerEnable, RPG.GameCore.Config",
+      "IsClientOnly": true,
+      "SummonUnit": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true,
+      "TriggerNames": [
+        "HitNpcMonsterTrigger"
+      ]
+    }
+  ],
+  "OnDestroy": [
+    {
+      "$type": "RPG.GameCore.DisableMazeLockTarget, RPG.GameCore.Config",
+      "IsClientOnly": true,
+      "Target": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "AdvLocalPlayer"
+      },
+      "TaskEnabled": true
+    },
+    {
+      "$type": "RPG.GameCore.RemoveMazeBuff, RPG.GameCore.Config",
+      "ID": 131702,
+      "IsClientOnly": true,
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "AdvLocalPlayer"
+      },
+      "TaskEnabled": true
+    }
+  ],
+  "ShoesType": "boot",
+  "TickLodTemplateName": "DefaultStaticEntity",
+  "TriggerConfig": {
+    "CustomTriggers": [
+      {
+        "DefaultEnable": true,
+        "NeedRaycast": true,
+        "OnTriggerEnter": [
+          {
+            "$type": "RPG.GameCore.AdventureTriggerTargetAbility, RPG.GameCore.Config",
+            "AbilityName": "LocalPlayer_Rappa_00_MazeSkill_TriggerHitMonster",
+            "AbilityTargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "IsClientOnly": true,
+            "SkillType": "MazeSkill",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "CasterSummoner"
+            },
+            "TaskEnabled": true
+          }
+        ],
+        "Radius": {
+          "fixedValue": {
+            "Value": 2.1000000000931323
+          }
+        },
+        "RayStartOffsetY": 1,
+        "SkipFakeAvatar": true,
+        "TargetTypes": [
+          "NPCMonster"
+        ],
+        "TriggerName": "HitNpcMonsterTrigger",
+        "UseVerticalBound": true
+      },
+      {
+        "DefaultEnable": true,
+        "NeedRaycast": true,
+        "OnTriggerEnter": [
+          {
+            "$type": "RPG.GameCore.TriggerHitTarget, RPG.GameCore.Config",
+            "HitConfig": {
+              "HitAnimation": "Hit",
+              "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Rappa_00/Eff_Avatar_Rappa_00_MazeSkill01_Hit01.prefab",
+              "HitEffectHeight": 1
+            },
+            "IsClientOnly": true,
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "TaskEnabled": true
+          }
+        ],
+        "OnTriggerExit": [],
+        "Radius": {
+          "fixedValue": {
+            "Value": 2.1000000000931323
+          }
+        },
+        "RayStartOffsetY": 1,
+        "SkipFakeAvatar": true,
+        "TargetFilter": {
+          "$type": "RPG.GameCore.ByTargetHitBoxActive, RPG.GameCore.Config",
+          "IsClientOnly": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+            "Alias": "ParamEntity"
+          },
+          "TaskEnabled": true
+        },
+        "TargetTypes": [
+          "NPC"
+        ],
+        "TriggerName": "HitNPCTrigger",
+        "UseVerticalBound": true
+      },
+      {
+        "DefaultEnable": true,
+        "NeedRaycast": true,
+        "OnTriggerEnter": [
+          {
+            "$type": "RPG.GameCore.TriggerHitProp, RPG.GameCore.Config",
+            "ClientMode": "PreShow",
+            "HitConfig": {
+              "HitAnimation": "Hit",
+              "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Rappa_00/Eff_Avatar_Rappa_00_MazeSkill01_Hit01.prefab",
+              "HitEffectHeight": 1
+            },
+            "IsClientOnly": true,
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "TaskEnabled": true
+          }
+        ],
+        "OnTriggerEnterRollback": [
+          {
+            "$type": "RPG.GameCore.PropDestructReset, RPG.GameCore.Config",
+            "IsClientOnly": true,
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "TaskEnabled": true
+          }
+        ],
+        "OnTriggerExit": [],
+        "Radius": {
+          "fixedValue": {
+            "Value": 2.1000000000931323
+          }
+        },
+        "RayStartOffsetY": 1,
+        "SkipFakeAvatar": true,
+        "TargetFilter": {
+          "$type": "RPG.GameCore.ByComparePropType, RPG.GameCore.Config",
+          "IsClientOnly": true,
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+            "Alias": "ParamEntity"
+          },
+          "TaskEnabled": true,
+          "Types": [
+            "PROP_DESTRUCT"
+          ]
+        },
+        "TargetTypes": [
+          "Prop"
+        ],
+        "TriggerName": "HitPropTrigger",
+        "UseVerticalBound": true
+      }
+    ]
+  }
+}

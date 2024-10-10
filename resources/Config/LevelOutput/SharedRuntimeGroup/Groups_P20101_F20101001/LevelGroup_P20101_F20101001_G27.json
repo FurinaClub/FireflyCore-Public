@@ -1,0 +1,136 @@
+{
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20101_F20101001_G27",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "MainMissionMonster",
+  "LittleGameList": [],
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 101010101,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101010107,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101010108,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101010109,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101010110,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "UseGroup": 27,
+            "UseID": 2
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20101002,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8001020,
+      "Name": "Monster2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 27.53,
+      "PosY": 3.173806,
+      "PosZ": -50.54,
+      "TagList": []
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 101010113,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 62.62,
+      "PosY": 3.868927,
+      "PosZ": -31.96
+    },
+    {
+      "ID": 2,
+      "PosX": 51.02176,
+      "PosY": 3.893637,
+      "PosZ": -35.16025
+    },
+    {
+      "ID": 3,
+      "PosX": 27.53,
+      "PosY": 3.173806,
+      "PosZ": -50.54
+    },
+    {
+      "ID": 4,
+      "PosX": 36.17,
+      "PosY": 2.154021,
+      "PosZ": -63.64
+    }
+  ]
+}

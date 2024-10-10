@@ -1,0 +1,376 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -34.16,
+      "PosY": 1.536784,
+      "PosZ": -3.13,
+      "RotY": 90.0001
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -7.636,
+      "PosY": -0.395682,
+      "PosZ": -9.052,
+      "RotY": 270.0001
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": -7.24,
+      "PosY": 0.031746,
+      "PosZ": -43.84,
+      "RotY": 270.0001
+    },
+    {
+      "ID": 4,
+      "Name": "Anchor4",
+      "PosX": -29.29,
+      "PosY": 0.482009,
+      "PosZ": -40.34,
+      "RotY": 270.0001
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 5,
+      "Name": "Cam1-1",
+      "PosX": -40.56,
+      "PosY": 8.82,
+      "PosZ": 2.76,
+      "RotX": 20.19312,
+      "RotY": 131.8022,
+      "RotZ": 3.416844,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 6,
+      "Name": "Cam1-2",
+      "PosX": -39.28,
+      "PosY": 8.82,
+      "PosZ": 0.7,
+      "RotX": 20.19312,
+      "RotY": 139.2337,
+      "RotZ": 3.416846,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 8,
+      "Name": "Cam2-1",
+      "PosX": -6.27,
+      "PosY": 5.53,
+      "PosZ": -1.55,
+      "RotX": 23.64235,
+      "RotY": 196.7726,
+      "RotZ": 359.1325,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 9,
+      "Name": "Cam2-2",
+      "PosX": -2.29,
+      "PosY": 3.03,
+      "PosZ": -4.56,
+      "RotX": 11.63328,
+      "RotY": 244.3588,
+      "RotZ": 358.8071,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 10,
+      "Name": "Cam3-1",
+      "PosX": 0.41,
+      "PosY": 4.79,
+      "PosZ": -44.44,
+      "RotX": 18.76284,
+      "RotY": 301.2802,
+      "RotZ": 0.622106,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 11,
+      "Name": "Cam3-2",
+      "PosX": -9.936561,
+      "PosY": 2.756479,
+      "PosZ": -49.54078,
+      "RotX": 9.270802,
+      "RotY": 7.894978,
+      "RotZ": 359.1954,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 12,
+      "Name": "Cam4-1",
+      "PosX": -38.39,
+      "PosY": 7.68,
+      "PosZ": -50.06,
+      "RotX": 23.53242,
+      "RotY": 42.50443,
+      "RotZ": 359.1362,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 13,
+      "Name": "Cam4-2",
+      "PosX": -38.39,
+      "PosY": 7.68,
+      "PosZ": -50.06,
+      "RotX": 23.53242,
+      "RotY": 42.50443,
+      "RotZ": 359.1362,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 7,
+      "Name": "ActCanera",
+      "PosX": -21.57718,
+      "PosY": 3.819306,
+      "PosZ": -32.41341,
+      "RotX": 4.802053,
+      "RotY": 333.7168,
+      "RotZ": 359.1635,
+      "Usage": "Camera"
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10202_F10202004_G210",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "ChaseBird",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/Special_NPC_Adventure/MazeNPC_FollowPlayer_Special_RobCrane_3011.json",
+        "PathwayList": [
+          {
+            "Type": "Reverse",
+            "UseGroup": 210,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          },
+          {
+            "Type": "Reverse",
+            "UseGroup": 210,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 900070000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Maze/Activity/AlleyLevel/AlleyLevelgraph_ChaseBird_Poptalk.json",
+      "NPCID": 3011,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -31.434,
+      "PosY": 1.536784,
+      "PosZ": -8.316,
+      "RotY": 90.0001,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 3
+      }
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Maze/Activity/AlleyLevel/AlleyLevelgraph_ChaseBird.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -30.75,
+      "PosY": 1.536142,
+      "PosZ": -13.94,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PrefabPath",
+            "Value": "Props/Outputs/Chap02/Chap02_ChaseBird/ChaseBirdController01.prefab"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "StartString",
+            "Value": "ChaseBird01_Start"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "EndString",
+            "Value": "ChaseBird01_End"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "FaceTo"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird",
+            "Value": "210,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Camera"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Branch"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "MoveTo"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PrefabPath",
+            "Value": "Props/Outputs/Chap02/Chap02_ChaseBird/ChaseBirdController01.prefab"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "StartString",
+            "Value": "ChaseBird01_Start"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "EndString",
+            "Value": "ChaseBird01_End"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "FaceTo"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird",
+            "Value": "210,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Camera"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Branch"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "MoveTo"
+          }
+        ]
+      }
+    }
+  ],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
+}

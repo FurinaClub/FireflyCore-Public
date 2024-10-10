@@ -1,0 +1,123 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [],
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X303_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 30126003,
+  "GroupInstanceCommonMap": {
+    "1": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "3": {
+      "Category": "BattleProps",
+      "LoadOnInitial": true,
+      "SaveType": "Reset",
+      "SystemUnlockCondition": {
+        "Conditions": [],
+        "Operation": "And"
+      }
+    },
+    "4": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 102160101,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          },
+          {
+            "ID": 102160105,
+            "Type": "SubMission"
+          }
+        ],
+        "DelayToLevelReload": true,
+        "Operation": "Or"
+      }
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "6": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "Category": "Custom",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server"
+    },
+    "8": {
+      "Category": "Custom",
+      "IsHoyoGroup": true,
+      "LoadSide": "Server"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30126_F30126003/LevelGroup_P30126_F30126003_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30126_F30126003/LevelGroup_P30126_F30126003_G3.json",
+      "ID": 3,
+      "Name": "BATProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30126_F30126003/LevelGroup_P30126_F30126003_G4.json",
+      "ID": 4,
+      "Name": "HuanlongFlower"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30126_F30126003/LevelGroup_P30126_F30126003_G5.json",
+      "ID": 5,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30126_F30126003/LevelGroup_P30126_F30126003_G6.json",
+      "ID": 6,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30126_F30126003/LevelGroup_P30126_F30126003_G7.json",
+      "ID": 7,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30126_F30126003/LevelGroup_P30126_F30126003_G8.json",
+      "ID": 8,
+      "Name": "Contents"
+    }
+  ],
+  "IsRestartLevelGraph": true,
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X303_MainLine_01_StageData/Chap02_MAZ_X303_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}

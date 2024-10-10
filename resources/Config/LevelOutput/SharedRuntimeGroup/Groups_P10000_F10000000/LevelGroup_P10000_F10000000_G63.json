@@ -1,0 +1,159 @@
+{
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -3.83,
+      "PosY": -0.00001,
+      "PosZ": 22.93,
+      "RotY": 224.3193
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -5.08,
+      "PosY": -0.00001,
+      "PosZ": 20.66,
+      "RotY": 24.01377
+    },
+    {
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": -5.08,
+      "PosY": -0.00001,
+      "PosZ": 20.66,
+      "RotY": 24.01377
+    },
+    {
+      "ID": 4,
+      "Name": "Anchor4",
+      "PosX": -1.43,
+      "PosY": 1.77,
+      "PosZ": 23.03,
+      "RotX": 17.73829,
+      "RotY": 255.0002,
+      "RotZ": 0.000035,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 5,
+      "Name": "Anchor5",
+      "PosX": -6.27,
+      "PosY": 0.8,
+      "PosZ": 21.32,
+      "RotY": 90
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10000_F10000000_G63",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4050006_Pam",
+  "GroupRefreshID": 1,
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 405000602,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 405000603,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 405000607,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 405000608,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 405000605,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 405000606,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 405000610,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 405000611,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 900010237,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialogueMain_F10000000_G56_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialoguePack_FakePamBase_F10000000_G56_N400001.json",
+            "Name": "FakePamBase"
+          }
+        ]
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LevelGraph": "Config/Level/Maze/Chapter00/Train/Train_PamAction.json",
+      "LoadOnInitial": true,
+      "NPCID": 3001,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -5.08,
+      "PosY": -0.00001,
+      "PosZ": 20.66,
+      "RotY": 24.01377,
+      "ServerInteractVerificationIDList": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 4050006,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 4050006,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
+}

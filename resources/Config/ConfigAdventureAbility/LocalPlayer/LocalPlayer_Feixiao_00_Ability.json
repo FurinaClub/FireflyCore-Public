@@ -1,0 +1,181 @@
+{
+  "AbilityList": [
+    {
+      "Name": "LocalPlayer_Feixiao_00_NormalAtk01",
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.VCameraConfigChange"
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.SetDynamicValue"
+            },
+            {
+              "$type": "RPG.GameCore.AddAdventureModifier",
+              "LifeTime": {
+                "FixedValue": null,
+                "IsDynamic": false
+              },
+              "ModifierName": "ADV_StageAbility_Maze_Feixiao_Attack_HolyShield"
+            },
+            {
+              "$type": "RPG.GameCore.EnableLocalPlayerMoveIgnoreMonster"
+            },
+            {
+              "$type": "RPG.GameCore.VCameraConfigChange"
+            },
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.LookAt"
+                }
+              ]
+            },
+            {
+              "$type": "RPG.GameCore.AdventureTriggerAnimStateWithMove"
+            },
+            {
+              "$type": "RPG.GameCore.TriggerEffect"
+            },
+            {
+              "$type": "RPG.GameCore.WaitAnimState"
+            },
+            {
+              "$type": "RPG.GameCore.TriggerEffect"
+            },
+            {
+              "$type": "RPG.GameCore.RemoveEffect"
+            },
+            {
+              "$type": "RPG.GameCore.SetEntityVisible"
+            },
+            {
+              "$type": "RPG.GameCore.RemoveAdventureModifier",
+              "ModifierName": "ADV_StageAbility_Maze_Feixiao_Visual"
+            },
+            {
+              "$type": "RPG.GameCore.RemoveEffect"
+            },
+            {
+              "$type": "RPG.GameCore.GlobalMainIntensityEffect"
+            },
+            {
+              "$type": "RPG.GameCore.WaitAnimState"
+            },
+            {
+              "$type": "RPG.GameCore.SetEntityVisible"
+            },
+            {
+              "$type": "RPG.GameCore.WaitAnimState"
+            },
+            {
+              "$type": "RPG.GameCore.DestroySummonUnit"
+            },
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "SuccessTaskList": []
+            },
+            {
+              "$type": "RPG.GameCore.AdventureTriggerAttack",
+              "OnBattle": [
+                {
+                  "$type": "RPG.GameCore.AddMazeBuff",
+                  "ID": 122002
+                },
+                {
+                  "$type": "RPG.GameCore.SetDynamicValue"
+                }
+              ],
+              "TriggerBattle": true
+            },
+            {
+              "$type": "RPG.GameCore.VCameraConfigChange"
+            },
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.EnableLocalPlayerMoveIgnoreMonster"
+                }
+              ]
+            },
+            {
+              "$type": "RPG.GameCore.RemoveMazeBuff",
+              "ID": 122001
+            },
+            {
+              "$type": "RPG.GameCore.RemoveAdventureModifier",
+              "ModifierName": "ADV_StageAbility_Maze_Feixiao_Attack_HolyShield"
+            },
+            {
+              "$type": "RPG.GameCore.WaitAnimState"
+            },
+            {
+              "$type": "RPG.GameCore.GlobalMainIntensityEffect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "LocalPlayer_Feixiao_00_MazeSkill",
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TriggerEffect"
+        },
+        {
+          "$type": "RPG.GameCore.TriggerSound",
+          "ID": 0
+        },
+        {
+          "$type": "RPG.GameCore.TriggerSound",
+          "ID": 0
+        },
+        {
+          "$type": "RPG.GameCore.AddMazeBuff",
+          "ID": 122004,
+          "LifeTime": {
+            "FixedValue": null,
+            "IsDynamic": true
+          }
+        },
+        {
+          "$type": "RPG.GameCore.RefreshMazeBuffTime",
+          "ID": 122004,
+          "LifeTime": {
+            "FixedValue": null,
+            "IsDynamic": true
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddMazeBuff",
+          "ID": 122001,
+          "LifeTime": {
+            "FixedValue": null,
+            "IsDynamic": true
+          }
+        },
+        {
+          "$type": "RPG.GameCore.SetSummonUnitTriggerEnable"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveEffect"
+        },
+        {
+          "$type": "RPG.GameCore.TriggerEffect"
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.AdventureTriggerFastRun"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

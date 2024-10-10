@@ -1,0 +1,188 @@
+{
+  "CameraType": "Maze",
+  "DimensionList": [
+    {
+      "BattleAreaList": [
+        {
+          "AudioEnterEvent": [
+            "Ev_WwiseMatrixReverb_VO_03_datingzhongxing"
+          ],
+          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X401_MainLine_01_Day.enviroProfile.asset",
+          "ID": 1,
+          "Name": "BattleArea1",
+          "PrefetchMainMissionList": [],
+          "PrefetchSubMissionList": [],
+          "PropsGroupID": 3,
+          "Tags": [
+            "BattleArea1"
+          ]
+        }
+      ],
+      "CameraType": "Maze",
+      "ConstValues": [
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "ID": 1,
+          "Name": "To2floor"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "ID": 2,
+          "Name": "To3floor"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "ID": 3,
+          "Name": "2floorTo"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "ID": 4,
+          "Name": "3floorTo"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "ID": 5,
+          "Name": "To5floor"
+        },
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "ID": 6,
+          "Name": "5floorTo"
+        }
+      ],
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X401_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
+      "GroupIndexList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 1,
+          "MaxValue": 1,
+          "Name": "RotLevel_01"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 2,
+          "MaxValue": 1,
+          "Name": "KeyLevelChange"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 3,
+          "MaxValue": 1,
+          "Name": "FSV_KeyLevel"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 4,
+          "MaxValue": 1,
+          "Name": "MapChange"
+        }
+      ],
+      "StartAnchorID": 1
+    }
+  ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40104009,
+  "GroupInstanceCommonMap": {
+    "3": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "5": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "6": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "8": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    }
+  },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G3.json",
+      "ID": 3,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G4.json",
+      "ID": 4,
+      "Name": "BlockProjection"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G5.json",
+      "ID": 5,
+      "Name": "Wall"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G6.json",
+      "ID": 6,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G7.json",
+      "ID": 7,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G8.json",
+      "ID": 8,
+      "Name": "Sound"
+    }
+  ],
+  "IsRestartLevelGraph": true,
+  "LayerToAreaMask": [
+    128,
+    64,
+    32,
+    16,
+    8
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20241_F20241001.json",
+  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20241_F20241001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X401_MainLine_01_StageData/Chap02_MAZ_X401_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
+}
